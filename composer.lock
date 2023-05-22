@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "85874a7ae1b36847214614b9f8fe7e7a",
+    "content-hash": "14d661baac60ede0990291cd1dc16903",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -2362,6 +2362,59 @@
                 }
             ],
             "time": "2022-04-17T13:12:02+00:00"
+        },
+        {
+            "name": "libre3d/render-3d",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/libre3d/render-3d.git",
+                "reference": "d38b8f633f8ca9a7f6de164dd210920e0636c20f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/libre3d/render-3d/zipball/d38b8f633f8ca9a7f6de164dd210920e0636c20f",
+                "reference": "d38b8f633f8ca9a7f6de164dd210920e0636c20f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Libre3d\\Render3d\\": "src",
+                    "Libre3d\\Test\\Render3d\\": "test"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Foote",
+                    "email": "jf@jonathanfoote.com",
+                    "homepage": "http://jonathanfoote.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Wrapper library to help render preview images for common 3D file formats.",
+            "homepage": "http://github.com/libre3d/render-3d",
+            "keywords": [
+                "render",
+                "scad",
+                "stl"
+            ],
+            "support": {
+                "issues": "https://github.com/libre3d/render-3d/issues",
+                "source": "https://github.com/libre3d/render-3d/tree/master"
+            },
+            "time": "2017-06-17T20:42:22+00:00"
         },
         {
             "name": "monolog/monolog",
