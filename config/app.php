@@ -182,7 +182,8 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         App\Providers\VoyagerMenuServiceProvider::class,
-
+        App\Providers\VoyagerUserMenuServiceProvider::class,
+        
         /*
          * Package Service Providers...
          */
