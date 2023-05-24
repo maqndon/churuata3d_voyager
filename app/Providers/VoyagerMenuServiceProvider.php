@@ -35,17 +35,6 @@ class VoyagerMenuServiceProvider extends ServiceProvider
         $menuItems = [
 
             [
-                'title' => 'Products',
-                'url' => '',
-                'route' => 'voyager.products.index',
-                'target' => '_self',
-                'icon_class' => 'voyager-archive',
-                'color' => null,
-                'parent_id' => null,
-                'order' => 7,
-            ],
-
-            [
                 'title' => 'Pages',
                 'url' => '',
                 'route' => 'voyager.pages.index',
@@ -53,7 +42,7 @@ class VoyagerMenuServiceProvider extends ServiceProvider
                 'icon_class' => 'voyager-documentation',
                 'color' => null,
                 'parent_id' => null,
-                'order' => 4,
+                'order' => 5,
             ],
 
             [
@@ -65,6 +54,17 @@ class VoyagerMenuServiceProvider extends ServiceProvider
                 'color' => null,
                 'parent_id' => null,
                 'order' => 6,
+            ],
+            
+            [
+                'title' => 'Products',
+                'url' => '',
+                'route' => 'voyager.products.index',
+                'target' => '_self',
+                'icon_class' => 'voyager-archive',
+                'color' => null,
+                'parent_id' => null,
+                'order' => 7,
             ],
 
         ];
