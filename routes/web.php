@@ -22,3 +22,16 @@ Route::get('/', function () {
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+//Routes for the menu items created with VoyagerMenuServiceProvider
+$routes = [
+    'products',
+    'posts',
+    'pages'
+];
+
+foreach ($routes as $route) {
+    Route::get("/" . $route, function () use ($route){
+        return "This is the $route page";
+    })->name($route);
+}
