@@ -181,22 +181,25 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-        App\Providers\VoyagerMenuServiceProvider::class,
-        App\Providers\VoyagerUserMenuServiceProvider::class,
+        Illuminate\Foundation\Providers\ArtisanServiceProvider::class,
         
         /*
-         * Package Service Providers...
-         */
-
+        * Package Service Providers...
+        */
+        TCG\Voyager\VoyagerServiceProvider::class,
+        TCG\Voyager\Providers\VoyagerEventServiceProvider::class,
+        
         /*
-         * Application Service Providers...
-         */
+        * Application Service Providers...
+        */
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        App\Providers\VoyagerMenuServiceProvider::class,
+        App\Providers\VoyagerUserMenuServiceProvider::class,
+        
     ],
 
     /*
