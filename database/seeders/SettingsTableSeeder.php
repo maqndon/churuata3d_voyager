@@ -76,7 +76,7 @@ class SettingsTableSeeder extends Seeder
         if (!$setting->exists) {
             $setting->fill([
                 'display_name' => __('voyager::seeders.settings.admin.title'),
-                'value'        => 'Voyager',
+                'value'        => 'Churuata3D',
                 'details'      => '',
                 'type'         => 'text',
                 'order'        => 1,
@@ -88,7 +88,7 @@ class SettingsTableSeeder extends Seeder
         if (!$setting->exists) {
             $setting->fill([
                 'display_name' => __('voyager::seeders.settings.admin.description'),
-                'value'        => __('voyager::seeders.settings.admin.description_value'),
+                'value'        => 'Admin Panel', #__('voyager::seeders.settings.admin.description_value'),
                 'details'      => '',
                 'type'         => 'text',
                 'order'        => 2,
