@@ -2,6 +2,10 @@
 
 use TCG\Voyager\Facades\Voyager;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PageController;
+use App\Http\Controllers\PostController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\CategoryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,20 +22,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 
-//Routes for the menu items created with VoyagerMenuServiceProvider
-$routes = [
-    'products',
-    'posts',
-    'pages'
-];
-
-foreach ($routes as $route) {
-    Route::get("/" . $route, function () use ($route){
-        return "This is the $route page";
-    })->name($route);
-}
+Route::resource('products', ProductController::class);
+Route::resource('categories', CategoryController::class);
+Route::resource('posts', PostController::class);
+Route::resource('pages', PageController::class);
