@@ -23,10 +23,10 @@ class PostsBreadSeeder extends Seeder
         if (!$dataType->exists) {
             $dataType->fill([
                 'slug'                  => 'posts',
-                'display_name_singular' => 'Post', //__('voyager::seeders.data_types.post.singular'),
-                'display_name_plural'   => 'Posts', //__('voyager::seeders.data_types.post.plural'),
+                'display_name_singular' => __('voyager::seeders.data_types.post.singular'),
+                'display_name_plural'   => __('voyager::seeders.data_types.post.plural'),
                 'icon'                  => 'voyager-file-text',
-                'model_name'            => 'App\\\\Models\\Post',
+                'model_name'            => 'App\\Models\\Post',
                 'controller'            => 'App\\Http\\Controllers\\PostController',
                 'generate_permissions'  => 1,
                 'description'           => '',
@@ -53,7 +53,7 @@ class PostsBreadSeeder extends Seeder
         if (!$dataRow->exists) {
             $dataRow->fill([
                 'type'         => 'number',
-                'display_name' => 'Author Id', //__('voyager::seeders.data_rows.author_id'),
+                'display_name' => __('voyager::seeders.data_rows.author_id'),
                 'required'     => 1,
                 'browse'       => 1,
                 'read'         => 1,
@@ -68,7 +68,7 @@ class PostsBreadSeeder extends Seeder
         if (!$dataRow->exists) {
             $dataRow->fill([
                 'type'         => 'number',
-                'display_name' => 'Category Id', //__('voyager::seeders.data_rows.category_id'),
+                'display_name' => __('voyager::seeders.data_rows.category_id'),
                 'required'     => 0,
                 'browse'       => 1,
                 'read'         => 1,
@@ -143,7 +143,7 @@ class PostsBreadSeeder extends Seeder
         if (!$dataRow->exists) {
             $dataRow->fill([
                 'type'         => 'text',
-                'display_name' => 'Image',//__('voyager::seeders.data_rows.image'),
+                'display_name' => __('voyager::seeders.data_rows.image'),
                 'required'     => 1,
                 'browse'       => 1,
                 'read'         => 1,
@@ -270,7 +270,7 @@ class PostsBreadSeeder extends Seeder
         $menu = Menu::where('name', 'admin')->firstOrFail();
         $menuItem = MenuItem::firstOrNew([
             'menu_id' => $menu->id,
-            'title'   => 'Posts', //__('voyager::seeders.menu_items.posts'),
+            'title'   => __('voyager::seeders.menu_items.posts'),
             'url'     => '',
             'route'   => 'voyager.posts.index',
         ]);
