@@ -1,6 +1,5 @@
 <?php
 
-use Doctrine\DBAL\Schema\Table;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -15,12 +14,17 @@ return new class extends Migration
     public function up()
     {
         Schema::create('products', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
+            $table->id()->index();
+            $table->string('title');
             $table->string('slug');
             $table->string('sku');
             $table->string('stock');
-            $table->float('price', total: 2);
+            $table->float('price');
+            $table->json('categories')->nullable();
+            $table->json('tags')->nullable();
+            $table->string('seo_title');
+            $table->string('seo_description');
+            $table->json('image_urls')->nullable();
             $table->timestamps();
         });
     }
