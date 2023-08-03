@@ -16,7 +16,7 @@ class SettingsTableSeeder extends Seeder
         if (!$setting->exists) {
             $setting->fill([
                 'display_name' => __('voyager::seeders.settings.site.title'),
-                'value'        => 'Churuata3D - 3D Printable Models - Home & Office Solutions', #__('voyager::seeders.settings.site.title'),
+                'value'        => __('voyager::seeders.settings.site.title'),
                 'details'      => '',
                 'type'         => 'text',
                 'order'        => 1,
@@ -28,7 +28,7 @@ class SettingsTableSeeder extends Seeder
         if (!$setting->exists) {
             $setting->fill([
                 'display_name' => __('voyager::seeders.settings.site.description'),
-                'value'        => 'Churuata3D provides 3D Printable Objects for Home & Office. Equipping your Home or Office has never been easier and cheaper.', #__('voyager::seeders.settings.site.description'),
+                'value'        => __('voyager::seeders.settings.site.description'),
                 'details'      => '',
                 'type'         => 'text',
                 'order'        => 2,
@@ -76,7 +76,7 @@ class SettingsTableSeeder extends Seeder
         if (!$setting->exists) {
             $setting->fill([
                 'display_name' => __('voyager::seeders.settings.admin.title'),
-                'value'        => 'Churuata3D',
+                'value'        => __('voyager::seeders.settings.admin.title'),
                 'details'      => '',
                 'type'         => 'text',
                 'order'        => 1,
@@ -88,7 +88,7 @@ class SettingsTableSeeder extends Seeder
         if (!$setting->exists) {
             $setting->fill([
                 'display_name' => __('voyager::seeders.settings.admin.description'),
-                'value'        => 'Admin Panel', #__('voyager::seeders.settings.admin.description_value'),
+                'value'        => __('voyager::seeders.settings.admin.description_value'),
                 'details'      => '',
                 'type'         => 'text',
                 'order'        => 2,
