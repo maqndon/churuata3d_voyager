@@ -22,6 +22,9 @@ class VoyagerDatabaseSeeder extends Seeder
             PermissionsTableSeeder::class,
             PermissionRoleTableSeeder::class,
             SettingsTableSeeder::class,
+            ProductsBreadSeeder::class,
+            PostsBreadSeeder::class,
+            CategoriesBreadSeeder::class,
         ]);
     }
 }
