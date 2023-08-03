@@ -29,6 +29,6 @@ class AppServiceProvider extends ServiceProvider
     {
         Voyager::useModel('Product', Product::class);
         Voyager::useModel('Category', Category::class);
-        Voyager::useModel('Category', Post::class);
+        Voyager::useModel('Post', Post::class);
     }
 }
