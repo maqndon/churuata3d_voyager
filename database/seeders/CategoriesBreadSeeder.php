@@ -27,8 +27,8 @@ class CategoriesBreadSeeder extends Seeder
                 'display_name_singular' => __('voyager::seeders.data_types.category.singular'),
                 'display_name_plural'   => __('voyager::seeders.data_types.category.plural'),
                 'icon'                  => 'voyager-categories',
-                'model_name'            => 'TCG\\Voyager\\Models\\Category',
-                'controller'            => 'App\\Http\\Controllers\\CategorytController',
+                'model_name'            => 'App\\Models\\Category',
+                'controller'            => 'App\\Http\\Controllers\\CategoryController',
                 'generate_permissions'  => 1,
                 'description'           => '',
             ])->save();
@@ -186,6 +186,7 @@ class CategoriesBreadSeeder extends Seeder
         ]);
         if (!$category->exists) {
             $category->fill([
+                'order' => '1',
                 'name' => '3D Models',
             ])->save();
         }
@@ -196,6 +197,7 @@ class CategoriesBreadSeeder extends Seeder
         if (!$category->exists) {
             $category->fill([
                 'parent_id'=>'1',
+                'order' => '2',
                 'name' => 'Home Solutions',
             ])->save();
         }
@@ -206,6 +208,7 @@ class CategoriesBreadSeeder extends Seeder
         if (!$category->exists) {
             $category->fill([
                 'parent_id'=>'1',
+                'order' => '3',
                 'name' => 'Office Solutions',
             ])->save();
         }
@@ -216,6 +219,7 @@ class CategoriesBreadSeeder extends Seeder
         if (!$category->exists) {
             $category->fill([
                 'parent_id'=>'1',
+                'order' => '4',
                 'name' => 'Parametric Design',
             ])->save();
         }
