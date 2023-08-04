@@ -165,6 +165,11 @@ class PostsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
+                'details'      => [
+                    'slugify' => [
+                        'origin' => 'title',
+                    ],
+                ],
                 'order'        => 9,
             ])->save();
         }
