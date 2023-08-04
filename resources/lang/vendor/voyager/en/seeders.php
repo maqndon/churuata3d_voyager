@@ -94,7 +94,7 @@ return [
         'admin' => [
             'background_image'           => 'Admin Background Image',
             'description'                => 'Admin Panel',
-            'description_value'          => 'Welcome to Churuata3D Admin Panel',
+            'description_value'          => 'Welcome to the Churuata3D Admin Panel',
             'google_analytics_client_id' => 'Google Analytics Client ID (used for admin dashboard)',
             'icon_image'                 => 'Admin Icon Image',
             'loader'                     => 'Admin Loader',
