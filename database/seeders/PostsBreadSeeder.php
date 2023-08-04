@@ -139,11 +139,11 @@ class PostsBreadSeeder extends Seeder
             ])->save();
         }
 
-        $dataRow = $this->dataRow($postDataType, 'image');
+        $dataRow = $this->dataRow($postDataType, 'post_image');
         if (!$dataRow->exists) {
             $dataRow->fill([
                 'type'         => 'text',
-                'display_name' => __('voyager::seeders.data_rows.image'),
+                'display_name' => __('voyager::seeders.data_rows.post_image'),
                 'required'     => 1,
                 'browse'       => 1,
                 'read'         => 1,
