@@ -60,17 +60,6 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                // 'details'      => [
-                //     'default' => '',
-                //     'null'    => '',
-                //     'options' => [
-                //         '' => '-- None --',
-                //     ],
-                //     'relationship' => [
-                //         'key'   => 'id',
-                //         'label' => 'name',
-                //     ],
-                // ],
                 'order' => 2,
             ])->save();
         }
@@ -86,6 +75,11 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
+                'details'      => [
+                    'slugify' => [
+                        'origin' => 'title',
+                    ],
+                ],
                 'order' => 3,
             ])->save();
         }
@@ -105,6 +99,36 @@ class ProductsBreadSeeder extends Seeder
             ])->save();
         }
 
+        $dataRow = $this->dataRow($productDataType, 'excerpt');
+        if (!$dataRow->exists) {
+            $dataRow->fill([
+                'type'         => 'text',
+                'display_name' => __('voyager::seeders.data_rows.excerpt'),
+                'required'     => 0,
+                'browse'       => 1,
+                'read'         => 1,
+                'edit'         => 1,
+                'add'          => 1,
+                'delete'       => 1,
+                'order'        => 5,
+            ])->save();
+        }
+
+        $dataRow = $this->dataRow($productDataType, 'body');
+        if (!$dataRow->exists) {
+            $dataRow->fill([
+                'type'         => 'text_area',
+                'display_name' => __('voyager::seeders.data_rows.body'),
+                'required'     => 0,
+                'browse'       => 1,
+                'read'         => 1,
+                'edit'         => 1,
+                'add'          => 1,
+                'delete'       => 1,
+                'order'        => 6,
+            ])->save();
+        }
+
         $dataRow = $this->dataRow($productDataType, 'stock');
         if (!$dataRow->exists) {
             $dataRow->fill([
@@ -116,7 +140,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 5,
+                'order'        => 7,
             ])->save();
         }
 
@@ -131,7 +155,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 6,
+                'order'        => 8,
             ])->save();
         }
 
@@ -139,14 +163,25 @@ class ProductsBreadSeeder extends Seeder
         if (!$dataRow->exists) {
             $dataRow->fill([
                 'type'         => 'json',
-                'display_name' => __('voyager::seeders.data_rows.category'),
+                'display_name' => __('voyager::seeders.data_rows.categories'),
                 'required'     => 0,
                 'browse'       => 1,
                 'read'         => 1,
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 7,
+                // 'details'      => [
+                //     'default' => '',
+                //     'null'    => '',
+                //     'options' => [
+                //         '' => '-- None --',
+                //     ],
+                //     'relationship' => [
+                //         'key'   => 'id',
+                //         'label' => 'name',
+                //     ],
+                // ],
+                'order'        => 9,
             ])->save();
         }
 
@@ -161,7 +196,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 8,
+                'order'        => 10,
             ])->save();
         }
 
@@ -176,7 +211,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 9,
+                'order'        => 11,
             ])->save();
         }
 
@@ -191,7 +226,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 10,
+                'order'        => 12,
             ])->save();
         }
 
@@ -206,7 +241,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 11,
+                'order'        => 13,
             ])->save();
         }
 
@@ -221,7 +256,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 0,
                 'add'          => 0,
                 'delete'       => 0,
-                'order'        => 12,
+                'order'        => 14,
             ])->save();
         }
 
@@ -236,7 +271,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 0,
                 'add'          => 0,
                 'delete'       => 0,
-                'order'        => 13,
+                'order'        => 15,
             ])->save();
         }
 
