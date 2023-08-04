@@ -13,7 +13,7 @@ class Product extends Model
     use Translatable;
     use Resizable;
 
-    protected $translatable = ['title', 'body', 'slug', 'categories', 'tags', 'seo_title', 'seo_description'];
+    protected $translatable = ['title', 'body', 'excerpt', 'slug', 'categories', 'tags', 'seo_title', 'meta_description', 'meta_keywords', 'image', 'image_gallery', 'status'];
 
     protected $guarded = [];
 

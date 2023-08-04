@@ -2,7 +2,7 @@
 
 return [
     'additional_fields'=> 'Additional Fields',
-    'category'         => 'Product Category',
+    'categories'       => 'Product Categories',
     'content'          => 'Product Content',
     'details'          => 'Product Details',
     'excerpt'          => 'Excerpt <small>Small description of this product</small>',
@@ -15,7 +15,6 @@ return [
     'slug'             => 'URL slug',
     'status'           => 'Product Status',
     'status_draft'     => 'draft',
-    'status_pending'   => 'pending',
     'status_published' => 'published',
     'title'            => 'Product Title',
     'title_sub'        => 'The title for your product',

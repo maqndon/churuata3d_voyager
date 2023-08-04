@@ -25,8 +25,12 @@ return new class extends Migration
             $table->json('categories')->nullable();
             $table->json('tags')->nullable();
             $table->string('seo_title');
-            $table->string('seo_description');
-            $table->json('image_urls')->nullable();
+            $table->text('meta_description');
+            $table->text('meta_keywords');
+            $table->string('image')->nullable();
+            $table->json('image_gallery')->nullable();
+            $table->enum('status', ['PUBLISHED', 'DRAFT'])->default('DRAFT');
+            $table->boolean('featured')->default(0);
             $table->timestamps();
         });
     }
