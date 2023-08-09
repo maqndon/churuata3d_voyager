@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('media', function (Blueprint $table) {
-            $table->id();
+            $table->id()->index();
             $table->string('model_type');
             $table->unsignedBigInteger('model_id');
             $table->string('collection_name');

@@ -13,17 +13,14 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('seos', function (Blueprint $table) {
+        Schema::create('tag_product', function (Blueprint $table) {
             $table->id()->index();
-            $table->string('seoable_type');
-            $table->unsignedBigInteger('seoable_id');
-            $table->string('title');
-            $table->string('meta_description');
-            $table->string('meta_keywords');
+            $table->unsignedBigInteger('product_id');
+            $table->unsignedBigInteger('tag_id');
             $table->timestamps();
-
-            // Indexes
-            $table->index(['seoable_type', 'seoable_id']);
+    
+            $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
+            $table->foreign('tag_id')->references('id')->on('tags')->onDelete('cascade');
         });
     }
 
@@ -34,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('seos');
+        Schema::dropIfExists('tag_product');
     }
 };

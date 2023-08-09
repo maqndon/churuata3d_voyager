@@ -14,14 +14,14 @@ return new class extends Migration
     public function up()
     {
         Schema::create('posts', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id()->index();
             $table->integer('author_id');
             $table->integer('category_id')->nullable();
             $table->string('title');
             $table->string('seo_title')->nullable();
             $table->text('excerpt');
             $table->text('body');
-            $table->string('image')->nullable();
+            $table->string('post_image')->nullable();
             $table->string('slug')->unique();
             $table->text('meta_description');
             $table->text('meta_keywords');
