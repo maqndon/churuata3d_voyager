@@ -50,32 +50,6 @@ class CategoriesBreadSeeder extends Seeder
             ])->save();
         }
 
-        $dataRow = $this->dataRow($categoryDataType, 'parent_id');
-        if (!$dataRow->exists) {
-            $dataRow->fill([
-                'type'         => 'select_dropdown',
-                'display_name' => __('voyager::seeders.data_rows.parent'),
-                'required'     => 0,
-                'browse'       => 0,
-                'read'         => 1,
-                'edit'         => 1,
-                'add'          => 1,
-                'delete'       => 1,
-                'details'      => [
-                    'default' => '',
-                    'null'    => '',
-                    'options' => [
-                        '' => '-- None --',
-                    ],
-                    'relationship' => [
-                        'key'   => 'id',
-                        'label' => 'name',
-                    ],
-                ],
-                'order' => 2,
-            ])->save();
-        }
-
         $dataRow = $this->dataRow($categoryDataType, 'order');
         if (!$dataRow->exists) {
             $dataRow->fill([
@@ -159,6 +133,32 @@ class CategoriesBreadSeeder extends Seeder
             ])->save();
         }
 
+        // $dataRow = $this->dataRow($categoryDataType, 'category_belongstomany_product_relationship');
+        // if (!$dataRow->exists) {
+        //     $dataRow->fill([
+        //         'type'         => 'relationship',
+        //         'display_name' => __('voyager::seeders.data_rows.categories'),
+        //         'required'     => 0,
+        //         'browse'       => 0,
+        //         'read'         => 0,
+        //         'edit'         => 0,
+        //         'add'          => 0,
+        //         'delete'       => 0,
+        //         'details'      => [
+        //             "model"         =>"App\\Models\\Product",
+        //             "table"         =>"products",
+        //             "type"          =>"belongsToMany",
+        //             "column"        =>"id",
+        //             "key"           =>"id",
+        //             "label"         =>"title",
+        //             "pivot_table"   => "category_product",
+        //             "pivot"         => "1",
+        //             "taggable"      => null
+        //         ],
+        //         'order'        => 8,
+        //     ])->save();
+        // }
+
         //Menu Item
         $menu = Menu::where('name', 'admin')->firstOrFail();
         $menuItem = MenuItem::firstOrNew([
@@ -182,22 +182,11 @@ class CategoriesBreadSeeder extends Seeder
 
         //Content
         $category = Category::firstOrNew([
-            'slug' => '3d-models',
-        ]);
-        if (!$category->exists) {
-            $category->fill([
-                'order' => '1',
-                'name' => '3D Models',
-            ])->save();
-        }
-
-        $category = Category::firstOrNew([
             'slug' => 'home-solutions',
         ]);
         if (!$category->exists) {
             $category->fill([
-                'parent_id'=>'1',
-                'order' => '2',
+                'order' => '1',
                 'name' => 'Home Solutions',
             ])->save();
         }
@@ -207,8 +196,7 @@ class CategoriesBreadSeeder extends Seeder
         ]);
         if (!$category->exists) {
             $category->fill([
-                'parent_id'=>'1',
-                'order' => '3',
+                'order' => '2',
                 'name' => 'Office Solutions',
             ])->save();
         }
@@ -218,8 +206,7 @@ class CategoriesBreadSeeder extends Seeder
         ]);
         if (!$category->exists) {
             $category->fill([
-                'parent_id'=>'1',
-                'order' => '4',
+                'order' => '3',
                 'name' => 'Parametric Design',
             ])->save();
         }

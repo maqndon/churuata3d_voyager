@@ -9,7 +9,7 @@ class Category extends \TCG\Voyager\Models\Category
 
     public function products()
     {
-        return $this->hasMany(Product::class)
+        return $this->belongsToMany(Product::class)
             ->published()
             ->orderBy('created_at', 'DESC');
     }

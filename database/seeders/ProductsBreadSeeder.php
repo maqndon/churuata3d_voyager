@@ -70,7 +70,7 @@ class ProductsBreadSeeder extends Seeder
                 'type'         => 'text',
                 'display_name' => __('voyager::seeders.data_rows.slug'),
                 'required'     => 1,
-                'browse'       => 1,
+                'browse'       => 0,
                 'read'         => 1,
                 'edit'         => 1,
                 'add'          => 1,
@@ -120,7 +120,7 @@ class ProductsBreadSeeder extends Seeder
                 'type'         => 'text_area',
                 'display_name' => __('voyager::seeders.data_rows.body'),
                 'required'     => 0,
-                'browse'       => 1,
+                'browse'       => 0,
                 'read'         => 1,
                 'edit'         => 1,
                 'add'          => 1,
@@ -159,10 +159,10 @@ class ProductsBreadSeeder extends Seeder
             ])->save();
         }
 
-        $dataRow = $this->dataRow($productDataType, 'categories');
+        $dataRow = $this->dataRow($productDataType, 'product_belongstomany_category_relationship');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'json',
+                'type'         => 'relationship',
                 'display_name' => __('voyager::seeders.data_rows.categories'),
                 'required'     => 0,
                 'browse'       => 1,
@@ -170,25 +170,25 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                // 'details'      => [
-                //     'default' => '',
-                //     'null'    => '',
-                //     'options' => [
-                //         '' => '-- None --',
-                //     ],
-                //     'relationship' => [
-                //         'key'   => 'id',
-                //         'label' => 'name',
-                //     ],
-                // ],
+                'details'      => [
+                    "model"         => "App\\Models\\Category",
+                    "table"         => "categories",
+                    "type"          => "belongsToMany",
+                    "column"        => "id",
+                    "key"           => "id",
+                    "label"         => "name",
+                    "pivot_table"   => "category_product",
+                    "pivot"         => "1",
+                    "taggable"      => null
+                ],
                 'order'        => 9,
             ])->save();
         }
 
-        $dataRow = $this->dataRow($productDataType, 'tags');
+        $dataRow = $this->dataRow($productDataType, 'product_belongstomany_tag_relationship');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'multiple_checkbox',
+                'type'         => 'relationship',
                 'display_name' => __('voyager::seeders.data_rows.tags'),
                 'required'     => 0,
                 'browse'       => 1,
@@ -196,6 +196,17 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
+                'details'      => [
+                    "model"         => "App\\Models\\Tag",
+                    "table"         => "tags",
+                    "type"          => "belongsToMany",
+                    "column"        => "id",
+                    "key"           => "id",
+                    "label"         => "name",
+                    "pivot_table"   => "tag_product",
+                    "pivot"         => "1",
+                    "taggable"      => null
+                ],
                 'order'        => 10,
             ])->save();
         }
@@ -206,7 +217,7 @@ class ProductsBreadSeeder extends Seeder
                 'type'         => 'string',
                 'display_name' => __('voyager::seeders.data_rows.seo_title'),
                 'required'     => 1,
-                'browse'       => 1,
+                'browse'       => 0,
                 'read'         => 1,
                 'edit'         => 1,
                 'add'          => 1,
@@ -221,7 +232,7 @@ class ProductsBreadSeeder extends Seeder
                 'type'         => 'string',
                 'display_name' => __('voyager::seeders.data_rows.meta_description'),
                 'required'     => 1,
-                'browse'       => 1,
+                'browse'       => 0,
                 'read'         => 1,
                 'edit'         => 1,
                 'add'          => 1,
@@ -236,7 +247,7 @@ class ProductsBreadSeeder extends Seeder
                 'type'         => 'text',
                 'display_name' => __('voyager::seeders.data_rows.meta_keywords'),
                 'required'     => 1,
-                'browse'       => 1,
+                'browse'       => 0,
                 'read'         => 1,
                 'edit'         => 1,
                 'add'          => 1,
@@ -263,10 +274,10 @@ class ProductsBreadSeeder extends Seeder
         $dataRow = $this->dataRow($productDataType, 'product_gallery');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'json', //I think will failed because the type are https://voyager-docs.devdojo.com/v/1.1/core-concepts/bread-builder
+                'type'         => 'multiple_images',
                 'display_name' => __('voyager::seeders.data_rows.product_gallery'),
                 'required'     => 0,
-                'browse'       => 1,
+                'browse'       => 0,
                 'read'         => 1,
                 'edit'         => 1,
                 'add'          => 1,
