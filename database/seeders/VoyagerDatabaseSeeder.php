@@ -25,6 +25,7 @@ class VoyagerDatabaseSeeder extends Seeder
             ProductsBreadSeeder::class,
             PostsBreadSeeder::class,
             CategoriesBreadSeeder::class,
+            TagsTableSeeder::class,
         ]);
     }
 }
