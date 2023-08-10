@@ -14,4 +14,11 @@ class Category extends \TCG\Voyager\Models\Category
             ->orderBy('created_at', 'DESC');
     }
 
+    public function posts()
+    {
+        return $this->belongsToMany(Post::class)
+            ->published()
+            ->orderBy('created_at', 'DESC');
+    }
+
 }

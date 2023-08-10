@@ -9,6 +9,11 @@ class Post extends \TCG\Voyager\Models\Post
      */
     public function category()
     {
-        return $this->belongsTo(Category::class);
+        return $this->belongsToMany(Category::class);
+    }
+
+    public function tags()
+    {
+        return $this->belongsToMany(Tag::class);
     }
 }

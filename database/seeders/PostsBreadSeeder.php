@@ -49,36 +49,6 @@ class PostsBreadSeeder extends Seeder
             ])->save();
         }
 
-        $dataRow = $this->dataRow($postDataType, 'author_id');
-        if (!$dataRow->exists) {
-            $dataRow->fill([
-                'type'         => 'number',
-                'display_name' => __('voyager::seeders.data_rows.author_id'),
-                'required'     => 1,
-                'browse'       => 1,
-                'read'         => 1,
-                'edit'         => 1,
-                'add'          => 1,
-                'delete'       => 1,
-                'order' => 2,
-            ])->save();
-        }
-
-        $dataRow = $this->dataRow($postDataType, 'category_id');
-        if (!$dataRow->exists) {
-            $dataRow->fill([
-                'type'         => 'number',
-                'display_name' => __('voyager::seeders.data_rows.category_id'),
-                'required'     => 0,
-                'browse'       => 1,
-                'read'         => 1,
-                'edit'         => 1,
-                'add'          => 1,
-                'delete'       => 1,
-                'order' => 3,
-            ])->save();
-        }
-
         $dataRow = $this->dataRow($postDataType, 'title');
         if (!$dataRow->exists) {
             $dataRow->fill([
@@ -90,7 +60,100 @@ class PostsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
+                'order'        => 2,
+            ])->save();
+        }
+        // {"model":"App\\Models\\User","table":"users","type":"hasOne","column":"id","key":"author_id","label":"name","pivot_table":"","pivot":"0","taggable":null}
+        $dataRow = $this->dataRow($postDataType, 'post_hasone_user_relationship');
+        if (!$dataRow->exists) {
+            $dataRow->fill([
+                'type'         => 'relationship',
+                'display_name' => __('voyager::seeders.data_rows.author'),
+                'required'     => 0,
+                'browse'       => 1,
+                'read'         => 1,
+                'edit'         => 1,
+                'add'          => 1,
+                'delete'       => 1,
+                'details'      => [
+                    "model"         => "App\\Models\\User",
+                    "table"         => "users",
+                    "type"          => "hasOne",
+                    "column"        => "id",
+                    "key"           => "author_id",
+                    "label"         => "name",
+                    "pivot_table"   => "",
+                    "pivot"         => "0",
+                    "taggable"      => "0"
+                ],
                 'order'        => 4,
+            ])->save();
+        }
+
+        $dataRow = $this->dataRow($postDataType, 'author_id');
+        if (!$dataRow->exists) {
+            $dataRow->fill([
+                'type'         => 'number',
+                'display_name' => __('voyager::seeders.data_rows.author_id'),
+                'required'     => 1,
+                'browse'       => 0,
+                'read'         => 1,
+                'edit'         => 1,
+                'add'          => 1,
+                'delete'       => 1,
+                'order' => 15,
+            ])->save();
+        }
+
+        $dataRow = $this->dataRow($postDataType, 'post_belongstomany_category_relationship');
+        if (!$dataRow->exists) {
+            $dataRow->fill([
+                'type'         => 'relationship',
+                'display_name' => __('voyager::seeders.data_rows.categories'),
+                'required'     => 0,
+                'browse'       => 1,
+                'read'         => 1,
+                'edit'         => 1,
+                'add'          => 1,
+                'delete'       => 1,
+                'details'      => [
+                    "model"         => "App\\Models\\Category",
+                    "table"         => "categories",
+                    "type"          => "belongsToMany",
+                    "column"        => "id",
+                    "key"           => "id",
+                    "label"         => "name",
+                    "pivot_table"   => "category_post",
+                    "pivot"         => "1",
+                    "taggable"      => null
+                ],
+                'order'        => 4,
+            ])->save();
+        }
+
+        $dataRow = $this->dataRow($postDataType, 'post_belongstomany_tag_relationship');
+        if (!$dataRow->exists) {
+            $dataRow->fill([
+                'type'         => 'relationship',
+                'display_name' => __('voyager::seeders.data_rows.tags'),
+                'required'     => 0,
+                'browse'       => 1,
+                'read'         => 1,
+                'edit'         => 1,
+                'add'          => 1,
+                'delete'       => 1,
+                'details'      => [
+                    "model"         => "App\\Models\\Tag",
+                    "table"         => "tags",
+                    "type"          => "belongsToMany",
+                    "column"        => "id",
+                    "key"           => "id",
+                    "label"         => "name",
+                    "pivot_table"   => "tag_post",
+                    "pivot"         => "1",
+                    "taggable"      => null
+                ],
+                'order'        => 5,
             ])->save();
         }
 
@@ -105,7 +168,7 @@ class PostsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 5,
+                'order'        => 6,
             ])->save();
         }
 
@@ -115,12 +178,12 @@ class PostsBreadSeeder extends Seeder
                 'type'         => 'text',
                 'display_name' => __('voyager::seeders.data_rows.excerpt'),
                 'required'     => 0,
-                'browse'       => 1,
+                'browse'       => 0,
                 'read'         => 1,
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 6,
+                'order'        => 7,
             ])->save();
         }
 
@@ -130,12 +193,12 @@ class PostsBreadSeeder extends Seeder
                 'type'         => 'text_area',
                 'display_name' => __('voyager::seeders.data_rows.body'),
                 'required'     => 1,
-                'browse'       => 1,
+                'browse'       => 0,
                 'read'         => 1,
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 7,
+                'order'        => 8,
             ])->save();
         }
 
@@ -150,7 +213,7 @@ class PostsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 8,
+                'order'        => 9,
             ])->save();
         }
 
@@ -160,7 +223,7 @@ class PostsBreadSeeder extends Seeder
                 'type'         => 'text',
                 'display_name' => __('voyager::seeders.data_rows.slug'),
                 'required'     => 1,
-                'browse'       => 1,
+                'browse'       => 0,
                 'read'         => 1,
                 'edit'         => 1,
                 'add'          => 1,
@@ -170,7 +233,7 @@ class PostsBreadSeeder extends Seeder
                         'origin' => 'title',
                     ],
                 ],
-                'order'        => 9,
+                'order'        => 10,
             ])->save();
         }
 
@@ -185,7 +248,7 @@ class PostsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 10,
+                'order'        => 11,
             ])->save();
         }
 
@@ -200,7 +263,7 @@ class PostsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 11,
+                'order'        => 12,
             ])->save();
         }
 
@@ -218,8 +281,8 @@ class PostsBreadSeeder extends Seeder
                 'details'      => [
                     'default' => 'DRAFT',
                     'allowed' => ['PUBLISHED', 'DRAFT', 'PENDING'],
-                    ],
-                'order'        => 12,
+                ],
+                'order'        => 13,
             ])->save();
         }
 
@@ -236,8 +299,8 @@ class PostsBreadSeeder extends Seeder
                 'delete'       => 1,
                 'details'      => [
                     'default' => 0,
-                    ],
-                'order'        => 13,
+                ],
+                'order'        => 14,
             ])->save();
         }
 
@@ -252,7 +315,7 @@ class PostsBreadSeeder extends Seeder
                 'edit'         => 0,
                 'add'          => 0,
                 'delete'       => 0,
-                'order'        => 14,
+                'order'        => 16,
             ])->save();
         }
 
@@ -262,12 +325,12 @@ class PostsBreadSeeder extends Seeder
                 'type'         => 'timestamp',
                 'display_name' => __('voyager::seeders.data_rows.updated_at'),
                 'required'     => 0,
-                'browse'       => 0,
+                'browse'       => 1,
                 'read'         => 0,
                 'edit'         => 0,
                 'add'          => 0,
                 'delete'       => 0,
-                'order'        => 15,
+                'order'        => 17,
             ])->save();
         }
 

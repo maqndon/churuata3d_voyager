@@ -15,8 +15,7 @@ return new class extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->id()->index();
-            $table->integer('author_id');
-            $table->integer('category_id')->nullable();
+            $table->unsignedBigInteger('author_id');
             $table->string('title');
             $table->string('seo_title')->nullable();
             $table->text('excerpt');
@@ -29,7 +28,7 @@ return new class extends Migration
             $table->boolean('featured')->default(0);
             $table->timestamps();
 
-            //$table->foreign('author_id')->references('id')->on('users');
+            $table->foreign('author_id')->references('id')->on('users');
         });
     }
 

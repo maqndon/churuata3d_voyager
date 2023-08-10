@@ -15,4 +15,11 @@ class Tag extends Model
             ->published()
             ->orderBy('created_at', 'DESC');
     }
+
+    public function posts()
+    {
+        return $this->belongsToMany(Post::class)
+            ->published()
+            ->orderBy('created_at', 'DESC');
+    }
 }
