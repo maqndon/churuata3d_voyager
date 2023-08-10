@@ -63,7 +63,7 @@ class PostsBreadSeeder extends Seeder
                 'order'        => 2,
             ])->save();
         }
-        // {"model":"App\\Models\\User","table":"users","type":"hasOne","column":"id","key":"author_id","label":"name","pivot_table":"","pivot":"0","taggable":null}
+        
         $dataRow = $this->dataRow($postDataType, 'post_hasone_user_relationship');
         if (!$dataRow->exists) {
             $dataRow->fill([
