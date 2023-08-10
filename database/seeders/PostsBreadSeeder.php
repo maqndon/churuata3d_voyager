@@ -25,7 +25,7 @@ class PostsBreadSeeder extends Seeder
                 'slug'                  => 'posts',
                 'display_name_singular' => __('voyager::seeders.data_types.post.singular'),
                 'display_name_plural'   => __('voyager::seeders.data_types.post.plural'),
-                'icon'                  => 'voyager-file-text',
+                'icon'                  => 'voyager-news',
                 'model_name'            => 'App\\Models\\Post',
                 'controller'            => 'App\\Http\\Controllers\\PostController',
                 'generate_permissions'  => 1,
@@ -345,7 +345,7 @@ class PostsBreadSeeder extends Seeder
         if (!$menuItem->exists) {
             $menuItem->fill([
                 'target'     => '_self',
-                'icon_class' => 'voyager-file-text',
+                'icon_class' => 'voyager-news',
                 'color'      => null,
                 'parent_id'  => null,
                 'order'      => 8,
