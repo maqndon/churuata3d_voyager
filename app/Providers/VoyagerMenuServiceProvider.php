@@ -34,38 +34,38 @@ class VoyagerMenuServiceProvider extends ServiceProvider
 
         $menuItems = [
 
-            [
-                'title' => 'Pages',
-                'url' => '',
-                'route' => 'voyager.pages.index',
-                'target' => '_self',
-                'icon_class' => 'voyager-documentation',
-                'color' => null,
-                'parent_id' => null,
-                'order' => 5,
-            ],
+            // [
+            //     'title' => 'Pages',
+            //     'url' => '',
+            //     'route' => 'voyager.pages.index',
+            //     'target' => '_self',
+            //     'icon_class' => 'voyager-documentation',
+            //     'color' => null,
+            //     'parent_id' => null,
+            //     'order' => 5,
+            // ],
 
-            [
-                'title' => 'Posts',
-                'url' => '',
-                'route' => 'voyager.posts.index',
-                'target' => '_self',
-                'icon_class' => 'voyager-file-text',
-                'color' => null,
-                'parent_id' => null,
-                'order' => 6,
-            ],
+            // [
+            //     'title' => 'Posts',
+            //     'url' => '',
+            //     'route' => 'voyager.posts.index',
+            //     'target' => '_self',
+            //     'icon_class' => 'voyager-file-text',
+            //     'color' => null,
+            //     'parent_id' => null,
+            //     'order' => 6,
+            // ],
             
-            [
-                'title' => 'Products',
-                'url' => '',
-                'route' => 'voyager.products.index',
-                'target' => '_self',
-                'icon_class' => 'voyager-archive',
-                'color' => null,
-                'parent_id' => null,
-                'order' => 7,
-            ],
+            // [
+            //     'title' => 'Products',
+            //     'url' => '',
+            //     'route' => 'voyager.products.index',
+            //     'target' => '_self',
+            //     'icon_class' => 'voyager-archive',
+            //     'color' => null,
+            //     'parent_id' => null,
+            //     'order' => 7,
+            // ],
 
         ];
 

@@ -24,6 +24,7 @@ class VoyagerDatabaseSeeder extends Seeder
             SettingsTableSeeder::class,
             ProductsBreadSeeder::class,
             PostsBreadSeeder::class,
+            PagesBreadSeeder::class,
             CategoriesBreadSeeder::class,
             TagsTableSeeder::class,
         ]);
