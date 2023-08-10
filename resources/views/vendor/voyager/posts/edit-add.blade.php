@@ -176,7 +176,7 @@
                                 <label for="meta_description">{{ __('voyager::post.meta_description') }}</label>
                                 @include('voyager::multilingual.input-hidden', [
                                     '_field_name' => 'meta_description',
-                                    '_field_trans' => get_field_translations($dataTypeContent, 'meta_description'),
+                                    '_field_trans' => get_field_translations($dataTypeContent, 'meta_description'),o
                                 ])
                                 <textarea class="form-control" name="meta_description">{{ $dataTypeContent->meta_description ?? '' }}</textarea>
                             </div>
