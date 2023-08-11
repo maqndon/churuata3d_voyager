@@ -190,7 +190,7 @@ class PostsBreadSeeder extends Seeder
         $dataRow = $this->dataRow($postDataType, 'body');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'text_area',
+                'type'         => 'rich_text_box',
                 'display_name' => __('voyager::seeders.data_rows.body'),
                 'required'     => 1,
                 'browse'       => 0,
