@@ -259,7 +259,7 @@ class ProductsBreadSeeder extends Seeder
         $dataRow = $this->dataRow($productDataType, 'product_image');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'text',
+                'type'         => 'image',
                 'display_name' => __('voyager::seeders.data_rows.product_image'),
                 'required'     => 0,
                 'browse'       => 1,

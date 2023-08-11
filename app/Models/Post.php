@@ -16,4 +16,9 @@ class Post extends \TCG\Voyager\Models\Post
     {
         return $this->belongsToMany(Tag::class);
     }
+
+    public function getPostImageBrowseAttribute()
+    {
+        return $this->post_image ?? 'no_image.jpg';
+    }
 }

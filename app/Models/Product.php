@@ -32,4 +32,9 @@ class Product extends Model
         return $this->hasMany(Media::class);
     }
 
+    public function getProductImageBrowseAttribute()
+    {
+        return $this->product_image ?? 'no_image.jpg';
+    }
+
 }

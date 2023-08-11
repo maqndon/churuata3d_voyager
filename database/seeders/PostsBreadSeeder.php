@@ -205,7 +205,7 @@ class PostsBreadSeeder extends Seeder
         $dataRow = $this->dataRow($postDataType, 'post_image');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'text',
+                'type'         => 'image',
                 'display_name' => __('voyager::seeders.data_rows.post_image'),
                 'required'     => 1,
                 'browse'       => 1,

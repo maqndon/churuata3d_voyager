@@ -138,7 +138,7 @@ class PagesBreadSeeder extends Seeder
         $dataRow = $this->dataRow($pageDataType, 'page_image');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'text',
+                'type'         => 'image',
                 'display_name' => __('voyager::seeders.data_rows.page_image'),
                 'required'     => 1,
                 'browse'       => 1,

@@ -245,11 +245,11 @@
                             </div>
                         </div>
                         <div class="panel-body">
-                            @if (isset($dataTypeContent->image))
-                                <img src="{{ filter_var($dataTypeContent->image, FILTER_VALIDATE_URL) ? $dataTypeContent->image : Voyager::image($dataTypeContent->image) }}"
+                            @if (isset($dataTypeContent->product_image))
+                                <img src="{{ filter_var($dataTypeContent->product_image, FILTER_VALIDATE_URL) ? $dataTypeContent->product_image : Voyager::image($dataTypeContent->product_image) }}"
                                     style="width:100%" />
                             @endif
-                            <input type="file" name="image">
+                            <input type="file" name="product_image">
                         </div>
                     </div>
 
