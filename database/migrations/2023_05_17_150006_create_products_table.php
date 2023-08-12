@@ -25,8 +25,9 @@ return new class extends Migration
             $table->string('seo_title');
             $table->text('meta_description');
             $table->text('meta_keywords');
-            $table->string('product_image')->nullable();
-            $table->json('product_gallery')->nullable();
+            $table->string('image')->nullable();
+            $table->json('gallery')->nullable();
+            $table->json('files')->nullable();
             $table->enum('status', ['PUBLISHED', 'DRAFT'])->default('DRAFT');
             $table->boolean('featured')->default(0);
             $table->timestamps();

@@ -202,7 +202,7 @@ class PostsBreadSeeder extends Seeder
             ])->save();
         }
 
-        $dataRow = $this->dataRow($postDataType, 'post_image');
+        $dataRow = $this->dataRow($postDataType, 'image');
         if (!$dataRow->exists) {
             $dataRow->fill([
                 'type'         => 'image',

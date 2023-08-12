@@ -19,4 +19,5 @@ return [
     'title'            => 'Product Title',
     'title_sub'        => 'The title for your product',
     'update'           => 'Update Product',
+    'files'            => 'STL File(s)',
 ];

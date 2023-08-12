@@ -191,22 +191,7 @@
                     </div>
 
                     <!-- ### IMAGE ### -->
-                    <div class="panel panel-bordered panel-primary">
-                        <div class="panel-heading">
-                            <h3 class="panel-title"><i class="icon wb-image"></i> {{ __('voyager::page.image') }}</h3>
-                            <div class="panel-actions">
-                                <a class="panel-action voyager-angle-down" data-toggle="panel-collapse"
-                                    aria-hidden="true"></a>
-                            </div>
-                        </div>
-                        <div class="panel-body">
-                            @if (isset($dataTypeContent->page_image))
-                                <img src="{{ filter_var($dataTypeContent->page_image, FILTER_VALIDATE_URL) ? $dataTypeContent->impage_imageage : Voyager::image($dataTypeContent->page_image) }}"
-                                    style="width:100%" />
-                            @endif
-                            <input type="file" name="page_image">
-                        </div>
-                    </div>
+                    <x-image-field :dataTypeContent="$dataTypeContent" :dataType="$dataType" />
 
                     <!-- ### SEO CONTENT ### -->
                     <div class="panel panel-bordered panel-info">

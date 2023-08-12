@@ -256,7 +256,7 @@ class ProductsBreadSeeder extends Seeder
             ])->save();
         }
 
-        $dataRow = $this->dataRow($productDataType, 'product_image');
+        $dataRow = $this->dataRow($productDataType, 'image');
         if (!$dataRow->exists) {
             $dataRow->fill([
                 'type'         => 'image',
@@ -271,7 +271,7 @@ class ProductsBreadSeeder extends Seeder
             ])->save();
         }
 
-        $dataRow = $this->dataRow($productDataType, 'product_gallery');
+        $dataRow = $this->dataRow($productDataType, 'gallery');
         if (!$dataRow->exists) {
             $dataRow->fill([
                 'type'         => 'multiple_images',
@@ -300,7 +300,7 @@ class ProductsBreadSeeder extends Seeder
                 'details'      => [
                     'default' => 'DRAFT',
                     'allowed' => ['PUBLISHED', 'DRAFT'],
-                    ],
+                ],
                 'order'        => 16,
             ])->save();
         }
@@ -318,8 +318,23 @@ class ProductsBreadSeeder extends Seeder
                 'delete'       => 1,
                 'details'      => [
                     'default' => 0,
-                    ],
+                ],
                 'order'        => 17,
+            ])->save();
+        }
+
+        $dataRow = $this->dataRow($productDataType, 'files');
+        if (!$dataRow->exists) {
+            $dataRow->fill([
+                'type'         => 'media_picker',
+                'display_name' => __('voyager::seeders.data_rows.files'),
+                'required'     => 0,
+                'browse'       => 0,
+                'read'         => 1,
+                'edit'         => 1,
+                'add'          => 1,
+                'delete'       => 1,
+                'order'        => 18,
             ])->save();
         }
 
@@ -334,7 +349,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 0,
                 'add'          => 0,
                 'delete'       => 0,
-                'order'        => 18,
+                'order'        => 19,
             ])->save();
         }
 
@@ -349,7 +364,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 0,
                 'add'          => 0,
                 'delete'       => 0,
-                'order'        => 19,
+                'order'        => 20,
             ])->save();
         }
 

@@ -228,7 +228,7 @@
 
                             <div class="form-group">
                                 <label for="featured">{{ __('voyager::generic.featured') }}</label>
-                                <input type="checkbox" class = "toggleswitch" name="featured"
+                                <input type="checkbox" class="toggleswitch" name="featured"
                                     @if (isset($dataTypeContent->featured) && $dataTypeContent->featured) checked="checked" @endif>
                             </div>
 
@@ -236,20 +236,23 @@
                     </div>
 
                     <!-- ### IMAGE ### -->
+                    <x-image-field :dataTypeContent="$dataTypeContent" :dataType="$dataType" />
+
+                    <!-- ### FILES ### -->
                     <div class="panel panel-bordered panel-primary">
                         <div class="panel-heading">
-                            <h3 class="panel-title"><i class="icon wb-image"></i> {{ __('voyager::product.image') }}</h3>
+                            <h3 class="panel-title"><i class="icon wb-image"></i> {{ __('voyager::product.files') }}</h3>
                             <div class="panel-actions">
                                 <a class="panel-action voyager-angle-down" data-toggle="panel-collapse"
                                     aria-hidden="true"></a>
                             </div>
                         </div>
                         <div class="panel-body">
-                            @if (isset($dataTypeContent->product_image))
-                                <img src="{{ filter_var($dataTypeContent->product_image, FILTER_VALIDATE_URL) ? $dataTypeContent->product_image : Voyager::image($dataTypeContent->product_image) }}"
+                            @if (isset($dataTypeContent->file))
+                                <img src="{{ filter_var($dataTypeContent->files, FILTER_VALIDATE_URL) ? $dataTypeContent->files : Voyager::files($dataTypeContent->files) }}"
                                     style="width:100%" />
                             @endif
-                            <input type="file" name="product_image">
+                            <input type="file" name="files">
                         </div>
                     </div>
 

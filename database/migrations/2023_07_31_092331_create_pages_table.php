@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('title');
             $table->text('excerpt')->nullable();
             $table->text('body')->nullable();
-            $table->string('page_image')->nullable();
+            $table->string('image')->nullable();
             $table->string('slug')->unique();
             $table->string('seo_title')->nullable();
             $table->text('meta_description')->nullable();

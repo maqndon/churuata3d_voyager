@@ -135,7 +135,7 @@ class PagesBreadSeeder extends Seeder
             ])->save();
         }
 
-        $dataRow = $this->dataRow($pageDataType, 'page_image');
+        $dataRow = $this->dataRow($pageDataType, 'image');
         if (!$dataRow->exists) {
             $dataRow->fill([
                 'type'         => 'image',

@@ -37,6 +37,7 @@ return [
         'sku'              => 'SKU',   
         'author_id'        => 'Author Id',
         'category_id'      => 'Category Id',
+        'files'            => 'STL File(s)'
 
     ],
     'data_types' => [
