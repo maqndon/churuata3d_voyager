@@ -280,7 +280,7 @@ class PostsBreadSeeder extends Seeder
                 'delete'       => 1,
                 'details'      => [
                     'default' => 'DRAFT',
-                    'allowed' => ['PUBLISHED', 'DRAFT', 'PENDING'],
+                    'allowed' => ['DRAFT', 'PENDING', 'PUBLISHED'],
                 ],
                 'order'        => 13,
             ])->save();

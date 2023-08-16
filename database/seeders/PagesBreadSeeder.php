@@ -228,7 +228,7 @@ class PagesBreadSeeder extends Seeder
                 'delete'       => 1,
                 'details'      => [
                     'default' => 'INACTIVE',
-                    'allowed' => ['ACTIVE', 'INACTIVE'],
+                    'allowed' => ['INACTIVE', 'ACTIVE'],
                 ],
                 'order'        => 11,
             ])->save();

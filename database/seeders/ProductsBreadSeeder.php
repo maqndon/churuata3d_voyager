@@ -59,7 +59,7 @@ class ProductsBreadSeeder extends Seeder
                 'read'         => 1,
                 'edit'         => 1,
                 'add'          => 1,
-                'delete'       => 1,
+                'delete'       => 2,
                 'order' => 2,
             ])->save();
         }
@@ -80,7 +80,7 @@ class ProductsBreadSeeder extends Seeder
                         'origin' => 'title',
                     ],
                 ],
-                'order' => 3,
+                'order' => 4,
             ])->save();
         }
 
@@ -95,7 +95,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 4,
+                'order'        => 5,
             ])->save();
         }
 
@@ -110,7 +110,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 5,
+                'order'        => 6,
             ])->save();
         }
 
@@ -125,7 +125,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 6,
+                'order'        => 7,
             ])->save();
         }
 
@@ -140,7 +140,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 7,
+                'order'        => 8,
             ])->save();
         }
 
@@ -155,7 +155,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 8,
+                'order'        => 9,
             ])->save();
         }
 
@@ -181,7 +181,7 @@ class ProductsBreadSeeder extends Seeder
                     "pivot"         => "1",
                     "taggable"      => null
                 ],
-                'order'        => 9,
+                'order'        => 10,
             ])->save();
         }
 
@@ -207,7 +207,7 @@ class ProductsBreadSeeder extends Seeder
                     "pivot"         => "1",
                     "taggable"      => null
                 ],
-                'order'        => 10,
+                'order'        => 11,
             ])->save();
         }
 
@@ -222,7 +222,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 11,
+                'order'        => 12,
             ])->save();
         }
 
@@ -237,7 +237,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 12,
+                'order'        => 13,
             ])->save();
         }
 
@@ -252,7 +252,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 13,
+                'order'        => 14,
             ])->save();
         }
 
@@ -267,7 +267,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 14,
+                'order'        => 1,
             ])->save();
         }
 
@@ -282,7 +282,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 15,
+                'order'        => 16,
             ])->save();
         }
 
@@ -299,9 +299,9 @@ class ProductsBreadSeeder extends Seeder
                 'delete'       => 1,
                 'details'      => [
                     'default' => 'DRAFT',
-                    'allowed' => ['PUBLISHED', 'DRAFT'],
+                    'allowed' => ['DRAFT', 'PUBLISHED'],
                 ],
-                'order'        => 16,
+                'order'        => 17,
             ])->save();
         }
 
@@ -319,7 +319,7 @@ class ProductsBreadSeeder extends Seeder
                 'details'      => [
                     'default' => 0,
                 ],
-                'order'        => 17,
+                'order'        => 18,
             ])->save();
         }
 
@@ -334,7 +334,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
-                'order'        => 18,
+                'order'        => 19,
             ])->save();
         }
 
@@ -349,7 +349,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 0,
                 'add'          => 0,
                 'delete'       => 0,
-                'order'        => 19,
+                'order'        => 20,
             ])->save();
         }
 
@@ -364,7 +364,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 0,
                 'add'          => 0,
                 'delete'       => 0,
-                'order'        => 20,
+                'order'        => 21,
             ])->save();
         }
 

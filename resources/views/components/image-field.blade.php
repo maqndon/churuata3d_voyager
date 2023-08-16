@@ -1,10 +1,6 @@
-@php
-    $type = strtolower($dataType->display_name_singular);
-@endphp
-
 <div class="panel panel-bordered panel-primary">
     <div class="panel-heading">
-        <h3 class="panel-title"><i class="icon wb-image"></i> {{ __('voyager::' . $type . '.image') }}</h3>
+        <h3 class="panel-title"><i class="icon wb-image"></i> {{ __('voyager::' . $displayNameSingular . '.image') }}</h3>
         <div class="panel-actions">
             <a class="panel-action voyager-angle-down" data-toggle="panel-collapse" aria-hidden="true"></a>
         </div>
