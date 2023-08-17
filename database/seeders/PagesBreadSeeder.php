@@ -60,6 +60,15 @@ class PagesBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
+                'details'      => [
+                    'validation' => [
+                        'rule'      => 'required|max:30',
+                        'messages'  => [
+                            'required'  => 'The :attribute field is a must.',
+                            'max'       => "The :attribute field maximum :max."
+                        ]
+                    ],
+                ],
                 'order'        => 2,
             ])->save();
         }
@@ -131,6 +140,14 @@ class PagesBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
+                'details'      => [
+                    'validation' => [
+                        'rule'      => 'required',
+                        'messages'  => [
+                            'required'  => 'The :attribute field is a must.',
+                        ]
+                    ],
+                ],
                 'order'        => 6,
             ])->save();
         }
@@ -164,6 +181,13 @@ class PagesBreadSeeder extends Seeder
                 'details'      => [
                     'slugify' => [
                         'origin' => 'title',
+                    ],
+                    'validation' => [
+                        'rule'      => 'required|max:30',
+                        'messages'  => [
+                            'required'  => 'The :attribute field is a must.',
+                            'max'       => "The :attribute field maximum :max."
+                        ]
                     ],
                 ],
                 'order'        => 8,

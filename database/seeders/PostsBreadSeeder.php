@@ -60,10 +60,19 @@ class PostsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
+                'details'      => [
+                    'validation' => [
+                        'rule'      => 'required|max:30',
+                        'messages'  => [
+                            'required'  => 'The :attribute field is a must.',
+                            'max'       => "The :attribute field maximum :max."
+                        ]
+                    ],
+                ],
                 'order'        => 2,
             ])->save();
         }
-        
+
         $dataRow = $this->dataRow($postDataType, 'post_hasone_user_relationship');
         if (!$dataRow->exists) {
             $dataRow->fill([
@@ -198,6 +207,14 @@ class PostsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
+                'details'      => [
+                    'validation' => [
+                        'rule'      => 'required',
+                        'messages'  => [
+                            'required'  => 'The :attribute field is a must.',
+                        ]
+                    ],
+                ],
                 'order'        => 8,
             ])->save();
         }
@@ -213,6 +230,31 @@ class PostsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
+                'details'      => [
+                    'resize' => [
+                        'width'  => '1000',
+                        'height' => 'null',
+                    ],
+                    'quality'    => '70%',
+                    'upsize'     => true,
+                    'thumbnails' => [
+                        [
+                            'name'  => 'medium',
+                            'scale' => '50%',
+                        ],
+                        [
+                            'name'  => 'small',
+                            'scale' => '25%',
+                        ],
+                        [
+                            'name' => 'cropped',
+                            'crop' => [
+                                'width'  => '300',
+                                'height' => '250',
+                            ],
+                        ],
+                    ],
+                ],
                 'order'        => 9,
             ])->save();
         }
@@ -231,6 +273,13 @@ class PostsBreadSeeder extends Seeder
                 'details'      => [
                     'slugify' => [
                         'origin' => 'title',
+                    ],
+                    'validation' => [
+                        'rule'      => 'required|max:30',
+                        'messages'  => [
+                            'required'  => 'The :attribute field is a must.',
+                            'max'       => "The :attribute field maximum :max."
+                        ]
                     ],
                 ],
                 'order'        => 10,
