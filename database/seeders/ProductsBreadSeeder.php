@@ -59,7 +59,7 @@ class ProductsBreadSeeder extends Seeder
                 'read'         => 1,
                 'edit'         => 1,
                 'add'          => 1,
-                'delete'       => 2,
+                'delete'       => 1,
                 'details'      => [
                     'validation' => [
                         'rule'      => 'required|max:30',
@@ -118,7 +118,7 @@ class ProductsBreadSeeder extends Seeder
         $dataRow = $this->dataRow($productDataType, 'excerpt');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'text',
+                'type'         => 'text_area',
                 'display_name' => __('voyager::seeders.data_rows.excerpt'),
                 'required'     => 0,
                 'browse'       => 1,
@@ -238,7 +238,7 @@ class ProductsBreadSeeder extends Seeder
         $dataRow = $this->dataRow($productDataType, 'seo_title');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'string',
+                'type'         => 'text',
                 'display_name' => __('voyager::seeders.data_rows.seo_title'),
                 'required'     => 1,
                 'browse'       => 0,
@@ -253,7 +253,7 @@ class ProductsBreadSeeder extends Seeder
         $dataRow = $this->dataRow($productDataType, 'meta_description');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'string',
+                'type'         => 'text',
                 'display_name' => __('voyager::seeders.data_rows.meta_description'),
                 'required'     => 1,
                 'browse'       => 0,
@@ -313,7 +313,7 @@ class ProductsBreadSeeder extends Seeder
         $dataRow = $this->dataRow($productDataType, 'status');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'text',
+                'type'         => 'select_dropdown',
                 'display_name' => __('voyager::seeders.data_rows.status'),
                 'required'     => 0,
                 'browse'       => 1,
@@ -322,8 +322,11 @@ class ProductsBreadSeeder extends Seeder
                 'add'          => 1,
                 'delete'       => 1,
                 'details'      => [
-                    'default' => 'DRAFT',
-                    'allowed' => ['DRAFT', 'PUBLISHED'],
+                    'default' => 'draft',
+                    'options' => [
+                        'draft'  => 'Draft', 
+                        'published'    => 'Published'
+                    ],
                 ],
                 'order'        => 17,
             ])->save();
@@ -341,7 +344,10 @@ class ProductsBreadSeeder extends Seeder
                 'add'          => 1,
                 'delete'       => 1,
                 'details'      => [
-                    'default' => 0,
+                    "on"    => "On",
+                    "off"   => "Off",
+                    // "checked"    => "true",
+                    "class" =>"toggleswitch"
                 ],
                 'order'        => 18,
             ])->save();
@@ -350,7 +356,7 @@ class ProductsBreadSeeder extends Seeder
         $dataRow = $this->dataRow($productDataType, 'files');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'media_picker',
+                'type'         => 'file',
                 'display_name' => __('voyager::seeders.data_rows.files'),
                 'required'     => 0,
                 'browse'       => 0,

@@ -1,6 +1,6 @@
 <div class="panel">
     <div class="panel-heading">
-        <h3 class="panel-title">{!! __('voyager::'.$displayNameSingular.'.excerpt') !!}</h3>
+        <h3 class="panel-title">{!! __('voyager::' . $dataType->display_name_singular . '.excerpt') !!}</h3>
         <div class="panel-actions">
             <a class="panel-action voyager-angle-down" data-toggle="panel-collapse"
                 aria-hidden="true"></a>

@@ -1,7 +1,7 @@
 <div class="form-group">
     @php
         $dataTypeRows = $dataType->{$edit ? 'editRows' : 'addRows'};
-        $include = [''.$displayNameSingular.'_belongstomany_category_relationship', ''.$displayNameSingular.'_belongstomany_tag_relationship', 'sku', 'stock', 'price'];
+        $include = ['' . $dataType->display_name_singular . '_belongstomany_category_relationship', '' . $dataType->display_name_singular . '_belongstomany_tag_relationship', 'sku', 'stock', 'price'];
     @endphp
 
     @foreach ($dataTypeRows as $row)

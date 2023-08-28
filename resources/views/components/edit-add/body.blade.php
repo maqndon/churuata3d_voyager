@@ -1,6 +1,6 @@
 <div class="panel">
     <div class="panel-heading">
-        <h3 class="panel-title">{{ __('voyager::'.$displayNameSingular.'.content') }}</h3>
+        <h3 class="panel-title">{{ __('voyager::' . $dataType->display_name_singular . '.content') }}</h3>
         <div class="panel-actions">
             <a class="panel-action voyager-resize-full" data-toggle="panel-fullscreen" aria-hidden="true"></a>
         </div>

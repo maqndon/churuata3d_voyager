@@ -81,8 +81,8 @@ class PagesBreadSeeder extends Seeder
                 'required'     => 0,
                 'browse'       => 1,
                 'read'         => 1,
-                'edit'         => 1,
-                'add'          => 1,
+                'edit'         => 0,
+                'add'          => 0,
                 'delete'       => 1,
                 'details'      => [
                     "model"         => "App\\Models\\User",
@@ -107,8 +107,8 @@ class PagesBreadSeeder extends Seeder
                 'required'     => 1,
                 'browse'       => 0,
                 'read'         => 1,
-                'edit'         => 1,
-                'add'          => 1,
+                'edit'         => 0,
+                'add'          => 0,
                 'delete'       => 1,
                 'order' => 14,
             ])->save();
@@ -117,7 +117,7 @@ class PagesBreadSeeder extends Seeder
         $dataRow = $this->dataRow($pageDataType, 'excerpt');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'text',
+                'type'         => 'text_area',
                 'display_name' => __('voyager::seeders.data_rows.excerpt'),
                 'required'     => 0,
                 'browse'       => 0,
@@ -179,7 +179,7 @@ class PagesBreadSeeder extends Seeder
                 'add'          => 1,
                 'delete'       => 1,
                 'details'      => [
-                    'slugify' => [
+                    'slugify'   => [
                         'origin' => 'title',
                     ],
                     'validation' => [
@@ -242,7 +242,7 @@ class PagesBreadSeeder extends Seeder
         $dataRow = $this->dataRow($pageDataType, 'status');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'text',
+                'type'         => 'select_dropdown',
                 'display_name' => __('voyager::seeders.data_rows.status'),
                 'required'     => 0,
                 'browse'       => 1,
@@ -251,8 +251,11 @@ class PagesBreadSeeder extends Seeder
                 'add'          => 1,
                 'delete'       => 1,
                 'details'      => [
-                    'default' => 'INACTIVE',
-                    'allowed' => ['INACTIVE', 'ACTIVE'],
+                    'default' => 'inactive',
+                    'options' => [
+                        'inactive'  => 'Inactive', 
+                        'active'    => 'Active'
+                    ],
                 ],
                 'order'        => 11,
             ])->save();

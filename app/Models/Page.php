@@ -7,9 +7,9 @@ class Page extends \TCG\Voyager\Models\Page
 
     protected $translatable = ['title', 'slug', 'body', 'excerpt', 'page_image', 'seo_title', 'meta_description', 'meta_keywords', 'status', 'author'];
 
-    public function getPageImageBrowseAttribute()
+    public function getImageBrowseAttribute()
     {
-        return $this->page_image ?? 'no_image.jpg';
+        return $this->image ?? 'no_image.svg';
     }
 
 }

@@ -11,8 +11,8 @@
 
     <div class="panel-heading">
         <h3 class="panel-title">
-            <i class="voyager-character"></i> {{ __('voyager::'.$displayNameSingular.'.title') }}
-            <span class="panel-desc"> {{ __('voyager::'.$displayNameSingular.'.title_sub') }}</span>
+            <i class="voyager-character"></i> {{ __('voyager::' . $dataType->display_name_singular . '.title') }}
+            <span class="panel-desc"> {{ __('voyager::' . $dataType->display_name_singular . '.title_sub') }}</span>
         </h3>
         <div class="panel-actions">
             <a class="panel-action voyager-angle-down" data-toggle="panel-collapse" aria-hidden="true"></a>

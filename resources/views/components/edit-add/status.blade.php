@@ -19,7 +19,7 @@
 
 <div class="form-group">
 
-    <label for="status">{{ __('voyager::' . $displayNameSingular . '.status') }}</label>
+    <label for="status">{{ __('voyager::' . $dataType->display_name_singular . '.status') }}</label>
 
    <select class="form-control" name="status">
 
