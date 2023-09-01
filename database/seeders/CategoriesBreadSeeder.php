@@ -202,12 +202,22 @@ class CategoriesBreadSeeder extends Seeder
         }
 
         $category = Category::firstOrNew([
-            'slug' => 'parametric-desing',
+            'slug' => 'parametric-designs',
         ]);
         if (!$category->exists) {
             $category->fill([
                 'order' => '3',
-                'name' => 'Parametric Design',
+                'name' => 'Parametric Designs',
+            ])->save();
+        }
+
+        $category = Category::firstOrNew([
+            'slug' => '3d-models',
+        ]);
+        if (!$category->exists) {
+            $category->fill([
+                'order' => '4',
+                'name' => '3D Models',
             ])->save();
         }
     }

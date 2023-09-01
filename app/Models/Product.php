@@ -13,7 +13,7 @@ class Product extends Model
     use Translatable;
     use Resizable;
 
-    protected $translatable = ['title', 'body', 'excerpt', 'slug', 'categories', 'tags', 'seo_title', 'meta_description', 'meta_keywords', 'image', 'image_gallery', 'status', 'files'];
+    protected $translatable = ['title', 'body', 'excerpt', 'slug', 'categories', 'tags', 'seo_title', 'meta_description', 'meta_keywords', 'image', 'image_gallery', 'status', 'files', 'price', 'sale_price', 'downloadable'];
 
     protected $guarded = [];
 
@@ -35,6 +35,16 @@ class Product extends Model
     public function getImageBrowseAttribute()
     {
         return $this->image ?? 'no_image.svg';
+    }
+
+    public function sales()
+    {
+        return $this->hasOne(Sale::class);
+    }
+
+    public function downloads()
+    {
+        return $this->hasOne(Download::class);
     }
 
 }

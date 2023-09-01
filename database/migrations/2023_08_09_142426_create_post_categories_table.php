@@ -13,14 +13,14 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('tag_product', function (Blueprint $table) {
+        Schema::create('post_categories', function (Blueprint $table) {
             $table->id()->index();
-            $table->unsignedBigInteger('product_id');
-            $table->unsignedBigInteger('tag_id');
+            $table->unsignedBigInteger('post_id');
+            $table->unsignedBigInteger('category_id');
             $table->timestamps();
     
-            $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
-            $table->foreign('tag_id')->references('id')->on('tags')->onDelete('cascade');
+            $table->foreign('post_id')->references('id')->on('posts')->onDelete('cascade');
+            $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
         });
     }
 
@@ -31,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tag_product');
+        Schema::dropIfExists('post_categories');
     }
 };

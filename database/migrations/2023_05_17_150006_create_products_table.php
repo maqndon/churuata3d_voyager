@@ -20,16 +20,16 @@ return new class extends Migration
             $table->string('sku')->unique();;
             $table->text('excerpt');
             $table->text('body');
-            $table->string('stock');
-            $table->float('price');
-            $table->string('seo_title');
-            $table->text('meta_description');
-            $table->text('meta_keywords');
+            $table->integer('stock')->nullable();
+            $table->float('price')->nullable();
+            $table->float('sale_price')->nullable();
             $table->string('image')->nullable();
             $table->json('gallery')->nullable();
             $table->json('files')->nullable();
             $table->enum('status', ['PUBLISHED', 'DRAFT'])->default('DRAFT');
-            $table->boolean('featured')->default(0);
+            $table->string('featured')->nullable();
+            $table->boolean('virtual')->default(1);
+            $table->boolean('downloadable')->default(1);
             $table->timestamps();
         });
     }
