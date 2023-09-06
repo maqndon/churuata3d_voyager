@@ -26,6 +26,8 @@ Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 
+Route::get('/products/{slug}', [ProductController::class, 'show'])->name('products.show');
+
 // Route::resource('products', ProductController::class);
 // Route::resource('categories', CategoryController::class);
 // Route::resource('posts', PostController::class);
