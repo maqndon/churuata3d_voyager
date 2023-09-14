@@ -370,6 +370,21 @@
 
                         <div class="mt-4 space-y-6">
                             <p class="text-sm text-gray-600">{!! $product->body !!}</p>
+                            @php
+                                // Regular expression pattern to match the content inside <quick_fact> tags
+                                $pattern = '//[quick_fact.*?>(.*?)<\/quick_fact>/s';
+
+                                // Use preg_match to find the <quick_fact> tag content
+                                if (preg_match($pattern, $product->body, $matches)) {
+                                    // $matches[1] contains the content inside <quick_fact> tags
+                                    $quickFactContent = $matches[1];
+
+                                    // Now you can work with $quickFactContent, which contains the content inside <quick_fact> tags
+                                    echo $quickFactContent;
+                                } else {
+                                    echo "No <quick_fact> tag found in the database entry.";
+}
+                            @endphp
                         </div>
                     </div>
                 </div>

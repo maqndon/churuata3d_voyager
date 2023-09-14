@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('product_downloads', function (Blueprint $table) {
-            $table->id()->index();;
+            $table->id()->index();
             $table->unsignedBigInteger('product_id');
             $table->integer('total');
             $table->timestamps();

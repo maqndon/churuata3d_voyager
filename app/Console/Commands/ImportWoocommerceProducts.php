@@ -69,14 +69,14 @@ class ImportWoocommerceProducts extends Command
 
             // Store the HTML content as CDATA in the database
             $body = $productData->content->asXML();
+
             // Remove <content> tags using regex
             $body = preg_replace('/<content>(.*?)<\/content>/s', '$1', $body);
 
-            // $bodyCData = new HtmlString("<![CDATA[{$cleanedBodyCData}]]>");
             $excerpt = $productData->excerpt->asXML();
+
             // Remove <excerpt> tags using regex
             $excerpt = preg_replace('/<excerpt>(.*?)<\/excerpt>/s', '$1', $excerpt);
-            // $excerptCData = new \Illuminate\Support\HtmlString("<![CDATA[{$cleanedexcerptCData}]]>");
 
             $gallery = explode(',', (string) $productData->images);
 
@@ -84,6 +84,9 @@ class ImportWoocommerceProducts extends Command
             $settings = $productData->Print_Settings->settings;
             $supports = $productData->Print_Settings->supports;
             $raft = $productData->Print_Settings->raft;
+
+
+            $licence = $productData->licence;
 
             // Extract Data inside the postmeta tags
 
@@ -165,44 +168,16 @@ class ImportWoocommerceProducts extends Command
             $newProduct->save();
 
             // Product printing materials
-
-            $this->storePivot($newProduct->id, 'printing_materials_id', $materials, 'product_printing_materials');
-
-            // // Split the material string into an array
-            // $materialsArray = explode(',', $materials);
-
-            // // Create an array of materials
-            // $data = [];
-
-            // foreach ($materialsArray as $material) {
-            //     $dataMaterials[] = [
-            //         'product_id' => $newProduct->id,
-            //         'printing_materials_id' => $material,
-            //     ];
-            // }
-
-            // // Insert data into the product_printing_materials table
-            // DB::table('product_printing_materials')->insert($dataMaterials);
+            $this->storePivot($newProduct->id, 'printing_materials_id', 'name', $materials, 'product_printing_materials', 'printing_materials');
 
             // Product printing settings
+            $this->storePivot($newProduct->id, 'print_settings_id','print_strength', $settings, 'product_print_settings', 'print_settings');
 
-            $this->storePivot($newProduct->id, 'print_settings_id', $settings, 'product_print_settings');
+            // Product Licence
+            $this->storePivot($newProduct->id, 'licences_id','name', $licence, 'product_licence', 'licences');
 
-            // // Split the settings string into an array
-            // $settingsArray = explode(',', $settings);
 
-            // // Create an array of materials
-            // $dataSettings = [];
-
-            // foreach ($settingsArray as $setting) {
-            //     $dataSettings[] = [
-            //         'product_id' => $newProduct->id,
-            //         'print_settings_id' => $setting,
-            //     ];
-            // }
-
-            // // Insert data into the product_printing_materials table
-            // DB::table('product_print_settings')->insert($dataSettings);
+            // $colum_name_id = DB::table($table_foreign_id)->where($foreign_id, $item)->value('id');
 
             // Product supports raft
             $supportRaft = new PrintSupportsRaft();
@@ -210,7 +185,6 @@ class ImportWoocommerceProducts extends Command
             $supportRaft->supports = $supports;
             $supportRaft->raft = $raft;
             $supportRaft->save();
-
 
             $this->info("Product imported: $title");
 
@@ -287,24 +261,30 @@ class ImportWoocommerceProducts extends Command
         $this->info('Import completed.');
     }
 
-    private function storePivot($product_id, $colum_name, $colum_name_id, $pivot_table)
+    private function storePivot($product_id, $foreign_id, $foreign_column, $data, $pivot_table, $table_foreign_id)
     {
         // Product printing materials
 
         // Split the material string into an array
-        $items = explode(',', $colum_name_id);
+        $items = explode(',', $data);
 
         // Create an array of materials
-        $data = [];
+        $dataArray = [];
 
         foreach ($items as $item) {
-            $data[] = [
+
+            // Perform a lookup to get the material_id based on the material_name
+            $colum_name_id = DB::table($table_foreign_id)->where($foreign_column, $item)->value('id');
+
+            
+            $dataArray[] = [
                 'product_id' => $product_id,
-                $colum_name => $item,
+                $foreign_id => $colum_name_id,
             ];
+            
+            // Insert data into the product_printing_materials table
+            DB::table($pivot_table)->insert($dataArray);
         }
 
-        // Insert data into the product_printing_materials table
-        DB::table($pivot_table)->insert($data);
     }
 }

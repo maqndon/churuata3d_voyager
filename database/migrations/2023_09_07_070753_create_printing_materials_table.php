@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('printing_materials', function (Blueprint $table) {
-            $table->id()->index();;
+            $table->id()->index();
             $table->string('name');
             $table->decimal('nozzle_size')->default(0.4);
             $table->tinyInteger('min_hot_bed_temp')->unsigned();

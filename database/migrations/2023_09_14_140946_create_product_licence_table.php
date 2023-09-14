@@ -13,16 +13,14 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('product_physical_attributes', function (Blueprint $table) {
+        Schema::create('product_licence', function (Blueprint $table) {
             $table->id()->index();
             $table->unsignedBigInteger('product_id');
-            $table->float('weight');
-            $table->float('length');
-            $table->float('width');
-            $table->float('height');
+            $table->unsignedBigInteger('licences_id');
             $table->timestamps();
 
             $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
+            $table->foreign('licences_id')->references('id')->on('licences')->onDelete('cascade');
         });
     }
 
@@ -33,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('product_physical_attributes');
+        Schema::dropIfExists('product_licence');
     }
 };

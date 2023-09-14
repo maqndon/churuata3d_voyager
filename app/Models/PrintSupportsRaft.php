@@ -11,7 +11,7 @@ class PrintSupportsRaft extends Model
 
     protected $fillable = ['product_id', 'supports', 'raft'];
 
-    public function product()
+    public function products()
     {
         return $this->belongsTo(Product::class);
     }

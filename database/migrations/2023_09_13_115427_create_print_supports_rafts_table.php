@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('print_supports_rafts', function (Blueprint $table) {
-            $table->id()->index();;
+            $table->id()->index();
             $table->unsignedBigInteger('product_id');
             $table->boolean('supports')->default(0);
             $table->boolean('raft')->default(0);

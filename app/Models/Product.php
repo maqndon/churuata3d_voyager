@@ -62,4 +62,9 @@ class Product extends Model
         return $this->hasOne(PrintSupportRaft::class);
     }
 
+    public function licences()
+    {
+        return $this->hasOne(Licence::class);
+    }
+
 }

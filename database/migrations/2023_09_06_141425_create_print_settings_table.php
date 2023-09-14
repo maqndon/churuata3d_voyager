@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('print_settings', function (Blueprint $table) {
-            $table->id()->index();;
+            $table->id()->index();
             $table->enum('print_strength', ['hollow', 'low', 'medium', 'high', 'solid'])->default('low');
             $table->decimal('resolution')->default(0.2);
             $table->tinyInteger('infill')->unsigned()->constraint('infill', '<=', 100);

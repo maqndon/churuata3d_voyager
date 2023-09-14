@@ -7,7 +7,7 @@ class Post extends \TCG\Voyager\Models\Post
     /**
      * @return \Illuminate\Database\Eloquent\Relations\HasOne
      */
-    public function category()
+    public function categories()
     {
         return $this->belongsToMany(Category::class);
     }

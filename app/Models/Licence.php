@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class PrintingMaterial extends Model
+class Licence extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'nozzle_size', 'min_hot_bed_temp', 'max_hot_bed_temp'];
+    protected $fillable = ['name', 'description', 'link', 'icon', 'logo'];
 
     public function products()
     {
@@ -18,4 +18,3 @@ class PrintingMaterial extends Model
             ->orderBy('created_at', 'DESC');
     }
 }
-
