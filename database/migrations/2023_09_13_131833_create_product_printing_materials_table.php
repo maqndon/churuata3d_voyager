@@ -13,13 +13,14 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('product_sales', function (Blueprint $table) {
+        Schema::create('product_printing_materials', function (Blueprint $table) {
             $table->id()->index();;
             $table->unsignedBigInteger('product_id');
-            $table->integer('total');
+            $table->unsignedBigInteger('printing_materials_id');
             $table->timestamps();
 
             $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
+            $table->foreign('printing_materials_id')->references('id')->on('printing_materials')->onDelete('cascade');
         });
     }
 
@@ -30,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('product_sales');
+        Schema::dropIfExists('product_printing_materials');
     }
 };

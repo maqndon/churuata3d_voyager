@@ -30,6 +30,7 @@ return new class extends Migration
             $table->string('featured')->nullable();
             $table->boolean('virtual')->default(1);
             $table->boolean('downloadable')->default(1);
+            $table->boolean('printable')->default(1);
             $table->timestamps();
         });
     }

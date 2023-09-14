@@ -13,10 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('product_sales', function (Blueprint $table) {
+        Schema::create('print_supports_rafts', function (Blueprint $table) {
             $table->id()->index();;
             $table->unsignedBigInteger('product_id');
-            $table->integer('total');
+            $table->boolean('supports')->default(0);
+            $table->boolean('raft')->default(0);
             $table->timestamps();
 
             $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
@@ -30,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('product_sales');
+        Schema::dropIfExists('print_supports_rafts');
     }
 };

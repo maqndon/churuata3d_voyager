@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('product_physical_attributes', function (Blueprint $table) {
-            $table->id();
+            $table->id()->index();;
             $table->unsignedBigInteger('product_id');
             $table->float('weight');
             $table->float('length');

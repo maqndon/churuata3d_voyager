@@ -2,6 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\PrintingMaterial;
+use App\Models\PrintSetting;
 use Illuminate\Database\Seeder;
 
 class VoyagerDatabaseSeeder extends Seeder
@@ -26,7 +28,6 @@ class VoyagerDatabaseSeeder extends Seeder
             PostsBreadSeeder::class,
             PagesBreadSeeder::class,
             CategoriesBreadSeeder::class,
-            TagsTableSeeder::class,
         ]);
     }
 }

@@ -8,6 +8,9 @@ use App\Models\Product;
 use App\Models\Category;
 use App\Models\ProductSale;
 use Illuminate\Console\Command;
+use App\Models\PrintingMaterial;
+use App\Models\PrintSetting;
+use App\Models\PrintSupportsRaft;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\HtmlString;
 use Illuminate\Support\Facades\Storage;
@@ -65,17 +68,22 @@ class ImportWoocommerceProducts extends Command
             $status = (string) $productData->status;
 
             // Store the HTML content as CDATA in the database
-            $bodyXml = $productData->content->asXML();
+            $body = $productData->content->asXML();
             // Remove <content> tags using regex
-            $cleanedBodyCData = preg_replace('/<content>(.*?)<\/content>/s', '$1', $bodyXml);
+            $body = preg_replace('/<content>(.*?)<\/content>/s', '$1', $body);
 
-            $bodyCData = new HtmlString("<![CDATA[{$cleanedBodyCData}]]>");
-            $excerptXml = $productData->excerpt->asXML();
+            // $bodyCData = new HtmlString("<![CDATA[{$cleanedBodyCData}]]>");
+            $excerpt = $productData->excerpt->asXML();
             // Remove <excerpt> tags using regex
-            $cleanedexcerptCData = preg_replace('/<excerpt>(.*?)<\/excerpt>/s', '$1', $excerptXml);
-            $excerptCData = new \Illuminate\Support\HtmlString("<![CDATA[{$cleanedexcerptCData}]]>");
+            $excerpt = preg_replace('/<excerpt>(.*?)<\/excerpt>/s', '$1', $excerpt);
+            // $excerptCData = new \Illuminate\Support\HtmlString("<![CDATA[{$cleanedexcerptCData}]]>");
 
             $gallery = explode(',', (string) $productData->images);
+
+            $materials = $productData->Print_Settings->materials;
+            $settings = $productData->Print_Settings->settings;
+            $supports = $productData->Print_Settings->supports;
+            $raft = $productData->Print_Settings->raft;
 
             // Extract Data inside the postmeta tags
 
@@ -148,13 +156,61 @@ class ImportWoocommerceProducts extends Command
             $newProduct->price = $price;
             $newProduct->sale_price = $salePrice;
             $newProduct->stock = $stock;
-            $newProduct->excerpt = $excerptCData;
-            $newProduct->body = $bodyCData;
+            $newProduct->excerpt = $excerpt;
+            $newProduct->body = $body;
             $newProduct->status = $status;
             $newProduct->featured = $featured;
             $newProduct->virtual = $virtual;
             $newProduct->downloadable = $downloadable;
             $newProduct->save();
+
+            // Product printing materials
+
+            $this->storePivot($newProduct->id, 'printing_materials_id', $materials, 'product_printing_materials');
+
+            // // Split the material string into an array
+            // $materialsArray = explode(',', $materials);
+
+            // // Create an array of materials
+            // $data = [];
+
+            // foreach ($materialsArray as $material) {
+            //     $dataMaterials[] = [
+            //         'product_id' => $newProduct->id,
+            //         'printing_materials_id' => $material,
+            //     ];
+            // }
+
+            // // Insert data into the product_printing_materials table
+            // DB::table('product_printing_materials')->insert($dataMaterials);
+
+            // Product printing settings
+
+            $this->storePivot($newProduct->id, 'print_settings_id', $settings, 'product_print_settings');
+
+            // // Split the settings string into an array
+            // $settingsArray = explode(',', $settings);
+
+            // // Create an array of materials
+            // $dataSettings = [];
+
+            // foreach ($settingsArray as $setting) {
+            //     $dataSettings[] = [
+            //         'product_id' => $newProduct->id,
+            //         'print_settings_id' => $setting,
+            //     ];
+            // }
+
+            // // Insert data into the product_printing_materials table
+            // DB::table('product_print_settings')->insert($dataSettings);
+
+            // Product supports raft
+            $supportRaft = new PrintSupportsRaft();
+            $supportRaft->product_id = $newProduct->id;
+            $supportRaft->supports = $supports;
+            $supportRaft->raft = $raft;
+            $supportRaft->save();
+
 
             $this->info("Product imported: $title");
 
@@ -229,5 +285,26 @@ class ImportWoocommerceProducts extends Command
         }
 
         $this->info('Import completed.');
+    }
+
+    private function storePivot($product_id, $colum_name, $colum_name_id, $pivot_table)
+    {
+        // Product printing materials
+
+        // Split the material string into an array
+        $items = explode(',', $colum_name_id);
+
+        // Create an array of materials
+        $data = [];
+
+        foreach ($items as $item) {
+            $data[] = [
+                'product_id' => $product_id,
+                $colum_name => $item,
+            ];
+        }
+
+        // Insert data into the product_printing_materials table
+        DB::table($pivot_table)->insert($data);
     }
 }

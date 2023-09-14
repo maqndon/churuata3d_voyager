@@ -47,4 +47,19 @@ class Product extends Model
         return $this->hasOne(Download::class);
     }
 
+    public function print_settings()
+    {
+        return $this->hasMany(PrintSetting::class);
+    }
+
+    public function printing_materials()
+    {
+        return $this->hasMany(PrintingMaterial::class);
+    }
+
+    public function print_supports_rafts()
+    {
+        return $this->hasOne(PrintSupportRaft::class);
+    }
+
 }
