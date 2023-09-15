@@ -28,9 +28,11 @@ return new class extends Migration
             $table->json('files')->nullable();
             $table->enum('status', ['PUBLISHED', 'DRAFT'])->default('DRAFT');
             $table->string('featured')->nullable();
-            $table->boolean('virtual')->default(1);
-            $table->boolean('downloadable')->default(1);
-            $table->boolean('printable')->default(1);
+            $table->boolean('virtual')->default(true);
+            $table->boolean('downloadable')->default(true);
+            $table->boolean('printable')->default(true);
+            $table->boolean('is_parametric')->default(false);
+            $table->string('related_parametric')->nullable();
             $table->timestamps();
         });
     }

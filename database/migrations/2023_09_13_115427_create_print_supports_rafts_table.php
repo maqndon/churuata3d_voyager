@@ -16,8 +16,8 @@ return new class extends Migration
         Schema::create('print_supports_rafts', function (Blueprint $table) {
             $table->id()->index();
             $table->unsignedBigInteger('product_id');
-            $table->boolean('supports')->default(0);
-            $table->boolean('raft')->default(0);
+            $table->boolean('supports')->default(false);
+            $table->boolean('raft')->default(false);
             $table->timestamps();
 
             $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');

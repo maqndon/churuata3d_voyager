@@ -84,6 +84,8 @@ class ImportWoocommerceProducts extends Command
             $settings = $productData->Print_Settings->settings;
             $supports = $productData->Print_Settings->supports;
             $raft = $productData->Print_Settings->raft;
+            $is_parametric = $productData->is_parametric ? (boolean)$productData->is_parametric : false;
+            $related_parametric = $productData->related_parametric;
 
             // Product licence
             $licence = $productData->licence;
@@ -117,13 +119,13 @@ class ImportWoocommerceProducts extends Command
                 if ($metaKey === 'virtual') {
                     switch ($metaValue) {
                         case 'yes':
-                            $virtual = 1;
+                            $virtual = true;
                             break;
                         case 'no':
-                            $virtual = 0;
+                            $virtual = false;
                             break;
                         default:
-                            $virtual = 1;
+                            $virtual = true;
                             break;
                     }
                 }
@@ -131,13 +133,13 @@ class ImportWoocommerceProducts extends Command
                 if ($metaKey === 'downloadable') {
                     switch ($metaValue) {
                         case 'yes':
-                            $downloadable = 1;
+                            $downloadable = true;
                             break;
                         case 'no':
-                            $downloadable = 0;
+                            $downloadable = false;
                             break;
                         default:
-                            $downloadable = 1;
+                            $downloadable = true;
                             break;
                     }
                 }
@@ -165,6 +167,8 @@ class ImportWoocommerceProducts extends Command
             $newProduct->featured = $featured;
             $newProduct->virtual = $virtual;
             $newProduct->downloadable = $downloadable;
+            $newProduct->is_parametric = $is_parametric;
+            $newProduct->related_parametric = $related_parametric;
             $newProduct->save();
 
             // Product's Bill of Materials (BOM)
@@ -203,8 +207,8 @@ class ImportWoocommerceProducts extends Command
             // Product supports raft
             $supportRaft = new PrintSupportsRaft();
             $supportRaft->product_id = $newProduct->id;
-            $supportRaft->supports = $supports;
-            $supportRaft->raft = $raft;
+            $supportRaft->supports = (boolean)$supports;
+            $supportRaft->raft = (boolean)$raft;
             $supportRaft->save();
 
             $this->info("Product imported: $title");
