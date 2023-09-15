@@ -85,7 +85,7 @@ class ImportWoocommerceProducts extends Command
             $supports = $productData->Print_Settings->supports;
             $raft = $productData->Print_Settings->raft;
 
-
+            // Product licence
             $licence = $productData->licence;
 
             // Extract Data inside the postmeta tags
@@ -167,17 +167,38 @@ class ImportWoocommerceProducts extends Command
             $newProduct->downloadable = $downloadable;
             $newProduct->save();
 
+            // Product's Bill of Materials (BOM)
+            $bill_of_materials = $productData->bill_of_materials;
+
+            if ($bill_of_materials) {
+
+                // Create an array to store unique BOM entries
+                $dataBom = [];
+
+                foreach ($bill_of_materials->li as $bom) {
+                    $item = (string)$bom;
+            
+                    // Check if the item is not already in $dataBom
+                    if (!in_array($item, $dataBom)) {
+                        $dataBom[] = $item;
+            
+                        // Insert data into the table
+                        DB::table('product_bill_of_materials')->insert([
+                            'product_id' => $newProduct->id,
+                            'item' => $item,
+                        ]);
+                    }
+                }
+            }
+
             // Product printing materials
             $this->storePivot($newProduct->id, 'printing_materials_id', 'name', $materials, 'product_printing_materials', 'printing_materials');
 
             // Product printing settings
-            $this->storePivot($newProduct->id, 'print_settings_id','print_strength', $settings, 'product_print_settings', 'print_settings');
+            $this->storePivot($newProduct->id, 'print_settings_id', 'print_strength', $settings, 'product_print_settings', 'print_settings');
 
             // Product Licence
-            $this->storePivot($newProduct->id, 'licences_id','name', $licence, 'product_licence', 'licences');
-
-
-            // $colum_name_id = DB::table($table_foreign_id)->where($foreign_id, $item)->value('id');
+            $this->storePivot($newProduct->id, 'licences_id', 'name', $licence, 'product_licence', 'licences');
 
             // Product supports raft
             $supportRaft = new PrintSupportsRaft();
@@ -276,15 +297,13 @@ class ImportWoocommerceProducts extends Command
             // Perform a lookup to get the material_id based on the material_name
             $colum_name_id = DB::table($table_foreign_id)->where($foreign_column, $item)->value('id');
 
-            
             $dataArray[] = [
                 'product_id' => $product_id,
                 $foreign_id => $colum_name_id,
             ];
-            
+
             // Insert data into the product_printing_materials table
             DB::table($pivot_table)->insert($dataArray);
         }
-
     }
 }

@@ -67,4 +67,9 @@ class Product extends Model
         return $this->hasOne(Licence::class);
     }
 
+    public function bill_of_materials()
+    {
+        return $this->hasMany(BillOfMaterial::class);
+    }
+
 }
