@@ -23,7 +23,7 @@ return new class extends Migration
 
             // Indexes
             $table->index(['seoable_type', 'seoable_id']);
-            $table->foreign('seoable_id')->references('id')->on('products')->onDelete('cascade');;
+            $table->foreign('seoable_id')->references('id')->on('products')->onDelete('cascade');
         });
     }
 

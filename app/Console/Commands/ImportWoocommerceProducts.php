@@ -7,9 +7,10 @@ use App\Models\Tag;
 use App\Models\Product;
 use App\Models\Category;
 use App\Models\ProductSale;
+use App\Models\PrintSetting;
+use TCG\Voyager\Models\User;
 use Illuminate\Console\Command;
 use App\Models\PrintingMaterial;
-use App\Models\PrintSetting;
 use App\Models\PrintSupportsRaft;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\HtmlString;
@@ -57,6 +58,10 @@ class ImportWoocommerceProducts extends Command
             $slug = (string) $productData->post_name;
             $sku = (string) $productData->post_name;
             $stock = (int) $productData->stock;
+            $creator = (string) $productData->creator;
+            // Find the user by name and associate the product with them
+            $creator_user = User::where('name', $creator)->first();
+            $creator_id = $creator_user->id;
 
             // if the product is featured 
             if ($productData->xpath('category[@domain="product_visibility"]')) {
@@ -84,7 +89,7 @@ class ImportWoocommerceProducts extends Command
             $settings = $productData->Print_Settings->settings;
             $supports = $productData->Print_Settings->supports;
             $raft = $productData->Print_Settings->raft;
-            $is_parametric = $productData->is_parametric ? (boolean)$productData->is_parametric : false;
+            $is_parametric = $productData->is_parametric ? (bool)$productData->is_parametric : false;
             $related_parametric = $productData->related_parametric;
 
             // Product licence
@@ -156,6 +161,7 @@ class ImportWoocommerceProducts extends Command
             // Create a new product entry in Voyager
             $newProduct = new Product();
             $newProduct->title = $title;
+            $newProduct->created_by = $creator_id;
             $newProduct->slug = $slug;
             $newProduct->sku = $sku;
             $newProduct->price = $price;
@@ -181,11 +187,11 @@ class ImportWoocommerceProducts extends Command
 
                 foreach ($bill_of_materials->li as $bom) {
                     $item = (string)$bom;
-            
+
                     // Check if the item is not already in $dataBom
                     if (!in_array($item, $dataBom)) {
                         $dataBom[] = $item;
-            
+
                         // Insert data into the table
                         DB::table('product_bill_of_materials')->insert([
                             'product_id' => $newProduct->id,
@@ -207,8 +213,8 @@ class ImportWoocommerceProducts extends Command
             // Product supports raft
             $supportRaft = new PrintSupportsRaft();
             $supportRaft->product_id = $newProduct->id;
-            $supportRaft->supports = (boolean)$supports;
-            $supportRaft->raft = (boolean)$raft;
+            $supportRaft->supports = (bool)$supports;
+            $supportRaft->raft = (bool)$raft;
             $supportRaft->save();
 
             $this->info("Product imported: $title");

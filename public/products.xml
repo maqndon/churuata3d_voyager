@@ -27,7 +27,7 @@
 		<title>Brush Teeth Holder</title>
 		<link>https://churuata3d.com/product/brush-teeth-holder/</link>
 		<pubDate>Sat, 22 Sep 2018 20:47:44 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=273</guid>
 		<Print_Settings>
 			<materials>PLA,PLA+</materials>
@@ -50,20 +50,13 @@
 			<li>20cmx2cm Double Coated Paper Tape needed.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>273</post_id>
 		<post_date>2018-09-22 20:47:44</post_date>
-		<post_date_gmt>2018-09-22 20:47:44</post_date_gmt>
 		<post_modified>2020-09-23 12:43:36</post_modified>
-		<post_modified_gmt>2020-09-23 12:43:36</post_modified_gmt>
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>brush-teeth-holder</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">badezimmer</category>
 		<category domain="product_tag">badroom</category>
@@ -77,26 +70,6 @@
 		<category domain="product_cat">Home Solutions</category>
 		<category domain="product_type">simple</category>
 		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>brush-teeth-holder</meta_value>
 		</postmeta>
@@ -105,37 +78,12 @@
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>weight</meta_key>
 			<meta_value></meta_value>
@@ -152,22 +100,10 @@
 			<meta_key>height</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_purchase_note</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -180,54 +116,29 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>289,290</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:1:{s:36:"cea189c7-b774-4f37-b225-b9d5252d32aa";a:3:{s:2:"id";s:36:"cea189c7-b774-4f37-b225-b9d5252d32aa";s:4:"name";s:18:"Brush Teeth Holder";s:4:"file";s:90:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/porta-cepillosV6.stl";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>somdn_dlcount</meta_key>
 			<meta_value>544</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>288</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value></meta_value>
@@ -341,7 +252,7 @@
 		<title>Kitchen Paper Towel Holder</title>
 		<link>https://churuata3d.com/product/kitchen-paper-towel-holder/</link>
 		<pubDate>Sat, 22 Sep 2018 21:04:45 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=278</guid>
 		<Print_Settings>
 			<materials>PLA,PLA+</materials>
@@ -367,20 +278,20 @@
 			<li>(1) 20mm wooden dowel rod</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>278</post_id>
+
 		<post_date>2018-09-22 21:04:45</post_date>
-		<post_date_gmt>2018-09-22 21:04:45</post_date_gmt>
+
 		<post_modified>2020-09-23 12:41:51</post_modified>
-		<post_modified_gmt>2020-09-23 12:41:51</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>kitchen-paper-towel-holder</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">cocina</category>
 		<category domain="product_tag">hogar</category>
@@ -390,26 +301,11 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">toallin</category>
 		<category domain="product_tag">towel</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
+
+
+
+
+
 		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>kitchen-paper-towel-holder</meta_value>
@@ -418,38 +314,16 @@
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>weight</meta_key>
 			<meta_value></meta_value>
@@ -466,22 +340,10 @@
 			<meta_key>height</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_purchase_note</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -494,54 +356,29 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>286,287</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:2:{s:36:"11066d29-746a-45da-a6fe-5da9049e0236";a:3:{s:2:"id";s:36:"11066d29-746a-45da-a6fe-5da9049e0236";s:4:"name";s:4:"Base";s:4:"file";s:83:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/base-logo.stl";}s:36:"6c838de8-0ba2-48af-8450-d659e24d9eb7";a:3:{s:2:"id";s:36:"6c838de8-0ba2-48af-8450-d659e24d9eb7";s:4:"name";s:3:"Top";s:4:"file";s:82:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/top-logo.stl";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>somdn_dlcount</meta_key>
 			<meta_value>59</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>285</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value></meta_value>
@@ -655,7 +492,7 @@
 		<title>Dice Pencil Holder</title>
 		<link>https://churuata3d.com/product/dice-pencil-holder-free-stl-3d-model/</link>
 		<pubDate>Sun, 23 Sep 2018 14:13:10 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=292</guid>
 		<Print_Settings>
 			<materials>PLA,PLA+</materials>
@@ -675,20 +512,13 @@
 		<excerpt>Just Another Dice Pencil Holder, have fun printing!</excerpt>
 		<related_parametric>customizable-dice-pencil-holder-3d-model</related_parametric>
 		<licence>by-nc-sa</licence>
-		<post_id>292</post_id>
 		<post_date>2018-09-23 14:13:10</post_date>
-		<post_date_gmt>2018-09-23 14:13:10</post_date_gmt>
 		<post_modified>2020-09-23 12:40:00</post_modified>
-		<post_modified_gmt>2020-09-23 12:40:00</post_modified_gmt>
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>dice-pencil-holder-free-stl-3d-model</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">büro</category>
 		<category domain="product_tag">desktop</category>
@@ -705,30 +535,6 @@
 		<category domain="product_tag">schreibtisch</category>
 		<category domain="product_type">simple</category>
 		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>270</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>dice-pencil-holder-free-stl-3d-model</meta_value>
 		</postmeta>
@@ -737,36 +543,8 @@
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
 		</postmeta>
 		<postmeta>
 			<meta_key>weight</meta_key>
@@ -785,22 +563,6 @@
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_purchase_note</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
@@ -813,40 +575,12 @@
 			<meta_value>294</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
 		</postmeta>
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
@@ -973,7 +707,7 @@
 		<title>Wall Hanger</title>
 		<link>https://churuata3d.com/product/3d-printable-wall-hanger-free-stl-3d-model/</link>
 		<pubDate>Mon, 24 Sep 2018 18:21:23 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=295</guid>
 
 		<Print_Settings>
@@ -999,20 +733,20 @@
 			<li>(5) Wood screews.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>295</post_id>
+
 		<post_date>2018-09-24 18:21:23</post_date>
-		<post_date_gmt>2018-09-24 18:21:23</post_date_gmt>
+
 		<post_modified>2020-09-23 12:39:53</post_modified>
-		<post_modified_gmt>2020-09-23 12:39:53</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>3d-printable-wall-hanger-free-stl-3d-model</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">büro</category>
 		<category domain="product_tag">colgador</category>
@@ -1030,30 +764,12 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wall hanger</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>298</meta_value>
-		</postmeta>
+
+
+
+
+
+
 		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>3d-printable-wall-hanger-free-stl-3d-model</meta_value>
@@ -1062,38 +778,16 @@
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>weight</meta_key>
 			<meta_value></meta_value>
@@ -1110,22 +804,10 @@
 			<meta_key>height</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_purchase_note</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -1138,46 +820,24 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>296,297</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:1:{s:36:"f6c1d1de-7edf-4191-90e0-ec1d2b5780b1";a:3:{s:2:"id";s:36:"f6c1d1de-7edf-4191-90e0-ec1d2b5780b1";s:4:"name";s:11:"Wall Hanger";s:4:"file";s:84:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/wallhanger.stl";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>somdn_dlcount</meta_key>
 			<meta_value>300</meta_value>
@@ -1311,7 +971,7 @@
 		<title>Screw Shelving System</title>
 		<link>https://churuata3d.com/product/3d-printable-shelving-system-free-stl/</link>
 		<pubDate>Wed, 26 Sep 2018 17:58:16 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=328</guid>
 
 		<Print_Settings>
@@ -1335,20 +995,20 @@
 			<li>18mm thickness wood.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>328</post_id>
+
 		<post_date>2018-09-26 17:58:16</post_date>
-		<post_date_gmt>2018-09-26 17:58:16</post_date_gmt>
+
 		<post_modified>2020-09-23 12:39:53</post_modified>
-		<post_modified_gmt>2020-09-23 12:39:53</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>3d-printable-shelving-system-free-stl</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">büro</category>
 		<category domain="product_tag">casa</category>
@@ -1365,30 +1025,12 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">system</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>335</meta_value>
-		</postmeta>
+
+
+
+
+
+
 		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>3d-printable-shelving-system-free-stl</meta_value>
@@ -1397,38 +1039,16 @@
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>weight</meta_key>
 			<meta_value></meta_value>
@@ -1445,22 +1065,10 @@
 			<meta_key>height</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_purchase_note</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -1473,46 +1081,24 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>333,334</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:4:{s:36:"d1037ae5-94ff-4b73-9037-925c6c1e33e1";a:3:{s:2:"id";s:36:"d1037ae5-94ff-4b73-9037-925c6c1e33e1";s:4:"name";s:3:"Top";s:4:"file";s:84:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/top-logo-1.stl";}s:36:"a272ec2c-6512-43d2-99a2-d17a0f19f5c6";a:3:{s:2:"id";s:36:"a272ec2c-6512-43d2-99a2-d17a0f19f5c6";s:4:"name";s:6:"Bottom";s:4:"file";s:85:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/bottom-logo.stl";}s:36:"048c5f3b-24a9-43ef-866a-4fcc28cc9eed";a:3:{s:2:"id";s:36:"048c5f3b-24a9-43ef-866a-4fcc28cc9eed";s:4:"name";s:9:"Panel Top";s:4:"file";s:88:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/panel-top-logo.stl";}s:36:"cb780f32-7b87-40f8-8c68-46a8ee28715b";a:3:{s:2:"id";s:36:"cb780f32-7b87-40f8-8c68-46a8ee28715b";s:4:"name";s:12:"Panel Bottom";s:4:"file";s:91:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/panel-bottom-logo.stl";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>somdn_dlcount</meta_key>
 			<meta_value>131</meta_value>
@@ -1642,7 +1228,7 @@
 		<title>Towel Hanger</title>
 		<link>https://churuata3d.com/product/3d-printable-towel-hanger-free-stl/</link>
 		<pubDate>Thu, 27 Sep 2018 13:06:54 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=336</guid>
 
 		<Print_Settings>
@@ -1664,20 +1250,20 @@
 			<li>(1) 60mm wall plug.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>336</post_id>
+
 		<post_date>2018-09-27 13:06:54</post_date>
-		<post_date_gmt>2018-09-27 13:06:54</post_date_gmt>
+
 		<post_modified>2020-09-23 12:39:47</post_modified>
-		<post_modified_gmt>2020-09-23 12:39:47</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>3d-printable-towel-hanger-free-stl</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">badezimmer</category>
 		<category domain="product_tag">badroom</category>
@@ -1692,30 +1278,12 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">toalla</category>
 		<category domain="product_tag">towel</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>337</meta_value>
-		</postmeta>
+
+
+
+
+
+
 		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>3d-printable-towel-hanger-free-stl</meta_value>
@@ -1724,38 +1292,16 @@
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>weight</meta_key>
 			<meta_value></meta_value>
@@ -1772,22 +1318,10 @@
 			<meta_key>height</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_purchase_note</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -1800,46 +1334,24 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>338,341,342</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:2:{s:36:"aeab3a3d-2218-400e-8a56-5b2edb3079fc";a:3:{s:2:"id";s:36:"aeab3a3d-2218-400e-8a56-5b2edb3079fc";s:4:"name";s:6:"Part A";s:4:"file";s:82:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/hanger-a.stl";}s:36:"7ee75b8e-7ebb-491f-b0ee-eb6d0c4dd24a";a:3:{s:2:"id";s:36:"7ee75b8e-7ebb-491f-b0ee-eb6d0c4dd24a";s:4:"name";s:6:"Part B";s:4:"file";s:82:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/hanger-b.stl";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -1965,7 +1477,7 @@
 		<title>Furniture Modular Connectors with Hardware</title>
 		<link>https://churuata3d.com/product/furniture-modular-connectors-with-hardware/</link>
 		<pubDate>Wed, 03 Oct 2018 10:20:35 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=398</guid>
 
 		<Print_Settings>
@@ -1987,20 +1499,20 @@
 			<li>28mm wooden dowel rod.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>398</post_id>
+
 		<post_date>2018-10-03 10:20:35</post_date>
-		<post_date_gmt>2018-10-03 10:20:35</post_date_gmt>
+
 		<post_modified>2020-09-23 12:39:42</post_modified>
-		<post_modified_gmt>2020-09-23 12:39:42</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>furniture-modular-connectors-with-hardware</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">büro</category>
 		<category domain="product_tag">connectors</category>
@@ -2019,26 +1531,11 @@
 		<category domain="product_tag">shelving system</category>
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
+
+
+
+
+
 		<postmeta>
 			<meta_key>_oembed_34c56d2a0aebd1f2533c32e3dc5b953c</meta_key>
 			<meta_value>
@@ -2052,10 +1549,7 @@
 			<meta_key>_oembed_time_34c56d2a0aebd1f2533c32e3dc5b953c</meta_key>
 			<meta_value>1538560728</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>408</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>furniture-modular-connectors-with-hardware</meta_value>
@@ -2064,38 +1558,16 @@
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>weight</meta_key>
 			<meta_value></meta_value>
@@ -2112,22 +1584,10 @@
 			<meta_key>height</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_purchase_note</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -2140,46 +1600,24 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>410,411,412,413,414,415,416</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:9:{s:36:"7e92b65a-e76f-4700-9de4-24a1b0029f01";a:3:{s:2:"id";s:36:"7e92b65a-e76f-4700-9de4-24a1b0029f01";s:4:"name";s:6:"A 27mm";s:4:"file";s:79:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/c28mm.stl";}s:36:"ff8f99d0-b803-4ffd-8ed1-c3d453102b5b";a:3:{s:2:"id";s:36:"ff8f99d0-b803-4ffd-8ed1-c3d453102b5b";s:4:"name";s:6:"B 27mm";s:4:"file";s:79:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/b27mm.stl";}s:36:"4fd32c28-c681-487b-a238-1ba24a97830d";a:3:{s:2:"id";s:36:"4fd32c28-c681-487b-a238-1ba24a97830d";s:4:"name";s:6:"C 27mm";s:4:"file";s:79:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/c27mm.stl";}s:36:"9de7c484-9021-42a1-9e75-51e246ff0959";a:3:{s:2:"id";s:36:"9de7c484-9021-42a1-9e75-51e246ff0959";s:4:"name";s:6:"A 28mm";s:4:"file";s:79:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/a28mm.stl";}s:36:"57aba476-8775-497c-90eb-1442dac0dfc3";a:3:{s:2:"id";s:36:"57aba476-8775-497c-90eb-1442dac0dfc3";s:4:"name";s:6:"B 28mm";s:4:"file";s:79:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/b28mm.stl";}s:36:"69142b1f-b6df-47bb-b421-40801d2db16a";a:3:{s:2:"id";s:36:"69142b1f-b6df-47bb-b421-40801d2db16a";s:4:"name";s:6:"C 28mm";s:4:"file";s:79:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/c28mm.stl";}s:36:"83f5c951-1014-4909-ba8a-2b57d0894870";a:3:{s:2:"id";s:36:"83f5c951-1014-4909-ba8a-2b57d0894870";s:4:"name";s:3:"Jig";s:4:"file";s:77:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/jig.stl";}s:36:"38e2b336-a13d-4290-8110-3c7522dbd2c4";a:3:{s:2:"id";s:36:"38e2b336-a13d-4290-8110-3c7522dbd2c4";s:4:"name";s:13:"Wall Hanger A";s:4:"file";s:76:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/yz.stl";}s:36:"e98267a9-8f5f-455c-b387-259232e4e85a";a:3:{s:2:"id";s:36:"e98267a9-8f5f-455c-b387-259232e4e85a";s:4:"name";s:13:"Wall Hanger B";s:4:"file";s:75:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/x.stl";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -2297,7 +1735,7 @@
 		<title>Petroglyph Mobile</title>
 		<link>https://churuata3d.com/product/petroglyph-mobile-free-stl/</link>
 		<pubDate>Wed, 03 Oct 2018 17:40:16 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=421</guid>
 
 		<Print_Settings>
@@ -2318,20 +1756,20 @@
 			<li>String.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>421</post_id>
+
 		<post_date>2018-10-03 17:40:16</post_date>
-		<post_date_gmt>2018-10-03 17:40:16</post_date_gmt>
+
 		<post_modified>2020-09-23 12:39:42</post_modified>
-		<post_modified_gmt>2020-09-23 12:39:42</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>petroglyph-mobile-free-stl</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">colgante</category>
 		<category domain="product_tag">deco</category>
@@ -2346,66 +1784,26 @@
 		<category domain="product_cat">Office Solutions</category>
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>427</meta_value>
-		</postmeta>
+
+
+
+
+
+
 		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>petroglyph-mobile-free-stl</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>weight</meta_key>
 			<meta_value></meta_value>
@@ -2422,22 +1820,10 @@
 			<meta_key>height</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_purchase_note</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -2450,42 +1836,20 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>428</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:1:{s:36:"4658895d-a38c-47f9-b9c7-b201c077e16c";a:3:{s:2:"id";s:36:"4658895d-a38c-47f9-b9c7-b201c077e16c";s:4:"name";s:17:"Petroglyph Mobile";s:4:"file";s:56:"https://churuata3d.com/wp-content/uploads/2018/11/pm.zip";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -2623,7 +1987,7 @@
 		<title>Coat Rack</title>
 		<link>https://churuata3d.com/product/3d-printable-coat-rack-free-stl/</link>
 		<pubDate>Tue, 09 Oct 2018 20:15:09 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=430</guid>
 		<Print_Settings>
 			<materials>PLA,PLA+</materials>
@@ -2645,20 +2009,20 @@
 			<li>Version 2: 28mm wooden dowel rod.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>430</post_id>
+
 		<post_date>2018-10-09 20:15:09</post_date>
-		<post_date_gmt>2018-10-09 20:15:09</post_date_gmt>
+
 		<post_modified>2020-09-23 12:39:38</post_modified>
-		<post_modified_gmt>2020-09-23 12:39:38</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>3d-printable-coat-rack-free-stl</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">büro</category>
 		<category domain="product_tag">casa</category>
@@ -2673,30 +2037,12 @@
 		<category domain="product_tag">oficina</category>
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>435</meta_value>
-		</postmeta>
+
+
+
+
+
+
 		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>3d-printable-coat-rack-free-stl</meta_value>
@@ -2705,38 +2051,16 @@
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>weight</meta_key>
 			<meta_value></meta_value>
@@ -2753,22 +2077,10 @@
 			<meta_key>height</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_purchase_note</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -2781,46 +2093,24 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>434</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:2:{s:36:"b68c9305-06f7-4c1a-b99a-4dc5b6de325e";a:3:{s:2:"id";s:36:"b68c9305-06f7-4c1a-b99a-4dc5b6de325e";s:4:"name";s:4:"20mm";s:4:"file";s:60:"https://churuata3d.com/wp-content/uploads/2018/11/cr20mm.zip";}s:36:"c107c1e7-a6f5-49c8-9e30-007843bd4dad";a:3:{s:2:"id";s:36:"c107c1e7-a6f5-49c8-9e30-007843bd4dad";s:4:"name";s:4:"28mm";s:4:"file";s:60:"https://churuata3d.com/wp-content/uploads/2018/11/cr28mm.zip";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -2946,7 +2236,7 @@
 		<title>14mm Modular Connector Kit</title>
 		<link>https://churuata3d.com/product/14mm-modular-connector-kit-stl-download/</link>
 		<pubDate>Sun, 14 Oct 2018 09:18:25 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=455</guid>
 		<Print_Settings>
 			<materials>PLA,PLA+</materials>
@@ -2967,20 +2257,20 @@
 			<li>2 mm thickness wood board.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>455</post_id>
+
 		<post_date>2018-10-14 09:18:25</post_date>
-		<post_date_gmt>2018-10-14 09:18:25</post_date_gmt>
+
 		<post_modified>2020-09-23 12:39:35</post_modified>
-		<post_modified_gmt>2020-09-23 12:39:35</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>14mm-modular-connector-kit-stl-download</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">badezimmer</category>
 		<category domain="product_tag">badroom</category>
@@ -3009,30 +2299,12 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">system</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>457</meta_value>
-		</postmeta>
+
+
+
+
+
+
 		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>14mm-modular-connector-kit-stl-download</meta_value>
@@ -3041,38 +2313,16 @@
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>weight</meta_key>
 			<meta_value></meta_value>
@@ -3089,22 +2339,13 @@
 			<meta_key>height</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>_purchase_note</meta_key>
 			<meta_value>Do you want to use our design for commercial purposes or adapt our models to your specific needs? Simply write us at info@churuata3d.com</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -3117,42 +2358,23 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>458</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:1:{s:36:"426023a9-61a7-4dee-8c6f-b09fe20b8024";a:3:{s:2:"id";s:36:"426023a9-61a7-4dee-8c6f-b09fe20b8024";s:4:"name";s:26:"14mm Modular Connector Kit";s:4:"file";s:87:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/14x14-exactos.zip";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -3189,10 +2411,7 @@
 			<meta_key>um_content_restriction</meta_key>
 			<meta_value>a:8:{s:26:"_um_custom_access_settings";s:1:"0";s:14:"_um_accessible";s:1:"0";s:19:"_um_noaccess_action";s:1:"0";s:30:"_um_restrict_by_custom_message";s:1:"0";s:27:"_um_restrict_custom_message";s:0:"";s:19:"_um_access_redirect";s:1:"0";s:23:"_um_access_redirect_url";s:0:"";s:28:"_um_access_hide_from_queries";s:1:"0";}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_wp_old_slug</meta_key>
 			<meta_value>14-mm-modular-connector-kit</meta_value>
@@ -3278,7 +2497,7 @@
 		<title>Modular Furniture Connector Kit</title>
 		<link>https://churuata3d.com/product/modular-furniture-connector-kit-free-stl/</link>
 		<pubDate>Sun, 21 Oct 2018 12:44:16 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=502</guid>
 
 		<Print_Settings>
@@ -3323,20 +2542,20 @@
 			<li>For each handle/knob: (1) M4x25 screw, (1) M4 Nut</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>502</post_id>
+
 		<post_date>2018-10-21 12:44:16</post_date>
-		<post_date_gmt>2018-10-21 12:44:16</post_date_gmt>
+
 		<post_modified>2020-09-23 12:39:32</post_modified>
-		<post_modified_gmt>2020-09-23 12:39:32</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>modular-furniture-connector-kit-free-stl</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">badezimmer</category>
 		<category domain="product_tag">badroom</category>
@@ -3363,30 +2582,12 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">system</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>503</meta_value>
-		</postmeta>
+
+
+
+
+
+
 		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>modular-furniture-connector-kit-free-stl</meta_value>
@@ -3395,38 +2596,16 @@
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>weight</meta_key>
 			<meta_value></meta_value>
@@ -3443,22 +2622,10 @@
 			<meta_key>height</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_purchase_note</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -3471,42 +2638,23 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>504,505,506,507,508,509,510,511</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:1:{s:36:"9fe57c6f-cc67-448c-bde0-5100faf3c5eb";a:3:{s:2:"id";s:36:"9fe57c6f-cc67-448c-bde0-5100faf3c5eb";s:4:"name";s:31:"Modular Furniture Connector Kit";s:4:"file";s:102:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/modular-furniture-connectors.zip";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -3543,10 +2691,7 @@
 			<meta_key>somdn_dlcount</meta_key>
 			<meta_value>428</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>rank_math_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -3632,7 +2777,7 @@
 		<title>Simple Wall Hanger</title>
 		<link>https://churuata3d.com/product/simple-wall-hanger-free-stl/</link>
 		<pubDate>Sun, 28 Oct 2018 15:14:50 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=526</guid>
 
 		<Print_Settings>
@@ -3658,20 +2803,20 @@
 			<li>(10) Wood screews.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>526</post_id>
+
 		<post_date>2018-10-28 15:14:50</post_date>
-		<post_date_gmt>2018-10-28 15:14:50</post_date_gmt>
+
 		<post_modified>2020-09-23 12:39:32</post_modified>
-		<post_modified_gmt>2020-09-23 12:39:32</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>simple-wall-hanger-free-stl</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">büro</category>
 		<category domain="product_tag">casa</category>
@@ -3692,30 +2837,12 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wall hanger</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>836</meta_value>
-		</postmeta>
+
+
+
+
+
+
 		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>simple-wall-hanger-free-stl</meta_value>
@@ -3724,38 +2851,16 @@
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>weight</meta_key>
 			<meta_value></meta_value>
@@ -3772,22 +2877,10 @@
 			<meta_key>height</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_purchase_note</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -3800,42 +2893,23 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>527,620,532</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:1:{s:36:"404e935c-9324-456a-a043-2f8a21c05d32";a:3:{s:2:"id";s:36:"404e935c-9324-456a-a043-2f8a21c05d32";s:4:"name";s:11:"Wall Hanger";s:4:"file";s:80:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/hanger.stl";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -3872,10 +2946,7 @@
 			<meta_key>somdn_dlcount</meta_key>
 			<meta_value>166</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_wp_old_slug</meta_key>
 			<meta_value>simple-hanger-coat-rack</meta_value>
@@ -3965,7 +3036,7 @@
 		<title>Coat Rack #2</title>
 		<link>https://churuata3d.com/product/printable-coat-rack-2-free-stl/</link>
 		<pubDate>Sun, 28 Oct 2018 15:42:38 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=535</guid>
 
 		<Print_Settings>
@@ -3986,20 +3057,20 @@
 			<li>20mm x 20mm x ?? Wood.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>535</post_id>
+
 		<post_date>2018-10-28 15:42:38</post_date>
-		<post_date_gmt>2018-10-28 15:42:38</post_date_gmt>
+
 		<post_modified>2020-09-23 12:39:27</post_modified>
-		<post_modified_gmt>2020-09-23 12:39:27</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>printable-coat-rack-2-free-stl</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">casa</category>
 		<category domain="product_tag">colgador</category>
@@ -4020,30 +3091,12 @@
 		<category domain="product_tag">oficina</category>
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wall hanger</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>530</meta_value>
-		</postmeta>
+
+
+
+
+
+
 		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>printable-coat-rack-2-free-stl</meta_value>
@@ -4052,42 +3105,20 @@
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_lowstock_amount</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>weight</meta_key>
 			<meta_value></meta_value>
@@ -4104,22 +3135,10 @@
 			<meta_key>height</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_purchase_note</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -4132,42 +3151,23 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>528,529</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:3:{s:36:"aafabefc-c7d2-4907-ac8d-9a5b82553c7f";a:3:{s:2:"id";s:36:"aafabefc-c7d2-4907-ac8d-9a5b82553c7f";s:4:"name";s:6:"Hanger";s:4:"file";s:80:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/hanger.stl";}s:36:"2871d8d0-de3e-4f20-b925-3fc16c3246aa";a:3:{s:2:"id";s:36:"2871d8d0-de3e-4f20-b925-3fc16c3246aa";s:4:"name";s:6:"Middle";s:4:"file";s:80:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/middle.stl";}s:36:"3e64f799-fd2b-483c-95e6-ee961cc82517";a:3:{s:2:"id";s:36:"3e64f799-fd2b-483c-95e6-ee961cc82517";s:4:"name";s:10:"Foot Cover";s:4:"file";s:78:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/foot.stl";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -4200,10 +3200,7 @@
 			<meta_key>somdn_dlcount</meta_key>
 			<meta_value>98</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>rank_math_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -4293,7 +3290,7 @@
 		<title>Monitor Stand (With or Without 1U Rack System)</title>
 		<link>https://churuata3d.com/product/monitor-stand-free-stl-to-download/</link>
 		<pubDate>Sun, 04 Nov 2018 20:05:59 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=552</guid>
 		<Print_Settings>
 			<materials>Wood PLA</materials>
@@ -4316,20 +3313,20 @@
 			<li>Wood width: 200mm.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>552</post_id>
+
 		<post_date>2018-11-04 20:05:59</post_date>
-		<post_date_gmt>2018-11-04 20:05:59</post_date_gmt>
+
 		<post_modified>2020-09-23 12:38:04</post_modified>
-		<post_modified_gmt>2020-09-23 12:38:04</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>monitor-stand-free-stl-to-download</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_tag">büro</category>
 		<category domain="product_tag">casa</category>
 		<category domain="product_tag">desktop</category>
@@ -4346,30 +3343,12 @@
 		<category domain="product_tag">schreibtisch</category>
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">Stand</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>554</meta_value>
-		</postmeta>
+
+
+
+
+
+
 		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>monitor-stand-free-stl-to-download</meta_value>
@@ -4382,42 +3361,20 @@
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_lowstock_amount</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>weight</meta_key>
 			<meta_value></meta_value>
@@ -4434,22 +3391,10 @@
 			<meta_key>height</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_purchase_note</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -4462,42 +3407,23 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>556,555,553</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:4:{s:36:"62feaf98-7efc-428f-a716-2413862b4a5a";a:3:{s:2:"id";s:36:"62feaf98-7efc-428f-a716-2413862b4a5a";s:4:"name";s:18:"Monitor Stand Left";s:4:"file";s:91:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/stand-norack-left.stl";}s:36:"a99d20ea-a097-4f9b-9cd4-6b1c63c94072";a:3:{s:2:"id";s:36:"a99d20ea-a097-4f9b-9cd4-6b1c63c94072";s:4:"name";s:19:"Monitor Stand Right";s:4:"file";s:92:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/stand-norack-right.stl";}s:36:"27dc6dfc-ef8e-40cd-b7fb-c4c64b81161c";a:3:{s:2:"id";s:36:"27dc6dfc-ef8e-40cd-b7fb-c4c64b81161c";s:4:"name";s:38:"Monitor Stand With 1U Rack System Left";s:4:"file";s:89:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/stand-rack-left.stl";}s:36:"28b75524-a0bf-4a47-9bf5-53431730f8e8";a:3:{s:2:"id";s:36:"28b75524-a0bf-4a47-9bf5-53431730f8e8";s:4:"name";s:39:"Monitor Stand With 1U Rack System Right";s:4:"file";s:90:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/stand-rack-right.stl";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>22</meta_value>
@@ -4526,10 +3452,7 @@
 			<meta_key>somdn_dlcount</meta_key>
 			<meta_value>181</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>rank_math_primary_product_cat</meta_key>
 			<meta_value>22</meta_value>
@@ -4619,7 +3542,7 @@
 		<title>Just Another Modular Shelving System</title>
 		<link>https://churuata3d.com/product/just-another-modular-shelving-system-stl/</link>
 		<pubDate>Sat, 10 Nov 2018 11:13:50 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=566</guid>
 
 		<Print_Settings>
@@ -4642,20 +3565,20 @@
 			<li>M3/M4 x 15mm-25mm screws.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>566</post_id>
+
 		<post_date>2018-11-10 11:13:50</post_date>
-		<post_date_gmt>2018-11-10 11:13:50</post_date_gmt>
+
 		<post_modified>2020-09-23 12:38:00</post_modified>
-		<post_modified_gmt>2020-09-23 12:38:00</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>just-another-modular-shelving-system-stl</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">badezimmer</category>
 		<category domain="product_tag">badroom</category>
@@ -4678,30 +3601,12 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">system</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>578</meta_value>
-		</postmeta>
+
+
+
+
+
+
 		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>just-another-modular-shelving-system-stl</meta_value>
@@ -4710,42 +3615,20 @@
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_lowstock_amount</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>weight</meta_key>
 			<meta_value></meta_value>
@@ -4762,22 +3645,10 @@
 			<meta_key>height</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_purchase_note</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -4790,46 +3661,24 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>576,577</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:3:{s:36:"7644311e-dc93-449c-a30b-f1e67ce11c46";a:3:{s:2:"id";s:36:"7644311e-dc93-449c-a30b-f1e67ce11c46";s:4:"name";s:4:"20mm";s:4:"file";s:58:"https://churuata3d.com/wp-content/uploads/2018/11/20mm.zip";}s:36:"5e2e3402-2e64-458c-b93f-fceec6e35738";a:3:{s:2:"id";s:36:"5e2e3402-2e64-458c-b93f-fceec6e35738";s:4:"name";s:4:"25mm";s:4:"file";s:58:"https://churuata3d.com/wp-content/uploads/2018/11/25mm.zip";}s:36:"90170b76-a530-453e-a80f-bd4d31a50227";a:3:{s:2:"id";s:36:"90170b76-a530-453e-a80f-bd4d31a50227";s:4:"name";s:4:"28mm";s:4:"file";s:58:"https://churuata3d.com/wp-content/uploads/2018/11/28mm.zip";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -4959,7 +3808,7 @@
 		<title>Pencil Holder</title>
 		<link>https://churuata3d.com/product/free-downloadable-pencil-holder-free-stl/</link>
 		<pubDate>Tue, 13 Nov 2018 17:51:05 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=605</guid>
 		<Print_Settings>
 			<materials>PLA,PLA+</materials>
@@ -4976,20 +3825,20 @@
 		</content>
 		<excerpt>A simple Pencil Holder for 3D Printing. Put in Order your Desktop with this Free Downloadable Pencil Holder! Enjoy it!</excerpt>
 		<licence>by-nc-sa</licence>
-		<post_id>605</post_id>
+
 		<post_date>2018-11-13 17:51:05</post_date>
-		<post_date_gmt>2018-11-13 17:51:05</post_date_gmt>
+
 		<post_modified>2020-09-23 12:34:14</post_modified>
-		<post_modified_gmt>2020-09-23 12:34:14</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>free-downloadable-pencil-holder-free-stl</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">büro</category>
 		<category domain="product_tag">casa</category>
@@ -5010,30 +3859,12 @@
 		<category domain="product_tag">porta lapiz</category>
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>619</meta_value>
-		</postmeta>
+
+
+
+
+
+
 		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>free-downloadable-pencil-holder-free-stl</meta_value>
@@ -5042,42 +3873,20 @@
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_lowstock_amount</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>weight</meta_key>
 			<meta_value></meta_value>
@@ -5094,22 +3903,10 @@
 			<meta_key>height</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_purchase_note</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -5122,46 +3919,24 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>607</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:1:{s:36:"d1e86dc4-bbcd-4034-9a00-798ad4062ab5";a:3:{s:2:"id";s:36:"d1e86dc4-bbcd-4034-9a00-798ad4062ab5";s:4:"name";s:13:"Pencil Holder";s:4:"file";s:86:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/11/pencilholder.stl";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -5283,7 +4058,7 @@
 		<title>Keys Holder</title>
 		<link>https://churuata3d.com/product/3d-printable-keys-holder-free-stl/</link>
 		<pubDate>Thu, 14 Feb 2019 14:12:38 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=615</guid>
 
 		<Print_Settings>
@@ -5307,20 +4082,20 @@
 			<li>(2) Wall plugs.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>615</post_id>
+
 		<post_date>2019-02-14 14:12:38</post_date>
-		<post_date_gmt>2019-02-14 14:12:38</post_date_gmt>
+
 		<post_modified>2020-09-23 12:34:12</post_modified>
-		<post_modified_gmt>2020-09-23 12:34:12</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>3d-printable-keys-holder-free-stl</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">büro</category>
 		<category domain="product_tag">casa</category>
@@ -5333,30 +4108,12 @@
 		<category domain="product_tag">oficina</category>
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>616</meta_value>
-		</postmeta>
+
+
+
+
+
+
 		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>3d-printable-keys-holder-free-stl</meta_value>
@@ -5369,42 +4126,20 @@
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_lowstock_amount</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>weight</meta_key>
 			<meta_value></meta_value>
@@ -5421,22 +4156,10 @@
 			<meta_key>height</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_purchase_note</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -5449,42 +4172,20 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>617</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -5623,7 +4324,7 @@
 		<title>3D Printable Shelf</title>
 		<link>https://churuata3d.com/product/3d-printable-shelf-free-stl-download/</link>
 		<pubDate>Sat, 23 Mar 2019 11:33:53 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=624</guid>
 
 		<Print_Settings>
@@ -5644,20 +4345,20 @@
 			<li>(1) Wood (Thickness: 18mm, width: 200mm)</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>624</post_id>
+
 		<post_date>2019-03-23 11:33:53</post_date>
-		<post_date_gmt>2019-03-23 11:33:53</post_date_gmt>
+
 		<post_modified>2020-09-23 12:34:11</post_modified>
-		<post_modified_gmt>2020-09-23 12:34:11</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>3d-printable-shelf-free-stl-download</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">badezimmer</category>
 		<category domain="product_tag">badroom</category>
@@ -5682,26 +4383,11 @@
 		<category domain="product_tag">shelving system</category>
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_rating_count</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
+
+
+
+
+
 		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>3d-printable-shelf-free-stl-download</meta_value>
@@ -5710,42 +4396,20 @@
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_from</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>sale_price_dates_to</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_lowstock_amount</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>weight</meta_key>
 			<meta_value></meta_value>
@@ -5762,22 +4426,10 @@
 			<meta_key>height</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_upsell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_crosssell_ids</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_purchase_note</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_default_attributes</meta_key>
-			<meta_value>a:0:{}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -5790,46 +4442,24 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>628,629</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:3:{s:36:"de796277-3326-4cbb-a7e1-7ff23fcd5a83";a:3:{s:2:"id";s:36:"de796277-3326-4cbb-a7e1-7ff23fcd5a83";s:4:"name";s:17:"simpleshelfV2.stl";s:4:"file";s:94:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/03/simpleshelfV4-53h1k6.stl";}s:36:"984acd57-429a-4635-adb9-87bdfd940320";a:3:{s:2:"id";s:36:"984acd57-429a-4635-adb9-87bdfd940320";s:4:"name";s:17:"simpleshelfV3.stl";s:4:"file";s:94:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/03/simpleshelfV3-7e3ifw.stl";}s:36:"78bce4dd-127d-485e-85f8-313f49b4ae2a";a:3:{s:2:"id";s:36:"78bce4dd-127d-485e-85f8-313f49b4ae2a";s:4:"name";s:17:"simpleshelfV4.stl";s:4:"file";s:94:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/03/simpleshelfV4-53h1k6.stl";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -5842,10 +4472,7 @@
 			<meta_key>_yoast_wpseo_content_score</meta_key>
 			<meta_value>90</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>630</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_wp_old_slug</meta_key>
 			<meta_value>simple-shelf</meta_value>
@@ -5976,7 +4603,7 @@
 		<title>3D Printable Children's Chair</title>
 		<link>https://churuata3d.com/product/3d-printable-childrens-chair-free-stl/</link>
 		<pubDate>Sun, 21 Jul 2019 19:53:06 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=664</guid>
 
 		<Print_Settings>
@@ -6006,20 +4633,20 @@
 			<li>(4) 30mm M5 Thread Forming Countersunk Flat Head.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>664</post_id>
+
 		<post_date>2019-07-21 19:53:06</post_date>
-		<post_date_gmt>2019-07-21 19:53:06</post_date_gmt>
+
 		<post_modified>2020-09-23 12:34:07</post_modified>
-		<post_modified_gmt>2020-09-23 12:34:07</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>3d-printable-childrens-chair-free-stl</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">casa</category>
 		<category domain="product_tag">chair</category>
@@ -6041,38 +4668,16 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">stuhl</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -6081,54 +4686,26 @@
 			<meta_key>downloadable</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:8:{s:36:"cb4c2baf-16b2-42f1-a3a3-ad1ed5a7bd7d";a:3:{s:2:"id";s:36:"cb4c2baf-16b2-42f1-a3a3-ad1ed5a7bd7d";s:4:"name";s:1:"a";s:4:"file";s:71:"https://churuata3d.com/wp-content/uploads/2019/07/pc-a-28mm-support.stl";}s:36:"dab3ef17-abfd-47db-b82c-22b97a4390c9";a:3:{s:2:"id";s:36:"dab3ef17-abfd-47db-b82c-22b97a4390c9";s:4:"name";s:2:"a1";s:4:"file";s:59:"https://churuata3d.com/wp-content/uploads/2019/07/pc-a1.stl";}s:36:"966ad135-9f3d-4500-9a07-1ca79741577b";a:3:{s:2:"id";s:36:"966ad135-9f3d-4500-9a07-1ca79741577b";s:4:"name";s:1:"b";s:4:"file";s:72:"https://churuata3d.com/wp-content/uploads/2019/07/pc-b-28mm-supoport.stl";}s:36:"f21089f5-1582-4f74-8d43-39400e2dfc2a";a:3:{s:2:"id";s:36:"f21089f5-1582-4f74-8d43-39400e2dfc2a";s:4:"name";s:2:"b1";s:4:"file";s:59:"https://churuata3d.com/wp-content/uploads/2019/07/pc-b1.stl";}s:36:"51046c50-9212-4c8c-bdb0-a2dd657b1470";a:3:{s:2:"id";s:36:"51046c50-9212-4c8c-bdb0-a2dd657b1470";s:4:"name";s:1:"c";s:4:"file";s:63:"https://churuata3d.com/wp-content/uploads/2019/07/pc-c-28mm.stl";}s:36:"c50a9945-bd8c-484a-9660-8b7aac64eadf";a:3:{s:2:"id";s:36:"c50a9945-bd8c-484a-9660-8b7aac64eadf";s:4:"name";s:1:"d";s:4:"file";s:63:"https://churuata3d.com/wp-content/uploads/2019/07/pc-d-28mm.stl";}s:36:"48b74d7b-e659-4461-985c-4eeb496ea940";a:3:{s:2:"id";s:36:"48b74d7b-e659-4461-985c-4eeb496ea940";s:4:"name";s:4:"hack";s:4:"file";s:61:"https://churuata3d.com/wp-content/uploads/2019/07/pc-hack.stl";}s:36:"53bf6415-d6ae-4cd1-9e8d-8a213c9fd894";a:3:{s:2:"id";s:36:"53bf6415-d6ae-4cd1-9e8d-8a213c9fd894";s:4:"name";s:3:"cnc";s:4:"file";s:57:"https://churuata3d.com/wp-content/uploads/2019/07/cnc.svg";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -6137,10 +4714,7 @@
 			<meta_key>_yoast_wpseo_content_score</meta_key>
 			<meta_value>90</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>670</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>668,669,671,673</meta_value>
@@ -6262,7 +4836,7 @@
 		<title>Furniture Connectors Kit</title>
 		<link>https://churuata3d.com/product/furniture-connectors-kit-free-stl/</link>
 		<pubDate>Tue, 24 Sep 2019 06:35:31 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=750</guid>
 
 		<Print_Settings>
@@ -6284,20 +4858,20 @@
 			<li>18mm Wood boards.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>750</post_id>
+
 		<post_date>2019-09-24 06:35:31</post_date>
-		<post_date_gmt>2019-09-24 06:35:31</post_date_gmt>
+
 		<post_modified>2022-09-26 12:48:33</post_modified>
-		<post_modified_gmt>2022-09-26 12:48:33</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>furniture-connectors-kit-free-stl</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">badezimmer</category>
 		<category domain="product_tag">badroom</category>
@@ -6321,38 +4895,16 @@
 		<category domain="product_tag">shelving system</category>
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -6361,30 +4913,14 @@
 			<meta_key>downloadable</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:6:{s:36:"08f3f339-d761-405a-bdb4-fd01e4c8c521";a:4:{s:2:"id";s:36:"08f3f339-d761-405a-bdb4-fd01e4c8c521";s:4:"name";s:1:"a";s:4:"file";s:75:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/09/a.stl";s:7:"enabled";b:1;}s:36:"3bb860de-49cb-46f6-8cb3-00d9b0eab6c4";a:4:{s:2:"id";s:36:"3bb860de-49cb-46f6-8cb3-00d9b0eab6c4";s:4:"name";s:2:"a1";s:4:"file";s:76:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/09/a1.stl";s:7:"enabled";b:1;}s:36:"49ae6739-d94d-4ee3-9d29-9c92ebdae1a6";a:4:{s:2:"id";s:36:"49ae6739-d94d-4ee3-9d29-9c92ebdae1a6";s:4:"name";s:1:"b";s:4:"file";s:75:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/09/b.stl";s:7:"enabled";b:1;}s:36:"2610b0f3-3986-4a58-b918-3964115a3f09";a:4:{s:2:"id";s:36:"2610b0f3-3986-4a58-b918-3964115a3f09";s:4:"name";s:1:"c";s:4:"file";s:75:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/09/c.stl";s:7:"enabled";b:1;}s:36:"4f7935a2-8b9a-4e72-8d2a-c631b35d3089";a:4:{s:2:"id";s:36:"4f7935a2-8b9a-4e72-8d2a-c631b35d3089";s:4:"name";s:1:"d";s:4:"file";s:75:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/09/d.stl";s:7:"enabled";b:1;}s:36:"9c788074-0b11-4978-b143-7ba075e7c4e1";a:4:{s:2:"id";s:36:"9c788074-0b11-4978-b143-7ba075e7c4e1";s:4:"name";s:1:"e";s:4:"file";s:75:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/09/e.stl";s:7:"enabled";b:1;}}</meta_value>
@@ -6397,18 +4933,9 @@
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>16</meta_value>
@@ -6433,10 +4960,7 @@
 			<meta_key>_yoast_wpseo_content_score</meta_key>
 			<meta_value>90</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>758</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>759,760,761,762,757</meta_value>
@@ -6542,7 +5066,7 @@
 		<title>Modular Connectors with Hardware</title>
 		<link>https://churuata3d.com/product/modular-connectors-with-hardware-free-stl/</link>
 		<pubDate>Thu, 26 Sep 2019 09:45:12 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=763</guid>
 
 		<Print_Settings>
@@ -6566,20 +5090,20 @@
 			<li>M5 screws.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>763</post_id>
+
 		<post_date>2019-09-26 09:45:12</post_date>
-		<post_date_gmt>2019-09-26 09:45:12</post_date_gmt>
+
 		<post_modified>2020-09-23 12:34:20</post_modified>
-		<post_modified_gmt>2020-09-23 12:34:20</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>modular-connectors-with-hardware-free-stl</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">badezimmer</category>
 		<category domain="product_tag">badroom</category>
@@ -6605,38 +5129,16 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">system</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -6645,46 +5147,18 @@
 			<meta_key>downloadable</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
+
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -6709,10 +5183,7 @@
 			<meta_key>_yoast_wpseo_content_score</meta_key>
 			<meta_value>90</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>764</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:2:{s:36:"103fc42d-566b-4fcc-a2f1-5e39b53aab23";a:3:{s:2:"id";s:36:"103fc42d-566b-4fcc-a2f1-5e39b53aab23";s:4:"name";s:1:"a";s:4:"file";s:59:"https://churuata3d.com/wp-content/uploads/2019/09/MCH-a.stl";}s:36:"e3eec685-3a33-4bab-9402-24aa80a3839c";a:3:{s:2:"id";s:36:"e3eec685-3a33-4bab-9402-24aa80a3839c";s:4:"name";s:1:"b";s:4:"file";s:59:"https://churuata3d.com/wp-content/uploads/2019/09/MCH-b.stl";}}</meta_value>
@@ -6822,7 +5293,7 @@
 		<title>Towel Holder</title>
 		<link>https://churuata3d.com/product/3d-printable-towel-holder-free-stl/</link>
 		<pubDate>Mon, 04 Nov 2019 09:53:44 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=767</guid>
 
 		<Print_Settings>
@@ -6843,20 +5314,20 @@
 			<li>20mm wooden dowel rod.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>767</post_id>
+
 		<post_date>2019-11-04 09:53:44</post_date>
-		<post_date_gmt>2019-11-04 09:53:44</post_date_gmt>
+
 		<post_modified>2020-09-23 12:33:01</post_modified>
-		<post_modified_gmt>2020-09-23 12:33:01</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>3d-printable-towel-holder-free-stl</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">badezimmer</category>
 		<category domain="product_tag">badroom</category>
@@ -6880,38 +5351,16 @@
 		<category domain="product_tag">toalla</category>
 		<category domain="product_tag">towel</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -6920,50 +5369,22 @@
 			<meta_key>downloadable</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:5:{s:36:"a36d89bb-ba66-4372-80cb-3ecc1d90283c";a:3:{s:2:"id";s:36:"a36d89bb-ba66-4372-80cb-3ecc1d90283c";s:4:"name";s:5:"right";s:4:"file";s:72:"https://churuata3d.com/wp-content/uploads/2019/09/Towel-Holder-right.stl";}s:36:"cf3411c2-c406-479b-9a1e-1f2a85443921";a:3:{s:2:"id";s:36:"cf3411c2-c406-479b-9a1e-1f2a85443921";s:4:"name";s:4:"left";s:4:"file";s:71:"https://churuata3d.com/wp-content/uploads/2019/09/Towel-Holder-left.stl";}s:36:"fc1f5e92-4075-4ae1-932e-2d07fb3dfd37";a:3:{s:2:"id";s:36:"fc1f5e92-4075-4ae1-932e-2d07fb3dfd37";s:4:"name";s:12:"right- screw";s:4:"file";s:79:"https://churuata3d.com/wp-content/uploads/2019/09/Towel-Holder-right-screws.stl";}s:36:"80e4564a-2794-4848-ae2d-ebbc8070087d";a:3:{s:2:"id";s:36:"80e4564a-2794-4848-ae2d-ebbc8070087d";s:4:"name";s:12:"left - screw";s:4:"file";s:78:"https://churuata3d.com/wp-content/uploads/2019/09/Towel-Holder-left-screws.stl";}s:36:"7f42bddf-ef13-4e7f-a0d0-6d397dd64bf2";a:3:{s:2:"id";s:36:"7f42bddf-ef13-4e7f-a0d0-6d397dd64bf2";s:4:"name";s:3:"cap";s:4:"file";s:75:"https://churuata3d.com/wp-content/uploads/2019/09/Towel-Holder-cap-logo.stl";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -7056,10 +5477,7 @@
 			<meta_key>rank_math_twitter_image_overlay</meta_key>
 			<meta_value>play</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>796</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>795</meta_value>
@@ -7093,7 +5511,7 @@
 		<title>Voronoi Pencil Holder</title>
 		<link>https://churuata3d.com/product/voronoi-pencil-holder-free-stl-to-download/</link>
 		<pubDate>Wed, 13 May 2020 10:09:14 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=830</guid>
 
 		<Print_Settings>
@@ -7113,20 +5531,20 @@
 		</content>
 		<excerpt>Voronoi Pencil Holder, have fun printing!</excerpt>
 		<licence>by-nc-sa</licence>
-		<post_id>830</post_id>
+
 		<post_date>2020-05-13 10:09:14</post_date>
-		<post_date_gmt>2020-05-13 10:09:14</post_date_gmt>
+
 		<post_modified>2020-09-23 12:30:57</post_modified>
-		<post_modified_gmt>2020-09-23 12:30:57</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>voronoi-pencil-holder-free-stl-to-download</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">badezimmer</category>
 		<category domain="product_tag">badroom</category>
@@ -7153,18 +5571,9 @@
 		<category domain="product_tag">schreibtisch</category>
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>831</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>regular_price</meta_key>
 			<meta_value>10</meta_value>
@@ -7185,14 +5594,8 @@
 			<meta_key>_tax_class</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>_sold_individually</meta_key>
 			<meta_value>yes</meta_value>
@@ -7205,34 +5608,15 @@
 			<meta_key>downloadable</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value>8</meta_value>
@@ -7241,14 +5625,8 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>832,833</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>rank_math_internal_links_processed</meta_key>
 			<meta_value>1</meta_value>
@@ -7342,7 +5720,7 @@
 		<title>Self Watering Planter</title>
 		<link>https://churuata3d.com/product/self-watering-planter-free-stl-download/</link>
 		<pubDate>Sun, 29 Dec 2019 09:00:12 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=868</guid>
 
 		<Print_Settings>
@@ -7360,20 +5738,20 @@
 		</content>
 		<excerpt>Self Watering Planter, have fun printing!</excerpt>
 		<licence>by-nc-sa</licence>
-		<post_id>868</post_id>
+
 		<post_date>2019-12-29 09:00:12</post_date>
-		<post_date_gmt>2019-12-29 09:00:12</post_date_gmt>
+
 		<post_modified>2020-09-23 12:31:01</post_modified>
-		<post_modified_gmt>2020-09-23 12:31:01</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>self-watering-planter-free-stl-download</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">deco</category>
 		<category domain="product_tag">desktop</category>
@@ -7391,34 +5769,15 @@
 		<category domain="product_tag">selfwatering</category>
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -7427,42 +5786,17 @@
 			<meta_key>downloadable</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
+
+
+
+
+
+
 		<postmeta>
 			<meta_key>rank_math_internal_links_processed</meta_key>
 			<meta_value>1</meta_value>
@@ -7515,10 +5849,7 @@
 			<meta_key>rank_math_twitter_image_overlay</meta_key>
 			<meta_value>play</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>873</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:3:{s:36:"7ad7d920-a717-45c3-8f5e-8265bf13b6e9";a:3:{s:2:"id";s:36:"7ad7d920-a717-45c3-8f5e-8265bf13b6e9";s:4:"name";s:9:"reservoir";s:4:"file";s:91:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/12/reservoir-freecad.stl";}s:36:"18229674-e59a-4ea8-a80e-a970e961cec0";a:3:{s:2:"id";s:36:"18229674-e59a-4ea8-a80e-a970e961cec0";s:4:"name";s:12:"pot original";s:4:"file";s:85:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/12/pot-freecad.stl";}s:36:"a5bfa3d8-4abb-4752-9a45-20d4e5d476b2";a:3:{s:2:"id";s:36:"a5bfa3d8-4abb-4752-9a45-20d4e5d476b2";s:4:"name";s:15:"pot alternative";s:4:"file";s:77:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/12/pot.stl";}}</meta_value>
@@ -7564,7 +5895,7 @@
 		<title>Customizable Furniture Connectors</title>
 		<link>https://churuata3d.com/product/customizable-furniture-connectors/</link>
 		<pubDate>Wed, 13 May 2020 10:42:47 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=889</guid>
 
 		<Print_Settings>
@@ -7584,20 +5915,20 @@
 			<li>Wood boards.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>889</post_id>
+
 		<post_date>2020-05-13 10:42:47</post_date>
-		<post_date_gmt>2020-05-13 10:42:47</post_date_gmt>
+
 		<post_modified>2020-09-23 12:30:55</post_modified>
-		<post_modified_gmt>2020-09-23 12:30:55</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>customizable-furniture-connectors</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">badezimmer</category>
 		<category domain="product_tag">badroom</category>
@@ -7630,22 +5961,9 @@
 			<meta_key>total_sales</meta_key>
 			<meta_value>1</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_sold_individually</meta_key>
 			<meta_value>yes</meta_value>
@@ -7662,54 +5980,23 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>758,847,759,760,761,762,757</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>845</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:1:{s:36:"5c1d45e2-94d1-4e0b-b771-2e8cb90caac1";a:3:{s:2:"id";s:36:"5c1d45e2-94d1-4e0b-b771-2e8cb90caac1";s:4:"name";s:33:"Customizable Furniture Connectors";s:4:"file";s:105:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2020/05/openscad-easy_connectors-urxr8l.zip";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>16</meta_value>
@@ -7806,10 +6093,7 @@
 			<meta_key>_wc_facebook_sync_enabled</meta_key>
 			<meta_value>no</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>regular_price</meta_key>
 			<meta_value>9</meta_value>
@@ -7826,10 +6110,7 @@
 			<meta_key>_sku</meta_key>
 			<meta_value>customizable-furniture-connectors</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>rank_math_schema_WooCommerceProduct</meta_key>
 			<meta_value>a:2:{s:5:"@type";s:18:"WooCommerceProduct";s:8:"metadata";a:3:{s:5:"title";s:18:"WooCommerceProduct";s:9:"isPrimary";b:1;s:4:"type";s:8:"template";}}</meta_value>
@@ -7843,7 +6124,7 @@
 		<title>Customizable Dice Pencil Holder</title>
 		<link>https://churuata3d.com/product/customizable-dice-pencil-holder-3d-model/</link>
 		<pubDate>Wed, 13 May 2020 11:27:04 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=893</guid>
 
 		<Print_Settings>
@@ -7862,20 +6143,20 @@
 		<excerpt>Customizable Dice Pencil Holder, have fun printing!</excerpt>
 		<is_parametric>true</is_parametric>
 		<licence>by-nc-sa</licence>
-		<post_id>893</post_id>
+
 		<post_date>2020-05-13 11:27:04</post_date>
-		<post_date_gmt>2020-05-13 11:27:04</post_date_gmt>
+
 		<post_modified>2020-09-23 12:30:51</post_modified>
-		<post_modified_gmt>2020-09-23 12:30:51</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>customizable-dice-pencil-holder-3d-model</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">büro</category>
 		<category domain="product_tag">desktop</category>
@@ -7900,22 +6181,9 @@
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_sold_individually</meta_key>
 			<meta_value>yes</meta_value>
@@ -7932,54 +6200,23 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>293,294</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>844</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:1:{s:36:"360b38c8-a120-4d03-94cb-0acbf41e45d1";a:3:{s:2:"id";s:36:"360b38c8-a120-4d03-94cb-0acbf41e45d1";s:4:"name";s:31:"Customizable Dice Pencil Holder";s:4:"file";s:108:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2020/05/openscad-dice_pencil_holder-wyqi14.zip";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>somdn_dlcount</meta_key>
 			<meta_value>32</meta_value>
@@ -8076,10 +6313,7 @@
 			<meta_key>rank_math_advanced_robots</meta_key>
 			<meta_value>a:3:{s:11:"max-snippet";s:2:"-1";s:17:"max-video-preview";s:2:"-1";s:17:"max-image-preview";s:5:"large";}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>regular_price</meta_key>
 			<meta_value>5</meta_value>
@@ -8100,10 +6334,7 @@
 			<meta_key>_sku</meta_key>
 			<meta_value>customizable-dice-pencil-holder-3d-model</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>rank_math_schema_WooCommerceProduct</meta_key>
 			<meta_value>a:2:{s:5:"@type";s:18:"WooCommerceProduct";s:8:"metadata";a:3:{s:5:"title";s:18:"WooCommerceProduct";s:9:"isPrimary";b:1;s:4:"type";s:8:"template";}}</meta_value>
@@ -8117,7 +6348,7 @@
 		<title>Customizable Coat Rack System</title>
 		<link>https://churuata3d.com/product/customizable-coat-rack-system/</link>
 		<pubDate>Wed, 13 May 2020 11:43:52 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=895</guid>
 		<Print_Settings>
 			<materials>PLA,PLA+</materials>
@@ -8138,20 +6369,20 @@
 			<li>Wooden dowel rod.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>895</post_id>
+
 		<post_date>2020-05-13 11:43:52</post_date>
-		<post_date_gmt>2020-05-13 11:43:52</post_date_gmt>
+
 		<post_modified>2020-09-23 12:30:42</post_modified>
-		<post_modified_gmt>2020-09-23 12:30:42</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>customizable-coat-rack-system</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">büro</category>
 		<category domain="product_tag">casa</category>
@@ -8175,22 +6406,9 @@
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_sold_individually</meta_key>
 			<meta_value>yes</meta_value>
@@ -8207,54 +6425,23 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>435,851,850,848,846,843,840</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>434</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:1:{s:36:"cce7e3ff-7200-404f-b423-a3e7d20ab163";a:3:{s:2:"id";s:36:"cce7e3ff-7200-404f-b423-a3e7d20ab163";s:4:"name";s:29:"Customizable Coat Rack System";s:4:"file";s:99:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2020/05/openscad-coat_rack-qnytte.zip";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -8351,10 +6538,7 @@
 			<meta_key>rank_math_advanced_robots</meta_key>
 			<meta_value>a:3:{s:11:"max-snippet";s:2:"-1";s:17:"max-video-preview";s:2:"-1";s:17:"max-image-preview";s:5:"large";}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>regular_price</meta_key>
 			<meta_value>7</meta_value>
@@ -8375,10 +6559,7 @@
 			<meta_key>_sku</meta_key>
 			<meta_value>customizable-coat-rack-system</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>rank_math_schema_WooCommerceProduct</meta_key>
 			<meta_value>a:2:{s:5:"@type";s:18:"WooCommerceProduct";s:8:"metadata";a:3:{s:5:"title";s:18:"WooCommerceProduct";s:9:"isPrimary";b:1;s:4:"type";s:8:"template";}}</meta_value>
@@ -8392,7 +6573,7 @@
 		<title>Customizable Modular Shelving System</title>
 		<link>https://churuata3d.com/product/customizable-modular-shelving-system/</link>
 		<pubDate>Wed, 13 May 2020 12:03:03 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=897</guid>
 
 		<Print_Settings>
@@ -8413,20 +6594,20 @@
 			<li>M3/M4 x 15mm-25mm screws.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>897</post_id>
+
 		<post_date>2020-05-13 12:03:03</post_date>
-		<post_date_gmt>2020-05-13 12:03:03</post_date_gmt>
+
 		<post_modified>2020-09-23 12:29:55</post_modified>
-		<post_modified_gmt>2020-09-23 12:29:55</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>customizable-modular-shelving-system</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">badezimmer</category>
 		<category domain="product_tag">badroom</category>
@@ -8458,22 +6639,9 @@
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_sold_individually</meta_key>
 			<meta_value>yes</meta_value>
@@ -8490,54 +6658,23 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>576,577,578,857</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>856</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:1:{s:36:"affed238-8a6c-4cf5-8704-505fc8dffd0d";a:3:{s:2:"id";s:36:"affed238-8a6c-4cf5-8704-505fc8dffd0d";s:4:"name";s:36:"Customizable Modular Shelving System";s:4:"file";s:126:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2020/05/openscad-just-another-modular-shelving-system-e4xnne.zip";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -8634,10 +6771,7 @@
 			<meta_key>rank_math_advanced_robots</meta_key>
 			<meta_value>a:3:{s:11:"max-snippet";s:2:"-1";s:17:"max-video-preview";s:2:"-1";s:17:"max-image-preview";s:5:"large";}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>regular_price</meta_key>
 			<meta_value>9</meta_value>
@@ -8658,10 +6792,7 @@
 			<meta_key>_sku</meta_key>
 			<meta_value>customizable-modular-shelving-system</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>rank_math_schema_WooCommerceProduct</meta_key>
 			<meta_value>a:2:{s:5:"@type";s:18:"WooCommerceProduct";s:8:"metadata";a:3:{s:5:"title";s:18:"WooCommerceProduct";s:9:"isPrimary";b:1;s:4:"type";s:8:"template";}}</meta_value>
@@ -8675,7 +6806,7 @@
 		<title>Parametric Modular Connectors</title>
 		<link>https://churuata3d.com/product/parametric-modular-connectors/</link>
 		<pubDate>Wed, 13 May 2020 12:41:35 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=900</guid>
 
 		<Print_Settings>
@@ -8697,20 +6828,20 @@
 			<li>M5 screws.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>900</post_id>
+
 		<post_date>2020-05-13 12:41:35</post_date>
-		<post_date_gmt>2020-05-13 12:41:35</post_date_gmt>
+
 		<post_modified>2020-09-23 12:29:32</post_modified>
-		<post_modified_gmt>2020-09-23 12:29:32</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>parametric-modular-connectors</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">badezimmer</category>
 		<category domain="product_tag">badroom</category>
@@ -8745,22 +6876,9 @@
 			<meta_key>total_sales</meta_key>
 			<meta_value>3</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_sold_individually</meta_key>
 			<meta_value>yes</meta_value>
@@ -8773,54 +6891,23 @@
 			<meta_key>downloadable</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>902</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:1:{s:36:"0042c16d-cbc0-4a88-b2cc-4b6599a40f36";a:3:{s:2:"id";s:36:"0042c16d-cbc0-4a88-b2cc-4b6599a40f36";s:4:"name";s:29:"Parametric Modular Connectors";s:4:"file";s:122:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2020/05/openscad-modular_connectors_with_hardware-lkbvpu.zip";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -8913,10 +7000,7 @@
 			<meta_key>rank_math_advanced_robots</meta_key>
 			<meta_value>a:3:{s:11:"max-snippet";s:2:"-1";s:17:"max-video-preview";s:2:"-1";s:17:"max-image-preview";s:5:"large";}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>903,764</meta_value>
@@ -8945,10 +7029,7 @@
 			<meta_key>_sku</meta_key>
 			<meta_value>parametric-modular-connectors</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>rank_math_schema_WooCommerceProduct</meta_key>
 			<meta_value>a:2:{s:5:"@type";s:18:"WooCommerceProduct";s:8:"metadata";a:3:{s:5:"title";s:18:"WooCommerceProduct";s:9:"isPrimary";b:1;s:4:"type";s:8:"template";}}</meta_value>
@@ -8962,7 +7043,7 @@
 		<title>Minimalist Parametric Pencil Holder</title>
 		<link>https://churuata3d.com/product/downloadable-parametric-pencil-holder/</link>
 		<pubDate>Wed, 13 May 2020 13:15:52 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=905</guid>
 
 		<Print_Settings>
@@ -8980,20 +7061,20 @@
 		</content>
 		<excerpt>A simple Pencil Holder for 3D Printing. Put in Order your Desktop with this Free Downloadable Pencil Holder! Enjoy it!</excerpt>
 		<licence>by-nc-sa</licence>
-		<post_id>905</post_id>
+
 		<post_date>2020-05-13 13:15:52</post_date>
-		<post_date_gmt>2020-05-13 13:15:52</post_date_gmt>
+
 		<post_modified>2020-09-23 12:29:09</post_modified>
-		<post_modified_gmt>2020-09-23 12:29:09</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>downloadable-parametric-pencil-holder</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">büro</category>
 		<category domain="product_tag">casa</category>
@@ -9023,22 +7104,9 @@
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_sold_individually</meta_key>
 			<meta_value>yes</meta_value>
@@ -9055,58 +7123,24 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>607,619,608</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>906</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:1:{s:36:"5e593eb3-66c9-4f33-b49b-5b3ebdaf5e5f";a:3:{s:2:"id";s:36:"5e593eb3-66c9-4f33-b49b-5b3ebdaf5e5f";s:4:"name";s:24:"Parametric Pencil Holder";s:4:"file";s:103:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2020/05/openscad-pencil_holder-ryyzoa.zip";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -9203,10 +7237,7 @@
 			<meta_key>rank_math_advanced_robots</meta_key>
 			<meta_value>a:3:{s:11:"max-snippet";s:2:"-1";s:17:"max-video-preview";s:2:"-1";s:17:"max-image-preview";s:5:"large";}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>regular_price</meta_key>
 			<meta_value>5</meta_value>
@@ -9248,7 +7279,7 @@
 		<title>Simple Modular Box</title>
 		<link>https://churuata3d.com/product/downloadable-modular-box/</link>
 		<pubDate>Wed, 13 May 2020 13:25:51 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=910</guid>
 
 		<Print_Settings>
@@ -9264,20 +7295,20 @@
 		</content>
 		<excerpt>A simple Modular Box for 3D Printing. Put in Order your Desktop with this Modular Box! Enjoy it!</excerpt>
 		<licence>by-nc-sa</licence>
-		<post_id>910</post_id>
+
 		<post_date>2020-05-13 13:25:51</post_date>
-		<post_date_gmt>2020-05-13 13:25:51</post_date_gmt>
+
 		<post_modified>2020-09-23 12:28:17</post_modified>
-		<post_modified_gmt>2020-09-23 12:28:17</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>downloadable-modular-box</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">büro</category>
 		<category domain="product_tag">casa</category>
@@ -9315,22 +7346,9 @@
 			<meta_key>total_sales</meta_key>
 			<meta_value>1</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_sold_individually</meta_key>
 			<meta_value>yes</meta_value>
@@ -9347,42 +7365,20 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>913,914,915,916</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>912</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:1:{s:36:"b5166ca8-55a3-4f5f-aeac-7a6b79716643";a:3:{s:2:"id";s:36:"b5166ca8-55a3-4f5f-aeac-7a6b79716643";s:4:"name";s:11:"Modular box";s:4:"file";s:101:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2020/05/openscad-modular_box-0lavxu.zip";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value>3</meta_value>
@@ -9391,22 +7387,10 @@
 			<meta_key>rank_math_internal_links_processed</meta_key>
 			<meta_value>1</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_vc_post_settings</meta_key>
-			<meta_value>a:1:{s:10:"vc_grid_id";a:0:{}}</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_advads_ad_settings</meta_key>
-			<meta_value>a:1:{s:11:"disable_ads";i:0;}</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>_yoast_wpseo_primary_product_cat</meta_key>
 			<meta_value>24</meta_value>
@@ -9507,10 +7491,7 @@
 			<meta_key>_wc_facebook_sync_enabled</meta_key>
 			<meta_value>no</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_sku</meta_key>
 			<meta_value>downloadable-modular-box</meta_value>
@@ -9528,7 +7509,7 @@
 		<title>Just Another 3D Printable Shelf</title>
 		<link>https://churuata3d.com/product/just-another-3d-printable-shelf/</link>
 		<pubDate>Wed, 20 May 2020 16:13:25 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=925</guid>
 
 		<Print_Settings>
@@ -9549,56 +7530,34 @@
 			<li>(1) Wood (Thickness: 18mm, width: 200mm)</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>925</post_id>
+
 		<post_date>2020-05-20 16:13:25</post_date>
-		<post_date_gmt>2020-05-20 16:13:25</post_date_gmt>
+
 		<post_modified>2020-09-23 12:26:27</post_modified>
-		<post_modified_gmt>2020-09-23 12:26:27</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>just-another-3d-printable-shelf</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_cat">Home Solutions</category>
 		<category domain="product_cat">Office Solutions</category>
 		<category domain="product_type">simple</category>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>934</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -9607,38 +7566,19 @@
 			<meta_key>downloadable</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:3:{s:36:"29f8cb0e-7f35-4366-92ac-2e4fa440883e";a:3:{s:2:"id";s:36:"29f8cb0e-7f35-4366-92ac-2e4fa440883e";s:4:"name";s:1:"a";s:4:"file";s:87:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2020/05/a-logo-z8zzyf.stl";}s:36:"87d301bd-2d7b-4024-a6a8-8ba76f5c1440";a:3:{s:2:"id";s:36:"87d301bd-2d7b-4024-a6a8-8ba76f5c1440";s:4:"name";s:1:"b";s:4:"file";s:87:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2020/05/b-logo-gv58sq.stl";}s:36:"5546cb9d-99b6-46e7-a425-e8b4a8a07096";a:3:{s:2:"id";s:36:"5546cb9d-99b6-46e7-a425-e8b4a8a07096";s:4:"name";s:1:"c";s:4:"file";s:87:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2020/05/c-logo-bdk8eq.stl";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>928,927,933,932,931,930,929</meta_value>
@@ -9647,14 +7587,8 @@
 			<meta_key>_wc_facebook_sync_enabled</meta_key>
 			<meta_value>no</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>rank_math_internal_links_processed</meta_key>
 			<meta_value>1</meta_value>
@@ -9740,7 +7674,7 @@
 		<title>Parametric Vase/Holder</title>
 		<link>https://churuata3d.com/product/parametric-vase-holder/</link>
 		<pubDate>Thu, 27 Aug 2020 11:20:48 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=944</guid>
 		<Print_Settings>
 			<materials>PLA,PLA+</materials>
@@ -9757,20 +7691,20 @@
 		</content>
 		<excerpt>A simple Vase/Holder for 3D Printing. With this example you can know how our Parametric Designs works! Full Customizabe Design! Enjoy it!</excerpt>
 		<licence>by-nc-sa</licence>
-		<post_id>944</post_id>
+
 		<post_date>2020-08-27 11:20:48</post_date>
-		<post_date_gmt>2020-08-27 11:20:48</post_date_gmt>
+
 		<post_modified>2020-09-23 11:31:42</post_modified>
-		<post_modified_gmt>2020-09-23 11:31:42</post_modified_gmt>
+
 		<comment_status>closed</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>parametric-vase-holder</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">büro</category>
 		<category domain="product_tag">casa</category>
@@ -9796,38 +7730,16 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">Vase</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>950</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -9836,38 +7748,19 @@
 			<meta_key>downloadable</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:1:{s:36:"09371086-d3b4-487e-99c6-6ddca3f0c50e";a:3:{s:2:"id";s:36:"09371086-d3b4-487e-99c6-6ddca3f0c50e";s:4:"name";s:23:"Parametric-Vase-Example";s:4:"file";s:104:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2020/08/Parametric-Vase-Example-yjk70d.zip";}}</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_product_version</meta_key>
-			<meta_value>4.5.2</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_price</meta_key>
 			<meta_value></meta_value>
@@ -9876,14 +7769,8 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>949,948,947,946,945</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>rank_math_internal_links_processed</meta_key>
 			<meta_value>1</meta_value>
@@ -9977,7 +7864,7 @@
 		<title>Shurikane Wall Mount Hanger</title>
 		<link>https://churuata3d.com/product/shurikane-wall-mount-hanger-free-file/</link>
 		<pubDate>Sat, 01 Jan 2022 13:46:56 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=962</guid>
 		<Print_Settings>
 			<materials>PLA,PLA+</materials>
@@ -10001,20 +7888,20 @@
 			<li>(1) Wall plugs.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>962</post_id>
+
 		<post_date>2022-01-01 13:46:56</post_date>
-		<post_date_gmt>2022-01-01 13:46:56</post_date_gmt>
+
 		<post_modified>2022-01-11 10:05:32</post_modified>
-		<post_modified_gmt>2022-01-11 10:05:32</post_modified_gmt>
+
 		<comment_status>open</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>shurikane-wall-mount-hanger-free-file</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">casa</category>
 		<category domain="product_tag">colgador</category>
@@ -10029,10 +7916,7 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wall hanger</category>
 		<category domain="product_tag">wohnung</category>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>rank_math_seo_score</meta_key>
 			<meta_value>85</meta_value>
@@ -10045,34 +7929,15 @@
 			<meta_key>rank_math_focus_keyword</meta_key>
 			<meta_value>Shurikane Wall Mount Hanger</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>970</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -10081,30 +7946,14 @@
 			<meta_key>downloadable</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:2:{s:36:"71bff0cc-0b1e-4c7b-8fae-462ec7127e1b";a:3:{s:2:"id";s:36:"71bff0cc-0b1e-4c7b-8fae-462ec7127e1b";s:4:"name";s:12:"Shurikane 01";s:4:"file";s:92:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2022/01/shurikane01-frzvdf.stl";}s:36:"cd5a291a-9eb6-48ad-a0de-c6943dcd69f4";a:3:{s:2:"id";s:36:"cd5a291a-9eb6-48ad-a0de-c6943dcd69f4";s:4:"name";s:12:"Shurikane 02";s:4:"file";s:92:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2022/01/shurikane02-hevurg.stl";}}</meta_value>
@@ -10117,14 +7966,8 @@
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>972,971,968,967</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value>somdn_included</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>rank_math_internal_links_processed</meta_key>
 			<meta_value>1</meta_value>
@@ -10162,7 +8005,7 @@
 		<title>Openbuilds Lead CNC Simple Wheels Dust Cover</title>
 		<link>https://churuata3d.com/product/openbuilds-lead-cnc-simple-wheels-dust-cover/</link>
 		<pubDate>Wed, 12 Jan 2022 12:18:46 +0000</pubDate>
-		<creator>churuata</creator>
+		<creator>admin</creator>
 		<guid isPermaLink="false">https://churuata3d.com/?post_type=product&#038;p=975</guid>
 
 		<Print_Settings>
@@ -10187,20 +8030,20 @@
 			<li>(2) Self-adhesive Sealing Wind-proof Brush Strip 9mmx5mmx46mm.</li>
 		</bill_of_materials>
 		<licence>by-nc-sa</licence>
-		<post_id>975</post_id>
+
 		<post_date>2022-01-12 12:18:46</post_date>
-		<post_date_gmt>2022-01-12 12:18:46</post_date_gmt>
+
 		<post_modified>2022-01-12 16:00:18</post_modified>
-		<post_modified_gmt>2022-01-12 16:00:18</post_modified_gmt>
+
 		<comment_status>open</comment_status>
 		<ping_status>closed</ping_status>
 		<post_name>openbuilds-lead-cnc-simple-wheels-dust-cover</post_name>
 		<status>PUBLISHED</status>
-		<post_parent>0</post_parent>
-		<menu_order>0</menu_order>
+		
+		
 		<post_type>product</post_type>
-		<post_password></post_password>
-		<is_sticky>0</is_sticky>
+		
+		
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_cat">3D Models</category>
 		<category domain="product_tag">cnc</category>
@@ -10211,10 +8054,7 @@
 		<category domain="product_tag">leadcnc</category>
 		<category domain="product_tag">openbuilds</category>
 		<category domain="product_type">simple</category>
-		<postmeta>
-			<meta_key>_edit_last</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>rank_math_seo_score</meta_key>
 			<meta_value>81</meta_value>
@@ -10227,26 +8067,10 @@
 			<meta_key>total_sales</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_tax_status</meta_key>
-			<meta_value>taxable</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_tax_class</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_managestock</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_backorders</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>no</meta_value>
-		</postmeta>
+
+
+
+
 		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
@@ -10255,42 +8079,20 @@
 			<meta_key>downloadable</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_download_limit</meta_key>
-			<meta_value>1</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_download_expiry</meta_key>
-			<meta_value>-1</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>stock</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>stock_status</meta_key>
-			<meta_value>instock</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_average_rating</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_wc_review_count</meta_key>
-			<meta_value>0</meta_value>
-		</postmeta>
+
+
+
 		<postmeta>
 			<meta_key>_product_version</meta_key>
 			<meta_value>6.1.0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>somdn_included</meta_key>
-			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>slide_template</meta_key>
-			<meta_value>default</meta_value>
-		</postmeta>
+
+
 		<postmeta>
 			<meta_key>rank_math_internal_links_processed</meta_key>
 			<meta_value>1</meta_value>
@@ -10299,10 +8101,7 @@
 			<meta_key>rank_math_primary_product_cat</meta_key>
 			<meta_value>0</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>_thumbnail_id</meta_key>
-			<meta_value>978</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>_product_image_gallery</meta_key>
 			<meta_value>982,981,980,979,977,976</meta_value>

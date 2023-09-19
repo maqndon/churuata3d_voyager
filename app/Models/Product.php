@@ -13,7 +13,7 @@ class Product extends Model
     use Translatable;
     use Resizable;
 
-    protected $translatable = ['title', 'body', 'excerpt', 'slug', 'categories', 'tags', 'seo_title', 'meta_description', 'meta_keywords', 'image', 'image_gallery', 'status', 'files', 'price', 'sale_price', 'downloadable'];
+    protected $translatable = ['creator_id', 'title', 'body', 'excerpt', 'slug', 'categories', 'tags', 'seo_title', 'meta_description', 'meta_keywords', 'image', 'image_gallery', 'status', 'files', 'price', 'sale_price', 'downloadable'];
 
     protected $guarded = [];
 
@@ -70,6 +70,11 @@ class Product extends Model
     public function bill_of_materials()
     {
         return $this->hasMany(BillOfMaterial::class);
+    }
+
+    public function creator()
+    {
+        return $this->belongsTo(User::class, 'creator_id');
     }
 
 }
