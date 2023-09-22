@@ -26,6 +26,12 @@ class ProductController extends VoyagerBaseController
         //product licence
         $licence = $product->licence()->first();
 
-        return view('products.show', compact('product', 'downloads', 'print_settings', 'bill_of_materials', 'licence'));
+        return view('products.show', compact(
+            'product',
+            'downloads',
+            'print_settings',
+            'bill_of_materials',
+            'licence'
+        ));
     }
 }
