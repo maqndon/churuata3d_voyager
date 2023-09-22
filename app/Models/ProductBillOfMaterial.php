@@ -11,10 +11,8 @@ class ProductBillOfMaterial extends Model
 
     protected $fillable = ['product_id', 'items'];
 
-    public function products()
+    public function product()
     {
-        return $this->belongsTo(Product::class)
-            ->published()
-            ->orderBy('created_at', 'DESC');
+        return $this->hasOne(Product::class);
     }
 }

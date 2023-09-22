@@ -42,14 +42,14 @@ class Product extends Model
         return $this->hasOne(Sale::class);
     }
 
-    public function downloads()
+    public function product_downloads()
     {
-        return $this->hasOne(Download::class);
+        return $this->hasOne(ProductDownload::class);
     }
 
     public function print_settings()
     {
-        return $this->hasMany(PrintSetting::class);
+        return $this->belongsToMany(PrintSetting::class, 'product_print_settings');
     }
 
     public function printing_materials()
@@ -62,19 +62,19 @@ class Product extends Model
         return $this->hasOne(PrintSupportRaft::class);
     }
 
-    public function licences()
+    public function licence()
     {
-        return $this->hasOne(Licence::class);
+        return $this->belongsToMany(Licence::class, 'product_licence');
     }
 
     public function bill_of_materials()
     {
-        return $this->hasMany(BillOfMaterial::class);
+        return $this->hasMany(ProductBillOfMaterial::class);
     }
 
-    public function creator()
+    public function created_by()
     {
-        return $this->belongsTo(User::class, 'creator_id');
+        return $this->belongsTo(User::class, 'created_by');
     }
 
 }

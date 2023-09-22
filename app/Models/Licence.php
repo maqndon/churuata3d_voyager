@@ -13,8 +13,6 @@ class Licence extends Model
 
     public function products()
     {
-        return $this->belongsToMany(PrintSetting::class)
-            ->published()
-            ->orderBy('created_at', 'DESC');
+        return $this->belongsToMany(Product::class, 'product_licence');
     }
 }

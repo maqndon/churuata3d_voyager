@@ -83,7 +83,7 @@ class ImportWoocommerceProducts extends Command
             // Remove <excerpt> tags using regex
             $excerpt = preg_replace('/<excerpt>(.*?)<\/excerpt>/s', '$1', $excerpt);
 
-            $gallery = explode(',', (string) $productData->images);
+            $images = explode(',', (string) $productData->images);
 
             $materials = $productData->Print_Settings->materials;
             $settings = $productData->Print_Settings->settings;
@@ -156,6 +156,10 @@ class ImportWoocommerceProducts extends Command
                 if ($metaKey === 'seo_title') {
                     $seoTitle = $metaValue;
                 }
+
+                if ($metaKey === 'downloads') {
+                    $downloads = $metaValue;
+                }
             }
 
             // Create a new product entry in Voyager
@@ -202,13 +206,22 @@ class ImportWoocommerceProducts extends Command
             }
 
             // Product printing materials
-            $this->storePivot($newProduct->id, 'printing_materials_id', 'name', $materials, 'product_printing_materials', 'printing_materials');
+            $this->storePivot($newProduct->id, 'printing_material_id', 'name', $materials, 'product_printing_materials', 'printing_materials');
 
             // Product printing settings
-            $this->storePivot($newProduct->id, 'print_settings_id', 'print_strength', $settings, 'product_print_settings', 'print_settings');
+            $this->storePivot($newProduct->id, 'print_setting_id', 'print_strength', $settings, 'product_print_settings', 'print_settings');
 
             // Product Licence
-            $this->storePivot($newProduct->id, 'licences_id', 'name', $licence, 'product_licence', 'licences');
+            $this->storePivot($newProduct->id, 'licence_id', 'name', $licence, 'product_licence', 'licences');
+
+            // Attach the product total downloads
+            DB::table('product_downloads')->insert([
+                'product_id' => $newProduct->id,
+                'total' => $downloads,
+            ]);
+
+            // Product downloads
+            $this->storePivot($newProduct->id, 'printing_material_id', 'name', $materials, 'product_printing_materials', 'printing_materials');
 
             // Product supports raft
             $supportRaft = new PrintSupportsRaft();
@@ -275,7 +288,7 @@ class ImportWoocommerceProducts extends Command
 
 
             // Handle product images
-            //     foreach ($gallery as $imageUrl) {
+            //     foreach ($images as $imageUrl) {
             //         // Download the image
             //         $imageName = basename($imageUrl);
             //         $imageContents = file_get_contents($imageUrl);
@@ -294,17 +307,16 @@ class ImportWoocommerceProducts extends Command
 
     private function storePivot($product_id, $foreign_id, $foreign_column, $data, $pivot_table, $table_foreign_id)
     {
-        // Product printing materials
 
         // Split the material string into an array
         $items = explode(',', $data);
 
-        // Create an array of materials
+        // Create an array of data
         $dataArray = [];
 
         foreach ($items as $item) {
 
-            // Perform a lookup to get the material_id based on the material_name
+            // Perform a lookup to get the id based on the name
             $colum_name_id = DB::table($table_foreign_id)->where($foreign_column, $item)->value('id');
 
             $dataArray[] = [
@@ -312,7 +324,7 @@ class ImportWoocommerceProducts extends Command
                 $foreign_id => $colum_name_id,
             ];
 
-            // Insert data into the product_printing_materials table
+            // Insert data into the table
             DB::table($pivot_table)->insert($dataArray);
         }
     }

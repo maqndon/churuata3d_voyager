@@ -24,9 +24,6 @@ return new class extends Migration
             $table->integer('stock')->nullable();
             $table->float('price')->nullable();
             $table->float('sale_price')->nullable();
-            $table->string('image')->nullable();
-            $table->json('gallery')->nullable();
-            $table->json('files')->nullable();
             $table->enum('status', ['PUBLISHED', 'DRAFT'])->default('DRAFT');
             $table->string('featured')->nullable();
             $table->boolean('virtual')->default(true);

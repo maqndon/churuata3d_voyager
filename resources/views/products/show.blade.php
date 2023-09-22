@@ -106,17 +106,33 @@
                 <!-- Options -->
                 <div class="mt-4 lg:row-span-3 lg:mt-0">
                     <h2 class="sr-only">Product information</h2>
-                    <p class="text-3xl tracking-tight text-gray-900">
-                    {{-- I need to do something better here --}}
-                    @php
-                        if ($product->price) {
-                            $product->price . "€";
-                        }else{
-                            echo "Free to download";
-                        }
-                    @endphp
-                    </p>
-
+                    <div>
+                        <p class="text-3xl tracking-tight text-gray-900">
+                            {{-- I need to do something better here --}}
+                            @php
+                                if ($product->price) {
+                                    $product->price . '€';
+                                } else {
+                                    echo 'Free to download';
+                                }
+                            @endphp
+                        </p>
+                    </div>
+                    <div>
+                        @if ($downloads)
+                            <p>{{ $downloads }} times downloaded.</p>
+                        @else
+                            <p> This Model has not been downloaded.</p>
+                        @endif
+                        <p></p>
+                        {{-- @php
+                            if ($downloads) {
+                                echo "$downloads times downloaded";
+                            } else {
+                                echo "This product has not been downloaded yet.";
+                            }
+                        @endphp --}}
+                    </div>
                     <!-- Reviews -->
                     <div class="mt-6">
                         <h3 class="sr-only">Reviews</h3>
@@ -348,45 +364,58 @@
                         </div>
                     </div>
 
+                    {{-- Body --}}
                     <div class="mt-10">
-                        <h3 class="text-sm font-medium text-gray-900">Highlights</h3>
+                        <h2 class="sr-only text-sm font-medium text-gray-900">Details</h2>
+
+                        <div class="mt-4 space-y-6">
+                            <p class="text-sm text-gray-600">{!! $product->body !!}</p>
+                        </div>
+                    </div>
+
+                    {{-- Print settings --}}
+                    <div class="mt-10">
+                        <h3 class="text-base text-gray-900">Print Settings</h3>
 
                         <div class="mt-4">
+                            @foreach ($print_settings as $setting)
+                                <p class="text-gray-600">Strength: {{ Str::ucfirst($setting->print_strength) }}</p>
+                                <ul role="list" class="list-disc space-y-2 pl-4 text-sm">
+                                    <li class="text-gray-400"><span class="text-gray-600">Resolution: {{ $setting->resolution }}</span></li>
+                                    <li class="text-gray-400"><span class="text-gray-600">Infill: {{ $setting->infill }}</span></li>
+                                    <li class="text-gray-400"><span class="text-gray-600">Top Layers: {{ $setting->top_layers }}</span></li>
+                                    <li class="text-gray-400"><span class="text-gray-600">Bottom Layers: {{ $setting->bottom_layers }}</span></li>
+                                    <li class="text-gray-400"><span class="text-gray-600">Walls: {{ $setting->walls }}</span></li>
+                                    <li class="text-gray-400"><span class="text-gray-600">Speed: {{ $setting->speed }}</span></li>
+                                </ul>
+                            @endforeach
+                        </div>
+                    </div>
+
+                    {{-- Bill Of Materials --}}
+                    <div class="mt-10">
+                        <h3 class="text-base text-gray-900">Bill of Materials</h3>
+                    
+                        <div class="mt-4">
                             <ul role="list" class="list-disc space-y-2 pl-4 text-sm">
-                                <li class="text-gray-400"><span class="text-gray-600">Hand cut and sewn locally</span>
-                                </li>
-                                <li class="text-gray-400"><span class="text-gray-600">Dyed with our proprietary
-                                        colors</span></li>
-                                <li class="text-gray-400"><span class="text-gray-600">Pre-washed &amp;
-                                        pre-shrunk</span></li>
-                                <li class="text-gray-400"><span class="text-gray-600">Ultra-soft 100% cotton</span>
-                                </li>
+                                @foreach($bill_of_materials as $bom)
+                                    <li class="text-gray-400"><span class="text-gray-600">{{ $bom }}</span></li>
+                                @endforeach
                             </ul>
                         </div>
                     </div>
 
+                    
+                    {{-- Licence --}}
                     <div class="mt-10">
-                        <h2 class="text-sm font-medium text-gray-900">Details</h2>
-
-                        <div class="mt-4 space-y-6">
-                            <p class="text-sm text-gray-600">{!! $product->body !!}</p>
-                            @php
-                                // Regular expression pattern to match the content inside <quick_fact> tags
-                                $pattern = '//[quick_fact.*?>(.*?)<\/quick_fact>/s';
-
-                                // Use preg_match to find the <quick_fact> tag content
-                                if (preg_match($pattern, $product->body, $matches)) {
-                                    // $matches[1] contains the content inside <quick_fact> tags
-                                    $quickFactContent = $matches[1];
-
-                                    // Now you can work with $quickFactContent, which contains the content inside <quick_fact> tags
-                                    echo $quickFactContent;
-                                } else {
-                                    echo "No <quick_fact> tag found in the database entry.";
-}
-                            @endphp
+                        <h3 class="text-base text-gray-900">Licence</h3>
+                    
+                        <div class="mt-4">
+                            <p class="text-sm text-gray-600">{!! $licence->description !!}</p>
+                            <a href="{{ $licence->link }}"><img src="{{ $licence->logo }}" alt="{{ $licence->name }}"></a>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

@@ -16,11 +16,11 @@ return new class extends Migration
         Schema::create('product_printing_materials', function (Blueprint $table) {
             $table->id()->index();
             $table->unsignedBigInteger('product_id');
-            $table->unsignedBigInteger('printing_materials_id');
+            $table->unsignedBigInteger('printing_material_id');
             $table->timestamps();
 
             $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
-            $table->foreign('printing_materials_id')->references('id')->on('printing_materials')->onDelete('cascade');
+            $table->foreign('printing_material_id')->references('id')->on('printing_materials')->onDelete('cascade');
         });
     }
 

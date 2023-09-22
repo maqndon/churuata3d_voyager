@@ -23,7 +23,7 @@ return new class extends Migration
             $table->string('mime_type');
             $table->string('disk');
             $table->unsignedBigInteger('size')->nullable();
-            $table->json('manipulations')->nullable();
+            
             $table->json('custom_properties')->nullable();
             $table->json('responsive_images')->nullable();
             $table->integer('order_column')->nullable();
