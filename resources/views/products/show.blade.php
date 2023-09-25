@@ -393,22 +393,24 @@
                     </div>
 
                     {{-- Bill Of Materials --}}
-                    <div class="mt-10">
-                        <h3 class="text-base text-gray-900">Bill of Materials</h3>
-                    
-                        <div class="mt-4">
-                            <ul role="list" class="list-disc space-y-2 pl-4 text-sm">
-                                @foreach($bill_of_materials as $bom)
-                                    <li class="text-gray-400"><span class="text-gray-600">{{ $bom }}</span></li>
-                                @endforeach
-                            </ul>
+                    @if ($bill_of_materials)
+                        <div class="mt-10">
+                            <h3 class="text-base text-gray-900">Bill of Materials</h3>
+                        
+                            <div class="mt-4">
+                                <ul role="list" class="list-disc space-y-2 pl-4 text-sm">
+                                    @foreach($bill_of_materials as $bom)
+                                        <li class="text-gray-400"><span class="text-gray-600">{{ $bom }}</span></li>
+                                    @endforeach
+                                </ul>
+                            </div>
                         </div>
-                    </div>
+                    @endif
 
                     
                     {{-- Licence --}}
                     <div class="mt-10">
-                        <h3 class="text-base text-gray-900">Licence</h3>
+                        <h3 class="sr-only">Licence</h3>
                     
                         <div class="mt-4">
                             <p class="text-sm text-gray-600">{!! $licence->description !!}</p>

@@ -21,7 +21,7 @@ class ProductController extends VoyagerBaseController
 
         //Bill of Materials
         $bom = $product->bill_of_materials()->get();
-        $bill_of_materials = $bom->pluck('item');
+        $bill_of_materials = count($bom) != 0  ? $bom->pluck('item') : false;
 
         //product licence
         $licence = $product->licence()->first();
