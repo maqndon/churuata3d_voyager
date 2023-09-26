@@ -2,11 +2,11 @@
 <html lang="{{ config('app.locale') }}" dir="{{ __('voyager::generic.is_rtl') == 'true' ? 'rtl' : 'ltr' }}">
 
 <head>
-    {{-- I need to change that --}}
+    <!-- I need to change that -->
     <title>@yield('page_title', setting('admin.title') . ' - ' . setting('admin.description'))</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
-    {{-- maybe i need to remove that --}}
+    <!-- maybe i need to remove that -->
     <meta name="assets-path" content="{{ route('voyager.voyager_assets') }}" />
 
     <!-- Google Fonts -->
@@ -20,10 +20,10 @@
         <link rel="shortcut icon" href="{{ Voyager::image($admin_favicon) }}" type="image/png">
     @endif
 
-    {{-- and this? --}}
+    <!-- and this? -->
     @yield('head')
 
-    {{-- Tailwind CSS --}}
+    <!-- Tailwind CSS -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
@@ -40,6 +40,9 @@
     {{ $product->featured }}
     {{ $product->virtual }}
     {{ $product->downloadable }}
+    {{ $product->printable }}
+    {{ $product->is_parametric }}
+    {{ $product->related_parametric }}
 
     <div class="bg-white">
         <div class="pt-6">
@@ -98,7 +101,7 @@
             <!-- Product info -->
             <div
                 class="mx-auto max-w-2xl px-4 pb-16 pt-10 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:grid-rows-[auto,auto,1fr] lg:gap-x-8 lg:px-8 lg:pb-24 lg:pt-16">
-                {{-- Title --}}
+                <!-- Title -->
                 <div class="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
                     <h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{{ $product->title }}</h1>
                 </div>
@@ -108,7 +111,7 @@
                     <h2 class="sr-only">Product information</h2>
                     <div>
                         <p class="text-3xl tracking-tight text-gray-900">
-                            {{-- I need to do something better here --}}
+                            <!-- I need to do something better here -->
                             @php
                                 if ($product->price) {
                                     $product->price . '€';
@@ -125,13 +128,6 @@
                             <p> This Model has not been downloaded.</p>
                         @endif
                         <p></p>
-                        {{-- @php
-                            if ($downloads) {
-                                echo "$downloads times downloaded";
-                            } else {
-                                echo "This product has not been downloaded yet.";
-                            }
-                        @endphp --}}
                     </div>
                     <!-- Reviews -->
                     <div class="mt-6">
@@ -172,8 +168,28 @@
                             </div>
                             <p class="sr-only">4 out of 5 stars</p>
                             <a href="#"
-                                class="ml-3 text-sm font-medium text-indigo-600 hover:text-indigo-500">117 reviews</a>
+                                class="ml-3 text-sm font-medium text-indigo-600 hover:text-indigo-500">
+                                117 reviews
+                            </a>
                         </div>
+                    </div>
+
+                    <!-- categories -->
+                    <div class="mt-4">
+                        <p class="text-sm">Categories: 
+                            @foreach ($categories as $category)
+                                <a class="text-indigo-600 hover:text-indigo-500" href="">{{ $category }}</a>
+                            @endforeach
+                        </p>
+                    </div>
+
+                    <!-- tags -->
+                    <div class="mt-1">
+                        <p class="text-sm">Tags: 
+                            @foreach ($tags as $tag)
+                                <a class="text-indigo-600 hover:text-indigo-500" href="">{{ $tag }}</a>
+                            @endforeach
+                        </p>
                     </div>
 
                     <form class="mt-10">
@@ -347,8 +363,9 @@
                         </div>
 
                         <button type="submit"
-                            class="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Add
-                            to bag</button>
+                            class="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                            Add to bag
+                        </button>
                     </form>
                 </div>
 
@@ -358,13 +375,13 @@
                     <div>
                         <h3 class="sr-only">Description</h3>
 
-                        {{-- Description --}}
+                        <!-- Description -->
                         <div class="space-y-6">
                             <p class="text-base text-gray-900">{!! $product->excerpt !!}</p>
                         </div>
                     </div>
 
-                    {{-- Body --}}
+                    <!-- Body -->
                     <div class="mt-10">
                         <h2 class="sr-only text-sm font-medium text-gray-900">Details</h2>
 
@@ -373,26 +390,28 @@
                         </div>
                     </div>
 
-                    {{-- Print settings --}}
-                    <div class="mt-10">
-                        <h3 class="text-base text-gray-900">Print Settings</h3>
+                    <!-- Print settings -->
+                    @if ($product->printable)
+                        <div class="mt-10">
+                            <h3 class="text-base text-gray-900">Print Settings</h3>
 
-                        <div class="mt-4">
-                            @foreach ($print_settings as $setting)
-                                <p class="text-gray-600">Strength: {{ Str::ucfirst($setting->print_strength) }}</p>
-                                <ul role="list" class="list-disc space-y-2 pl-4 text-sm">
-                                    <li class="text-gray-400"><span class="text-gray-600">Resolution: {{ $setting->resolution }}</span></li>
-                                    <li class="text-gray-400"><span class="text-gray-600">Infill: {{ $setting->infill }}</span></li>
-                                    <li class="text-gray-400"><span class="text-gray-600">Top Layers: {{ $setting->top_layers }}</span></li>
-                                    <li class="text-gray-400"><span class="text-gray-600">Bottom Layers: {{ $setting->bottom_layers }}</span></li>
-                                    <li class="text-gray-400"><span class="text-gray-600">Walls: {{ $setting->walls }}</span></li>
-                                    <li class="text-gray-400"><span class="text-gray-600">Speed: {{ $setting->speed }}</span></li>
-                                </ul>
-                            @endforeach
+                            <div class="mt-4">
+                                @foreach ($print_settings as $setting)
+                                    <p class="text-sm text-gray-600">Strength: {{ Str::ucfirst($setting->print_strength) }}</p>
+                                    <ul role="list" class="mt-4 list-disc space-y-2 pl-4 text-sm">
+                                        <li class="text-gray-400"><span class="text-gray-600">Resolution: {{ $setting->resolution }} mm</span></li>
+                                        <li class="text-gray-400"><span class="text-gray-600">Infill: {{ $setting->infill }}%</span></li>
+                                        <li class="text-gray-400"><span class="text-gray-600">Top Layers: {{ $setting->top_layers }}</span></li>
+                                        <li class="text-gray-400"><span class="text-gray-600">Bottom Layers: {{ $setting->bottom_layers }}</span></li>
+                                        <li class="text-gray-400"><span class="text-gray-600">Walls: {{ $setting->walls }}</span></li>
+                                        <li class="text-gray-400"><span class="text-gray-600">Speed: {{ $setting->speed }} mm/s</span></li>
+                                    </ul>
+                                @endforeach
+                            </div>
                         </div>
-                    </div>
+                    @endif
 
-                    {{-- Bill Of Materials --}}
+                    <!-- Bill Of Materials -->
                     @if ($bill_of_materials)
                         <div class="mt-10">
                             <h3 class="text-base text-gray-900">Bill of Materials</h3>
@@ -406,15 +425,16 @@
                             </div>
                         </div>
                     @endif
-
                     
-                    {{-- Licence --}}
+                    <!-- Licence -->
                     <div class="mt-10">
                         <h3 class="sr-only">Licence</h3>
                     
-                        <div class="mt-4">
-                            <p class="text-sm text-gray-600">{!! $licence->description !!}</p>
-                            <a href="{{ $licence->link }}"><img src="{{ $licence->logo }}" alt="{{ $licence->name }}"></a>
+                        <div class="mt-4 text-center">
+                            <a href="{{ $licence->link }}">{{ $licence->description }}</a>
+                            <div class="mt-4 flex justify-center">
+                                <a href="{{ $licence->link }}"><img src="{{ $licence->logo }}" alt="{{ $licence->name }}"></a>
+                            </div>
                         </div>
                     </div>
 
@@ -422,7 +442,6 @@
             </div>
         </div>
     </div>
-
 </body>
 
 </html>

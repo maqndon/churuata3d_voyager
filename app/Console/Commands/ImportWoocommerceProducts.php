@@ -7,6 +7,7 @@ use App\Models\Tag;
 use App\Models\Product;
 use App\Models\Category;
 use App\Models\ProductSale;
+use Illuminate\Support\Str;
 use App\Models\PrintSetting;
 use TCG\Voyager\Models\User;
 use Illuminate\Console\Command;
@@ -238,7 +239,10 @@ class ImportWoocommerceProducts extends Command
                 $categoryName = (string) $category;
 
                 if ($domain === 'product_tag') {
-                    $tag = Tag::firstOrCreate(['name' => $categoryName]);
+                    $tag = Tag::firstOrCreate([
+                        'name' => $categoryName,
+                        'slug' => Str::of($categoryName)->slug(),
+                        ]);
 
                     if ($tag) {
                         // Attach the existing tag to the product

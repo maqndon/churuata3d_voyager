@@ -15,15 +15,16 @@ class TagsTableSeeder extends Seeder
     public function run()
     {
         $tags = [
-            "home",
-            "office",
-            "kitchen",
-            "bad",
+            ['name'=>'home', 'slug'=>'home'],
+            ['name'=>'office', 'slug'=>'office'],
+            ['name'=>'kitchen', 'slug'=>'kitchen'],
+            ['name'=>'bad', 'slug'=>'bad'],
         ];
 
         foreach ($tags as $tag) {
             \App\Models\Tag::firstOrNew()->create([
-              'name' => $tag,
+              'name' => $tag['name'],
+              'slug' => $tag['slug'],
           ]);
         }
     }

@@ -14,7 +14,7 @@ class Post extends \TCG\Voyager\Models\Post
 
     public function tags()
     {
-        return $this->belongsToMany(Tag::class);
+        return $this->belongsToMany(Tag::class, 'post_tags');
     }
 
     public function getImageBrowseAttribute()
