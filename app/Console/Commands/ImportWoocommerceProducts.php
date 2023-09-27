@@ -312,7 +312,7 @@ class ImportWoocommerceProducts extends Command
     private function storePivot($product_id, $foreign_id, $foreign_column, $data, $pivot_table, $table_foreign_id)
     {
 
-        // Split the material string into an array
+        // Split the string into an array
         $items = explode(',', $data);
 
         // Create an array of data
@@ -328,8 +328,8 @@ class ImportWoocommerceProducts extends Command
                 $foreign_id => $colum_name_id,
             ];
 
-            // Insert data into the table
-            DB::table($pivot_table)->insert($dataArray);
+            // Insert data into the table or ignore it if already exist 
+            DB::table($pivot_table)->insertOrIgnore($dataArray);
         }
     }
 }

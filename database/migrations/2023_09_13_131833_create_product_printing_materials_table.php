@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id()->index();
             $table->unsignedBigInteger('product_id');
             $table->unsignedBigInteger('printing_material_id');
+            $table->unique(['product_id', 'printing_material_id'], 'unique_product_material');
             $table->timestamps();
 
             $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');

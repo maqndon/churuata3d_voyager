@@ -1,3 +1,5 @@
+@include('helpers.material_helpers')
+
 <!DOCTYPE html>
 <html lang="{{ config('app.locale') }}" dir="{{ __('voyager::generic.is_rtl') == 'true' ? 'rtl' : 'ltr' }}">
 
@@ -410,13 +412,14 @@
 
                     <!-- Print settings -->
                     @if ($product->printable)
-                        <div class="mt-10">
+                        <div class="mt-5">
                             <h3 class="text-base text-gray-900">Print Settings</h3>
 
                             <div class="mt-4">
+                                <p class="text-sm text-gray-600 mt-2">Printing Material: {{ formatMaterials($printing_materials) }}</p>
                                 @foreach ($print_settings as $setting)
-                                    <p class="text-sm text-gray-600">Strength: {{ Str::ucfirst($setting->print_strength) }}</p>
-                                    <ul role="list" class="mt-4 list-disc space-y-2 pl-4 text-sm">
+                                    <p class="text-sm text-gray-600 mt-2">Print Strength: {{ Str::ucfirst($setting->print_strength) }}</p>
+                                    <ul role="list" class="mt-2 list-disc space-y-2 pl-4 text-sm">
                                         <li class="text-gray-400"><span class="text-gray-600">Resolution: {{ $setting->resolution }} mm</span></li>
                                         <li class="text-gray-400"><span class="text-gray-600">Infill: {{ $setting->infill }}%</span></li>
                                         <li class="text-gray-400"><span class="text-gray-600">Top Layers: {{ $setting->top_layers }}</span></li>
@@ -431,7 +434,7 @@
 
                     <!-- Bill Of Materials -->
                     @if ($bill_of_materials)
-                        <div class="mt-10">
+                        <div class="mt-5">
                             <h3 class="text-base text-gray-900">Bill of Materials</h3>
                         
                             <div class="mt-4">
@@ -445,7 +448,7 @@
                     @endif
                     
                     <!-- Licence -->
-                    <div class="mt-10">
+                    <div class="mt-5">
                         <h3 class="sr-only">Licence</h3>
                     
                         <div class="mt-4 text-center">

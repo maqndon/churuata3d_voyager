@@ -54,7 +54,7 @@ class Product extends Model
 
     public function printing_materials()
     {
-        return $this->hasMany(PrintingMaterial::class);
+        return $this->belongsToMany(PrintingMaterial::class, 'product_printing_materials');
     }
 
     public function print_supports_rafts()

@@ -17,6 +17,11 @@ class ProductController extends VoyagerBaseController
         //products downloads
         $downloads = $product->product_downloads->count();
 
+        //products printing material(s)
+        $printing_materials = $product->printing_materials()->pluck('name')->toArray();
+
+        // dd($printing_materials);
+
         //product print settings
         $print_settings = $product->print_settings()->get();
 
@@ -49,6 +54,7 @@ class ProductController extends VoyagerBaseController
             'product',
             'downloads',
             'print_settings',
+            'printing_materials',
             'bill_of_materials',
             'licence',
             'tags',
