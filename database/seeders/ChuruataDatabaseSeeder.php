@@ -20,7 +20,7 @@ class ChuruataDatabaseSeeder extends Seeder
             PrintingMaterialSeeder::class,
             PrintSettingSeeder::class,
             LicenceSeeder::class,
-            ProductParametricContentSeeder::class,
+            ProductCommonContentSeeder::class,
         ]);
     }
 }

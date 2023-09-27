@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Product;
 use Illuminate\Http\Request;
+use Doctrine\DBAL\Schema\Table;
+use Illuminate\Support\Facades\DB;
 
 class ProductController extends VoyagerBaseController
 {
@@ -33,6 +35,14 @@ class ProductController extends VoyagerBaseController
         $categoriesArray = $product->categories()->get();
         $categories = $categoriesArray->pluck('name');
 
+        //common contents, for "all" products the same content
+        $common_content = DB::Table('product_common_content')->get();
+        $common_contents = [];
+
+        foreach ($common_content as $content) {
+            $common_contents[$content->type]=$content->content;
+        }
+
         //related products
 
         return view('products.show', compact(
@@ -42,7 +52,8 @@ class ProductController extends VoyagerBaseController
             'bill_of_materials',
             'licence',
             'tags',
-            'categories'
+            'categories',
+            'common_contents'
         ));
     }
 }

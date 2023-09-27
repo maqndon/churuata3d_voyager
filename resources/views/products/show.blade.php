@@ -41,7 +41,6 @@
     {{ $product->virtual }}
     {{ $product->downloadable }}
     {{ $product->printable }}
-    {{ $product->is_parametric }}
     {{ $product->related_parametric }}
 
     <div class="bg-white">
@@ -388,6 +387,25 @@
                         <div class="mt-4 space-y-6">
                             <p class="text-sm text-gray-600">{!! $product->body !!}</p>
                         </div>
+                        <div class="mt-4 space-y-6">
+                            <p class="text-sm text-gray-600">{{ $common_contents['thanks'] }}</p>
+                        </div>
+                        <!-- Parametric Content -->
+                        @if ($product->is_parametric)
+                            <div class="mt-4 space-y-6">
+                                <p class="text-sm text-gray-600">{!! $common_contents['parametric'] !!}</p>
+                            </div>
+                        @endif
+                        <!-- Donation Content -->
+                        @if ($product->price === null)
+                            <div class="mt-4 space-y-6">
+                                <p class="text-sm text-gray-600">{!! $common_contents['donation'] !!}</p>
+                            </div>
+                        @endif
+                        <!-- Comercial Use Licence Content -->
+                            <div class="mt-4 space-y-6">
+                                <p class="text-sm text-gray-600">{!! $common_contents['comercial_use'] !!}</p>
+                            </div>
                     </div>
 
                     <!-- Print settings -->

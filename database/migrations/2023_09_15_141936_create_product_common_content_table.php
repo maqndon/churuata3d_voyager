@@ -13,8 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('product_parametric_content', function (Blueprint $table) {
+        Schema::create('product_common_content', function (Blueprint $table) {
             $table->id()->index();
+            $table->string('type');
             $table->text('content');
             $table->timestamps();
         });
@@ -27,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('product_parametric_content');
+        Schema::dropIfExists('product_common_content');
     }
 };
