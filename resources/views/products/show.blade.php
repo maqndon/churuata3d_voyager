@@ -45,6 +45,12 @@
     {{ $product->printable }}
     {{ $product->related_parametric }}
 
+    <div class="product">
+        <img src="{{ asset('images/products/' . $product->image_path) }}" alt="{{ $product->name }}" />
+        <a href="{{ route('products.index') }}">Back to Products</a>
+    </div>
+    
+
     <div class="bg-white">
         <div class="pt-6">
             <nav aria-label="Breadcrumb">
@@ -77,7 +83,7 @@
             </nav>
 
             <!-- Image gallery -->
-            <div class="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8">
+            {{-- <div class="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8">
                 <div class="aspect-h-4 aspect-w-3 hidden overflow-hidden rounded-lg lg:block">
                     <img src="https://tailwindui.com/img/ecommerce-images/product-page-02-secondary-product-shot.jpg"
                         alt="Two each of gray, white, and black shirts laying flat."
@@ -96,6 +102,35 @@
                 <div class="aspect-h-5 aspect-w-4 lg:aspect-h-4 lg:aspect-w-3 sm:overflow-hidden sm:rounded-lg">
                     <img src="https://tailwindui.com/img/ecommerce-images/product-page-02-featured-product-shot.jpg"
                         alt="Model wearing plain white basic tee." class="h-full w-full object-cover object-center">
+                </div>
+            </div> --}}
+
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="card">
+                        <div id="product-images-carousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                @foreach ($product->images as $key => $image)
+                                    <div class="carousel-item {{ $key === 0 ? 'active' : '' }}">
+                                        <img src="{{ asset('images/products/' . $image->image_path) }}" alt="{{ $product->name }}">
+                                    </div>
+                                @endforeach
+                            </div>
+                            <a class="carousel-control-prev" href="#product-images-carousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#product-images-carousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">{{ $product->name }}</h5>
+                            <p class="card-text">{{ $product->description }}</p>
+                            <a href="{{ route('products.index') }}" class="btn btn-primary">Back to Products</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -201,10 +236,7 @@
                             <fieldset class="mt-4">
                                 <legend class="sr-only">Choose a color</legend>
                                 <div class="flex items-center space-x-3">
-                                    <!--
-                    Active and Checked: "ring ring-offset-1"
-                    Not Active and Checked: "ring-2"
-                  -->
+                                    <!-- Active and Checked: "ring ring-offset-1" Not Active and Checked: "ring-2" -->
                                     <label
                                         class="relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 focus:outline-none ring-gray-400">
                                         <input type="radio" name="color-choice" value="White" class="sr-only"
@@ -213,10 +245,7 @@
                                         <span aria-hidden="true"
                                             class="h-8 w-8 bg-white rounded-full border border-black border-opacity-10"></span>
                                     </label>
-                                    <!--
-                    Active and Checked: "ring ring-offset-1"
-                    Not Active and Checked: "ring-2"
-                  -->
+                                    <!-- Active and Checked: "ring ring-offset-1" Not Active and Checked: "ring-2" -->
                                     <label
                                         class="relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 focus:outline-none ring-gray-400">
                                         <input type="radio" name="color-choice" value="Gray" class="sr-only"
@@ -225,10 +254,7 @@
                                         <span aria-hidden="true"
                                             class="h-8 w-8 bg-gray-200 rounded-full border border-black border-opacity-10"></span>
                                     </label>
-                                    <!--
-                    Active and Checked: "ring ring-offset-1"
-                    Not Active and Checked: "ring-2"
-                  -->
+                                    <!-- Active and Checked: "ring ring-offset-1" Not Active and Checked: "ring-2" -->
                                     <label
                                         class="relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 focus:outline-none ring-gray-900">
                                         <input type="radio" name="color-choice" value="Black" class="sr-only"
@@ -274,10 +300,7 @@
                                         <input type="radio" name="size-choice" value="XS" class="sr-only"
                                             aria-labelledby="size-choice-1-label">
                                         <span id="size-choice-1-label">XS</span>
-                                        <!--
-                      Active: "border", Not Active: "border-2"
-                      Checked: "border-indigo-500", Not Checked: "border-transparent"
-                    -->
+                                        <!-- Active: "border", Not Active: "border-2" Checked: "border-indigo-500", Not Checked: "border-transparent" -->
                                         <span class="pointer-events-none absolute -inset-px rounded-md"
                                             aria-hidden="true"></span>
                                     </label>
@@ -287,10 +310,7 @@
                                         <input type="radio" name="size-choice" value="S" class="sr-only"
                                             aria-labelledby="size-choice-2-label">
                                         <span id="size-choice-2-label">S</span>
-                                        <!--
-                      Active: "border", Not Active: "border-2"
-                      Checked: "border-indigo-500", Not Checked: "border-transparent"
-                    -->
+                                        <!-- Active: "border", Not Active: "border-2" Checked: "border-indigo-500", Not Checked: "border-transparent" -->
                                         <span class="pointer-events-none absolute -inset-px rounded-md"
                                             aria-hidden="true"></span>
                                     </label>
@@ -300,10 +320,7 @@
                                         <input type="radio" name="size-choice" value="M" class="sr-only"
                                             aria-labelledby="size-choice-3-label">
                                         <span id="size-choice-3-label">M</span>
-                                        <!--
-                      Active: "border", Not Active: "border-2"
-                      Checked: "border-indigo-500", Not Checked: "border-transparent"
-                    -->
+                                        <!-- Active: "border", Not Active: "border-2" Checked: "border-indigo-500", Not Checked: "border-transparent" -->
                                         <span class="pointer-events-none absolute -inset-px rounded-md"
                                             aria-hidden="true"></span>
                                     </label>
@@ -313,10 +330,7 @@
                                         <input type="radio" name="size-choice" value="L" class="sr-only"
                                             aria-labelledby="size-choice-4-label">
                                         <span id="size-choice-4-label">L</span>
-                                        <!--
-                      Active: "border", Not Active: "border-2"
-                      Checked: "border-indigo-500", Not Checked: "border-transparent"
-                    -->
+                                        <!-- Active: "border", Not Active: "border-2" Checked: "border-indigo-500", Not Checked: "border-transparent" -->
                                         <span class="pointer-events-none absolute -inset-px rounded-md"
                                             aria-hidden="true"></span>
                                     </label>
@@ -326,10 +340,7 @@
                                         <input type="radio" name="size-choice" value="XL" class="sr-only"
                                             aria-labelledby="size-choice-5-label">
                                         <span id="size-choice-5-label">XL</span>
-                                        <!--
-                      Active: "border", Not Active: "border-2"
-                      Checked: "border-indigo-500", Not Checked: "border-transparent"
-                    -->
+                                        <!-- Active: "border", Not Active: "border-2" Checked: "border-indigo-500", Not Checked: "border-transparent" -->
                                         <span class="pointer-events-none absolute -inset-px rounded-md"
                                             aria-hidden="true"></span>
                                     </label>
@@ -339,10 +350,7 @@
                                         <input type="radio" name="size-choice" value="2XL" class="sr-only"
                                             aria-labelledby="size-choice-6-label">
                                         <span id="size-choice-6-label">2XL</span>
-                                        <!--
-                      Active: "border", Not Active: "border-2"
-                      Checked: "border-indigo-500", Not Checked: "border-transparent"
-                    -->
+                                        <!-- Active: "border", Not Active: "border-2" Checked: "border-indigo-500", Not Checked: "border-transparent" -->
                                         <span class="pointer-events-none absolute -inset-px rounded-md"
                                             aria-hidden="true"></span>
                                     </label>
@@ -352,10 +360,7 @@
                                         <input type="radio" name="size-choice" value="3XL" class="sr-only"
                                             aria-labelledby="size-choice-7-label">
                                         <span id="size-choice-7-label">3XL</span>
-                                        <!--
-                      Active: "border", Not Active: "border-2"
-                      Checked: "border-indigo-500", Not Checked: "border-transparent"
-                    -->
+                                        <!-- Active: "border", Not Active: "border-2" Checked: "border-indigo-500", Not Checked: "border-transparent" -->
                                         <span class="pointer-events-none absolute -inset-px rounded-md"
                                             aria-hidden="true"></span>
                                     </label>
@@ -416,16 +421,16 @@
                             <h3 class="text-base text-gray-900">Print Settings</h3>
 
                             <div class="mt-4">
-                                <p class="text-sm text-gray-600 mt-2">Printing Material: {{ formatMaterials($printing_materials) }}</p>
+                                <p class="text-sm text-gray-600 mt-2">Printing Material: </span><span class="text-gray-600">{{ formatMaterials($printing_materials) }}</span></p>
                                 @foreach ($print_settings as $setting)
-                                    <p class="text-sm text-gray-600 mt-2">Print Strength: {{ Str::ucfirst($setting->print_strength) }}</p>
+                                    <p class="text-sm text-gray-600 mt-2">Print Strength: </span><span class="text-gray-600">{{ Str::ucfirst($setting->print_strength) }}</span></p>
                                     <ul role="list" class="mt-2 list-disc space-y-2 pl-4 text-sm">
-                                        <li class="text-gray-400"><span class="text-gray-600">Resolution: {{ $setting->resolution }} mm</span></li>
-                                        <li class="text-gray-400"><span class="text-gray-600">Infill: {{ $setting->infill }}%</span></li>
-                                        <li class="text-gray-400"><span class="text-gray-600">Top Layers: {{ $setting->top_layers }}</span></li>
-                                        <li class="text-gray-400"><span class="text-gray-600">Bottom Layers: {{ $setting->bottom_layers }}</span></li>
-                                        <li class="text-gray-400"><span class="text-gray-600">Walls: {{ $setting->walls }}</span></li>
-                                        <li class="text-gray-400"><span class="text-gray-600">Speed: {{ $setting->speed }} mm/s</span></li>
+                                        <li class="text-gray-400"><span class="text-gray-900">Resolution: </span><span class="text-gray-600">{{ $setting->resolution }} mm</span></li>
+                                        <li class="text-gray-400"><span class="text-gray-900">Infill: </span><span class="text-gray-600">{{ $setting->infill }}%</span></li>
+                                        <li class="text-gray-400"><span class="text-gray-900">Top Layers: </span><span class="text-gray-600">{{ $setting->top_layers }}</span></li>
+                                        <li class="text-gray-400"><span class="text-gray-900">Bottom Layers: </span><span class="text-gray-600">{{ $setting->bottom_layers }}</span></li>
+                                        <li class="text-gray-400"><span class="text-gray-900">Walls: </span><span class="text-gray-600">{{ $setting->walls }}</span></li>
+                                        <li class="text-gray-400"><span class="text-gray-900">Speed: </span><span class="text-gray-600">{{ $setting->speed }} mm/s</span></li>
                                     </ul>
                                 @endforeach
                             </div>

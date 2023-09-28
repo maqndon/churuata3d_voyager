@@ -201,7 +201,7 @@ class ProductsBreadSeeder extends Seeder
                     "column"        => "id",
                     "key"           => "id",
                     "label"         => "name",
-                    "pivot_table"   => "category_product",
+                    "pivot_table"   => "product_categories",
                     "pivot"         => "1",
                     "taggable"      => null
                 ],
@@ -227,7 +227,7 @@ class ProductsBreadSeeder extends Seeder
                     "column"        => "id",
                     "key"           => "id",
                     "label"         => "name",
-                    "pivot_table"   => "tag_product",
+                    "pivot_table"   => "product_tags",
                     "pivot"         => "1",
                     "taggable"      => null
                 ],
