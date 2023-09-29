@@ -4,13 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Models\Product;
 use Illuminate\Http\Request;
-use Doctrine\DBAL\Schema\Table;
 use Illuminate\Support\Facades\DB;
 
 class ProductController extends VoyagerBaseController
 {
     public function show(Request $request, $slug)
     {
+
         //product
         $product = Product::where('slug', $slug)->first();
 

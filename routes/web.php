@@ -2,10 +2,8 @@
 
 use TCG\Voyager\Facades\Voyager;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PageController;
-use App\Http\Controllers\PostController;
 use App\Http\Controllers\ProductController;
-use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\VoyagerProductController;
 
 /*
 |--------------------------------------------------------------------------

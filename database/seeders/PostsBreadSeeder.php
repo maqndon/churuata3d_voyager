@@ -132,7 +132,7 @@ class PostsBreadSeeder extends Seeder
                     "column"        => "id",
                     "key"           => "id",
                     "label"         => "name",
-                    "pivot_table"   => "category_post",
+                    "pivot_table"   => "post_categories",
                     "pivot"         => "1",
                     "taggable"      => null
                 ],
@@ -158,7 +158,7 @@ class PostsBreadSeeder extends Seeder
                     "column"        => "id",
                     "key"           => "id",
                     "label"         => "name",
-                    "pivot_table"   => "tag_post",
+                    "pivot_table"   => "post_tags",
                     "pivot"         => "1",
                     "taggable"      => null
                 ],
@@ -166,10 +166,10 @@ class PostsBreadSeeder extends Seeder
             ])->save();
         }
 
-        $dataRow = $this->dataRow($postDataType, 'seo_title');
+        $dataRow = $this->dataRow($postDataType, 'post_hasone_seo_title_relationship');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'text',
+                'type'         => 'relationship',
                 'display_name' => __('voyager::seeders.data_rows.seo_title'),
                 'required'     => 0,
                 'browse'       => 1,
@@ -177,6 +177,16 @@ class PostsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
+                'details'      => [
+                    "model"         => "App\\Models\\Seo",
+                    "table"         => "seos",
+                    "type"          => "hasOne",
+                    "column"        => "seoable_id",
+                    "key"           => "id",
+                    "label"         => "title",
+                    "pivot"         => "0",
+                    "taggable"      => null
+                ],
                 'order'        => 6,
             ])->save();
         }
@@ -286,10 +296,10 @@ class PostsBreadSeeder extends Seeder
             ])->save();
         }
 
-        $dataRow = $this->dataRow($postDataType, 'meta_description');
+        $dataRow = $this->dataRow($postDataType, 'post_hasone_seo_meta_description_relationship');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'text',
+                'type'         => 'relationship',
                 'display_name' => __('voyager::seeders.data_rows.meta_description'),
                 'required'     => 1,
                 'browse'       => 1,
@@ -297,6 +307,16 @@ class PostsBreadSeeder extends Seeder
                 'edit'         => 1,
                 'add'          => 1,
                 'delete'       => 1,
+                'details'      => [
+                    "model"         => "App\\Models\\Seo",
+                    "table"         => "seos",
+                    "type"          => "hasOne",
+                    "column"        => "seoable_id",
+                    "key"           => "id",
+                    "label"         => "meta_description",
+                    "pivot"         => "0",
+                    "taggable"      => null
+                ],
                 'order'        => 11,
             ])->save();
         }
@@ -319,7 +339,7 @@ class PostsBreadSeeder extends Seeder
         $dataRow = $this->dataRow($postDataType, 'status');
         if (!$dataRow->exists) {
             $dataRow->fill([
-                'type'         => 'text',
+                'type'         => 'select_dropdown',
                 'display_name' => __('voyager::seeders.data_rows.status'),
                 'required'     => 0,
                 'browse'       => 1,
@@ -328,8 +348,11 @@ class PostsBreadSeeder extends Seeder
                 'add'          => 1,
                 'delete'       => 1,
                 'details'      => [
-                    'default' => 'DRAFT',
-                    'allowed' => ['DRAFT', 'PENDING', 'PUBLISHED'],
+                    'options' => [
+                        'DRAFT'  => 'DRAFT', 
+                        'PENDING' => 'PENDING',
+                        'PUBLISHED'    => 'PUBLISHED'
+                    ],
                 ],
                 'order'        => 13,
             ])->save();

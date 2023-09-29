@@ -61,7 +61,7 @@
 		<category domain="product_cat">Home Solutions</category>
 		<category domain="product_type">simple</category>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>brush-teeth-holder</meta_value>
 		</postmeta>
 		<postmeta>
@@ -97,7 +97,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>289,290</meta_value>
 		</postmeta>
 		<postmeta>
@@ -109,7 +109,7 @@
 			<meta_value>a:1:{s:36:"cea189c7-b774-4f37-b225-b9d5252d32aa";a:3:{s:2:"id";s:36:"cea189c7-b774-4f37-b225-b9d5252d32aa";s:4:"name";s:18:"Brush Teeth Holder";s:4:"file";s:90:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/porta-cepillosV6.stl";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
@@ -125,15 +125,11 @@
 			<meta_value>Free Brush Teeth Holder! Make some space in your bathroom with this free 3D Model</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
-			<meta_value>Free Brush Teeth Holder! Make some space in your bathroom with this free 3D Model</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Brush Teeth Holder</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
+			<meta_key>permalink</meta_key>
 			<meta_value>brush-teeth-holder</meta_value>
 		</postmeta>
 	</item>
@@ -175,7 +171,7 @@
 		<category domain="product_tag">toallin</category>
 		<category domain="product_tag">towel</category>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>kitchen-paper-towel-holder</meta_value>
 		</postmeta>
 		<postmeta>
@@ -211,7 +207,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>286,287</meta_value>
 		</postmeta>
 		<postmeta>
@@ -223,7 +219,7 @@
 			<meta_value>a:2:{s:36:"11066d29-746a-45da-a6fe-5da9049e0236";a:3:{s:2:"id";s:36:"11066d29-746a-45da-a6fe-5da9049e0236";s:4:"name";s:4:"Base";s:4:"file";s:83:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/base-logo.stl";}s:36:"6c838de8-0ba2-48af-8450-d659e24d9eb7";a:3:{s:2:"id";s:36:"6c838de8-0ba2-48af-8450-d659e24d9eb7";s:4:"name";s:3:"Top";s:4:"file";s:82:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/top-logo.stl";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
@@ -239,15 +235,11 @@
 			<meta_value>A simple 3D Printable Paper Towel Holder with a 20mm wooden dowel rod. Easy to assemble without screw or glue.</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
-			<meta_value>A simple 3D Printable Paper Towel Holder with a 20mm wooden dowel rod. Easy to assemble without screw or glue.</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Paper Towel Holder</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
+			<meta_key>permalink</meta_key>
 			<meta_value>kitchen-paper-towel-holder</meta_value>
 		</postmeta>
 	</item>
@@ -265,7 +257,7 @@
 		<content>
 			A German friend asked me to make a 3d model in the form of a dice. This is because his last name is "Würfel" which means "dice" in German. Because we are inclined to make functional models, that dice must fulfill a function. That's how our first pencil holder design came to light, the Dice Pencil Holder. A simple design of a dice but functional. The Dice Pencil Holder have 2 versions, a 8cm height (Version B) and a 10cm height (Version A). In addition, a no-support version is available too.
 
-			These no-support version just add a 0.2mm top bridge in each hole. The support is quite easy to remove. In conclusion, these model is really easy to print, despite of the upper holes, with this little trick. Here you can find another <a href="https://churuata3d.com/products/pencil-holder/">Free Downloadable Pencil Holder</a>. Which you can also download. 
+			This no-support version just add a 0.2mm top bridge in each hole. The support is quite easy to remove. In conclusion, these model is really easy to print, despite of the upper holes, with this little trick. Here you can find another <a href="https://churuata3d.com/products/pencil-holder/">Free Downloadable Pencil Holder</a>. Which you can also download. 
 		</content>
 		<excerpt>Just Another Dice Pencil Holder, have fun printing!</excerpt>
 		<related_parametric>customizable-dice-pencil-holder-3d-model</related_parametric>
@@ -291,7 +283,7 @@
 		<category domain="product_tag">schreibtisch</category>
 		<category domain="product_type">simple</category>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>dice-pencil-holder-free-stl-3d-model</meta_value>
 		</postmeta>
 		<postmeta>
@@ -327,7 +319,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>294</meta_value>
 		</postmeta>
 		<postmeta>
@@ -335,7 +327,7 @@
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
@@ -352,19 +344,15 @@
 		</postmeta>
 		<postmeta>
 			<meta_key>meta_description</meta_key>
-			<meta_value>Dice Pencil Holder for 3D Printer. Download for free this model and make some space on your desktop.</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>rank_math_description</meta_key>
 			<meta_value>Dice Pencil Holder for 3D Printer. Download for free this model and make some space on your desktop. Free 3D Model. Free STL to download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Dice Pencil Holder</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>dice-pencil-holder-free-stl-3d-model</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>dice-pencil-holder</meta_value>
 		</postmeta>
 	</item>
 	<item>
@@ -414,7 +402,7 @@
 		<category domain="product_tag">wall hanger</category>
 		<category domain="product_tag">wohnung</category>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>3d-printable-wall-hanger-free-stl-3d-model</meta_value>
 		</postmeta>
 		<postmeta>
@@ -450,7 +438,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>296,297</meta_value>
 		</postmeta>
 		<postmeta>
@@ -462,7 +450,7 @@
 			<meta_value>a:1:{s:36:"f6c1d1de-7edf-4191-90e0-ec1d2b5780b1";a:3:{s:2:"id";s:36:"f6c1d1de-7edf-4191-90e0-ec1d2b5780b1";s:4:"name";s:11:"Wall Hanger";s:4:"file";s:84:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/wallhanger.stl";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
@@ -475,19 +463,15 @@
 		</postmeta>
 		<postmeta>
 			<meta_key>meta_description</meta_key>
-			<meta_value>3D Printable Wall Hanger. Ideal for Children's room or the office. Add a wood piece to make a wonderful DIY weekend Project.</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>rank_math_description</meta_key>
 			<meta_value>3D Printable Wall Hanger. Ideal for Children's room or the office. Add a wood piece to make a wonderful DIY weekend Project. Free 3D Model. Free STL to download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>3D Printable Wall Hanger</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>3d-printable-wall-hanger-free-stl-3d-model</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>3d-printable-wall-hanger</meta_value>
 		</postmeta>
 	</item>
 	<item>
@@ -534,7 +518,7 @@
 		<category domain="product_tag">system</category>
 		<category domain="product_tag">wohnung</category>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>3d-printable-shelving-system-free-stl</meta_value>
 		</postmeta>
 		<postmeta>
@@ -570,7 +554,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>333,334</meta_value>
 		</postmeta>
 		<postmeta>
@@ -582,7 +566,7 @@
 			<meta_value>a:4:{s:36:"d1037ae5-94ff-4b73-9037-925c6c1e33e1";a:3:{s:2:"id";s:36:"d1037ae5-94ff-4b73-9037-925c6c1e33e1";s:4:"name";s:3:"Top";s:4:"file";s:84:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/top-logo-1.stl";}s:36:"a272ec2c-6512-43d2-99a2-d17a0f19f5c6";a:3:{s:2:"id";s:36:"a272ec2c-6512-43d2-99a2-d17a0f19f5c6";s:4:"name";s:6:"Bottom";s:4:"file";s:85:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/bottom-logo.stl";}s:36:"048c5f3b-24a9-43ef-866a-4fcc28cc9eed";a:3:{s:2:"id";s:36:"048c5f3b-24a9-43ef-866a-4fcc28cc9eed";s:4:"name";s:9:"Panel Top";s:4:"file";s:88:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/panel-top-logo.stl";}s:36:"cb780f32-7b87-40f8-8c68-46a8ee28715b";a:3:{s:2:"id";s:36:"cb780f32-7b87-40f8-8c68-46a8ee28715b";s:4:"name";s:12:"Panel Bottom";s:4:"file";s:91:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/panel-bottom-logo.stl";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
@@ -590,23 +574,20 @@
 			<meta_value>131</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>3D Printable Shelving System Kit for 3d printing really to download. Build your own Furniture and have fun doin it. Are easy to print and fun to ensamble.</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>seo_title</meta_key>
 			<meta_value>3D Printable Shelving System Kit%%page%% %%sep%% %%sitename%% - Free Download</meta_value>
-		</postmeta>		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+		</postmeta>
+		<postmeta>
+			<meta_key>meta_description</meta_key>
 			<meta_value>3D Printable Shelving System Kit for 3d printing really to download. Build your own Furniture and have fun doin it. Free 3D Model. Free STL to download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>3D Printable Shelving System</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>3d-printable-shelving-system-free-stl</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>3d-printable-shelving-system</meta_value>
 		</postmeta>
 	</item>
 	<item>
@@ -649,7 +630,7 @@
 		<category domain="product_tag">toalla</category>
 		<category domain="product_tag">towel</category>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>3d-printable-towel-hanger-free-stl</meta_value>
 		</postmeta>
 		<postmeta>
@@ -685,7 +666,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>338,341,342</meta_value>
 		</postmeta>
 		<postmeta>
@@ -697,7 +678,7 @@
 			<meta_value>a:2:{s:36:"aeab3a3d-2218-400e-8a56-5b2edb3079fc";a:3:{s:2:"id";s:36:"aeab3a3d-2218-400e-8a56-5b2edb3079fc";s:4:"name";s:6:"Part A";s:4:"file";s:82:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/hanger-a.stl";}s:36:"7ee75b8e-7ebb-491f-b0ee-eb6d0c4dd24a";a:3:{s:2:"id";s:36:"7ee75b8e-7ebb-491f-b0ee-eb6d0c4dd24a";s:4:"name";s:6:"Part B";s:4:"file";s:82:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/09/hanger-b.stl";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
@@ -710,19 +691,15 @@
 		</postmeta>
 		<postmeta>
 			<meta_key>meta_description</meta_key>
-			<meta_value>3D Printable Towel Hanger with hidden hardware perfect for the bathroom or the rooms. Make your spaces beautiful with your 3D Printer!</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>rank_math_description</meta_key>
 			<meta_value>3D Printable Towel Hanger with hidden hardware perfect for the bathroom or the rooms. Make your spaces beautiful with your 3D Printer! Free STL to Download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>3D Printable Towel Hanger</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>3d-printable-towel-hanger-free-stl</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>3d-printable-towel-hanger</meta_value>
 		</postmeta>
 	</item>
 	<item>
@@ -782,7 +759,7 @@
 			<meta_value>1538560728</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>furniture-modular-connectors-with-hardware</meta_value>
 		</postmeta>
 		<postmeta>
@@ -818,7 +795,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>410,411,412,413,414,415,416</meta_value>
 		</postmeta>
 		<postmeta>
@@ -830,12 +807,8 @@
 			<meta_value>a:9:{s:36:"7e92b65a-e76f-4700-9de4-24a1b0029f01";a:3:{s:2:"id";s:36:"7e92b65a-e76f-4700-9de4-24a1b0029f01";s:4:"name";s:6:"A 27mm";s:4:"file";s:79:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/c28mm.stl";}s:36:"ff8f99d0-b803-4ffd-8ed1-c3d453102b5b";a:3:{s:2:"id";s:36:"ff8f99d0-b803-4ffd-8ed1-c3d453102b5b";s:4:"name";s:6:"B 27mm";s:4:"file";s:79:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/b27mm.stl";}s:36:"4fd32c28-c681-487b-a238-1ba24a97830d";a:3:{s:2:"id";s:36:"4fd32c28-c681-487b-a238-1ba24a97830d";s:4:"name";s:6:"C 27mm";s:4:"file";s:79:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/c27mm.stl";}s:36:"9de7c484-9021-42a1-9e75-51e246ff0959";a:3:{s:2:"id";s:36:"9de7c484-9021-42a1-9e75-51e246ff0959";s:4:"name";s:6:"A 28mm";s:4:"file";s:79:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/a28mm.stl";}s:36:"57aba476-8775-497c-90eb-1442dac0dfc3";a:3:{s:2:"id";s:36:"57aba476-8775-497c-90eb-1442dac0dfc3";s:4:"name";s:6:"B 28mm";s:4:"file";s:79:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/b28mm.stl";}s:36:"69142b1f-b6df-47bb-b421-40801d2db16a";a:3:{s:2:"id";s:36:"69142b1f-b6df-47bb-b421-40801d2db16a";s:4:"name";s:6:"C 28mm";s:4:"file";s:79:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/c28mm.stl";}s:36:"83f5c951-1014-4909-ba8a-2b57d0894870";a:3:{s:2:"id";s:36:"83f5c951-1014-4909-ba8a-2b57d0894870";s:4:"name";s:3:"Jig";s:4:"file";s:77:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/jig.stl";}s:36:"38e2b336-a13d-4290-8110-3c7522dbd2c4";a:3:{s:2:"id";s:36:"38e2b336-a13d-4290-8110-3c7522dbd2c4";s:4:"name";s:13:"Wall Hanger A";s:4:"file";s:76:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/yz.stl";}s:36:"e98267a9-8f5f-455c-b387-259232e4e85a";a:3:{s:2:"id";s:36:"e98267a9-8f5f-455c-b387-259232e4e85a";s:4:"name";s:13:"Wall Hanger B";s:4:"file";s:75:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/x.stl";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>Furniture Modular Connectors with hardware for 3d printing really to download. Build your own Furniture and have fun do in it.</meta_value>
 		</postmeta>
 		<postmeta>
 			<meta_key>downloads</meta_key>
@@ -846,15 +819,15 @@
 			<meta_value>%%title%% with hardware%%page%% %%sep%% %%sitename%%</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>Furniture Modular Connectors with hardware for 3d printing really to download. Build your own Furniture and have fun do in it. Free STL</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Furniture Modular Connectors</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
+			<meta_key>permalink</meta_key>
 			<meta_value>furniture-modular-connectors-with-hardware</meta_value>
 		</postmeta>
 	</item>
@@ -897,7 +870,7 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wohnung</category>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>petroglyph-mobile-free-stl</meta_value>
 		</postmeta>
 		<postmeta>
@@ -929,7 +902,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>428</meta_value>
 		</postmeta>
 		<postmeta>
@@ -945,10 +918,6 @@
 			<meta_value>%%title%% %%page%% %%sep%% %%sitename%% %%sep%% Download it for free</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>Petroglyph Mobile. Download and print this beautiful Venezuelan Petroglyphs mobile to decorate your home or office.</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>_children</meta_key>
 			<meta_value>a:0:{}</meta_value>
 		</postmeta>
@@ -961,7 +930,7 @@
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
@@ -969,16 +938,16 @@
 			<meta_value>15</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>Petroglyph Mobile. Download and print this beautiful Venezuelan Petroglyphs mobile to decorate your home or office. Free STL to download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Petroglyph Mobile</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>petroglyph-mobile-free-stl</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>petroglyph-mobile</meta_value>
 		</postmeta>
 	</item>
 	<item>
@@ -1022,7 +991,7 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wohnung</category>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>3d-printable-coat-rack-free-stl</meta_value>
 		</postmeta>
 		<postmeta>
@@ -1058,7 +1027,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>434</meta_value>
 		</postmeta>
 		<postmeta>
@@ -1070,7 +1039,7 @@
 			<meta_value>a:2:{s:36:"b68c9305-06f7-4c1a-b99a-4dc5b6de325e";a:3:{s:2:"id";s:36:"b68c9305-06f7-4c1a-b99a-4dc5b6de325e";s:4:"name";s:4:"20mm";s:4:"file";s:60:"https://churuata3d.com/wp-content/uploads/2018/11/cr20mm.zip";}s:36:"c107c1e7-a6f5-49c8-9e30-007843bd4dad";a:3:{s:2:"id";s:36:"c107c1e7-a6f5-49c8-9e30-007843bd4dad";s:4:"name";s:4:"28mm";s:4:"file";s:60:"https://churuata3d.com/wp-content/uploads/2018/11/cr28mm.zip";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
@@ -1078,23 +1047,20 @@
 			<meta_value>3D Printable %%title%% %%page%% %%sep%% %%sitename%% %%sep%% Free Download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>3D Printable Coat Rack for the Home or Office, one of our DIY weekend projects! Just download the files for free.</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>downloads</meta_key>
 			<meta_value>124</meta_value>
-		</postmeta>		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+		</postmeta>
+		<postmeta>
+			<meta_key>meta_description</meta_key>
 			<meta_value>3D Printable Coat Rack for the Home or Office, one of our DIY weekend projects! Just download the files for free. Free STL to Download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>3D Printable Coat Rack</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>3d-printable-coat-rack-free-stl</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>3d-printable-coat-rack</meta_value>
 		</postmeta>
 	</item>
 	<item>
@@ -1151,7 +1117,7 @@
 		<category domain="product_tag">system</category>
 		<category domain="product_tag">wohnung</category>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>14mm-modular-connector-kit-stl-download</meta_value>
 		</postmeta>
 		<postmeta>
@@ -1187,7 +1153,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>458</meta_value>
 		</postmeta>
 		<postmeta>
@@ -1199,7 +1165,7 @@
 			<meta_value>a:1:{s:36:"426023a9-61a7-4dee-8c6f-b09fe20b8024";a:3:{s:2:"id";s:36:"426023a9-61a7-4dee-8c6f-b09fe20b8024";s:4:"name";s:26:"14mm Modular Connector Kit";s:4:"file";s:87:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/14x14-exactos.zip";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
@@ -1207,23 +1173,20 @@
 			<meta_value>14mm Modular Connector Kit%%sep%% %%sitename%% %%sep%% Free Download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>14mm Modular Connector Kit free to download, make your own furniture with this complete kit. 39 connectors to endless combinations!</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>downloads</meta_key>
 			<meta_value>190</meta_value>
-		</postmeta>		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+		</postmeta>
+		<postmeta>
+			<meta_key>meta_description</meta_key>
 			<meta_value>14mm Modular Connector Kit free to download, make your own furniture with this complete kit. 39 connectors to endless combinations! STL files ready to print.</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>14mm Modular Connector Kit</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>14mm-modular-connector-kit-stl-download</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>14mm-modular-connector-kit</meta_value>
 		</postmeta>
 	</item>
 	<item>
@@ -1301,7 +1264,7 @@
 		<category domain="product_tag">system</category>
 		<category domain="product_tag">wohnung</category>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>modular-furniture-connector-kit-free-stl</meta_value>
 		</postmeta>
 		<postmeta>
@@ -1337,7 +1300,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>504,505,506,507,508,509,510,511</meta_value>
 		</postmeta>
 		<postmeta>
@@ -1349,7 +1312,7 @@
 			<meta_value>a:1:{s:36:"9fe57c6f-cc67-448c-bde0-5100faf3c5eb";a:3:{s:2:"id";s:36:"9fe57c6f-cc67-448c-bde0-5100faf3c5eb";s:4:"name";s:31:"Modular Furniture Connector Kit";s:4:"file";s:102:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/modular-furniture-connectors.zip";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
@@ -1357,24 +1320,20 @@
 			<meta_value>%%title%% %%page%% %%sep%% %%sitename%% %%sep%% Free Download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>Modular Furniture Connector Kit. Now you can make your own furniture DIY projects with our amazing kit. Just Download and start to print! Enjoy it!</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>downloads</meta_key>
 			<meta_value>428</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>Modular Furniture Connector Kit. Now you can make your own furniture DIY projects with our amazing kit. Just Download and start to print! Enjoy it! Free STL</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Modular Furniture Connector Kit</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>modular-furniture-connector-kit-free-stl</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>modular-furniture-connector-kit</meta_value>
 		</postmeta>
 	</item>
 	<item>
@@ -1425,7 +1384,7 @@
 		<category domain="product_tag">wall hanger</category>
 		<category domain="product_tag">wohnung</category>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>simple-wall-hanger-free-stl</meta_value>
 		</postmeta>
 		<postmeta>
@@ -1461,7 +1420,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>527,620,532</meta_value>
 		</postmeta>
 		<postmeta>
@@ -1473,32 +1432,29 @@
 			<meta_value>a:1:{s:36:"404e935c-9324-456a-a043-2f8a21c05d32";a:3:{s:2:"id";s:36:"404e935c-9324-456a-a043-2f8a21c05d32";s:4:"name";s:11:"Wall Hanger";s:4:"file";s:80:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/hanger.stl";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
 			<meta_key>seo_title</meta_key>
 			<meta_value>%%title%% %%page%% to Download %%sep%% %%sitename%% - 3D Models</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>Simple Wall Hanger to Download. Winter is Coming! And always we need hanger! Improve your home with cool functional printable objects.</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloads</meta_key>
 			<meta_value>166</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>Simple Wall Hanger to Download. Winter is Coming! And always we need hanger! Improve your home with cool functional printable objects. Free STL to Download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Simple Wall Hanger</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>simple-wall-hanger-free-stl</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>simple-wall-hanger</meta_value>
 		</postmeta>
 	</item>
 	<item>
@@ -1546,7 +1502,7 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wall hanger</category>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>printable-coat-rack-2-free-stl</meta_value>
 		</postmeta>
 		<postmeta>
@@ -1582,7 +1538,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>528,529</meta_value>
 		</postmeta>
 		<postmeta>
@@ -1594,7 +1550,7 @@
 			<meta_value>a:3:{s:36:"aafabefc-c7d2-4907-ac8d-9a5b82553c7f";a:3:{s:2:"id";s:36:"aafabefc-c7d2-4907-ac8d-9a5b82553c7f";s:4:"name";s:6:"Hanger";s:4:"file";s:80:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/hanger.stl";}s:36:"2871d8d0-de3e-4f20-b925-3fc16c3246aa";a:3:{s:2:"id";s:36:"2871d8d0-de3e-4f20-b925-3fc16c3246aa";s:4:"name";s:6:"Middle";s:4:"file";s:80:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/middle.stl";}s:36:"3e64f799-fd2b-483c-95e6-ee961cc82517";a:3:{s:2:"id";s:36:"3e64f799-fd2b-483c-95e6-ee961cc82517";s:4:"name";s:10:"Foot Cover";s:4:"file";s:78:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/foot.stl";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
@@ -1602,24 +1558,20 @@
 			<meta_value>Printable %%title%% %%page%% %%sep%% %%sitename%% %%sep%% Free Download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>Free Downloable 3D Printable Coat Rack. Winter is Coming! And always we need hanger! Improve your home with cool functional printable objects.</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>downloads</meta_key>
 			<meta_value>98</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>Free Downloable 3D Printable Coat Rack. Winter is Coming! And always we need hanger! Improve your home with cool functional printable things. Free STL </meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Printable Coat Rack</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>printable-coat-rack-2-free-stl</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>printable-coat-rack-v2</meta_value>
 		</postmeta>
 	</item>
 	<item>
@@ -1666,7 +1618,7 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">Stand</category>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>monitor-stand-free-stl-to-download</meta_value>
 		</postmeta>
 		<postmeta>
@@ -1706,7 +1658,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>556,555,553</meta_value>
 		</postmeta>
 		<postmeta>
@@ -1718,29 +1670,26 @@
 			<meta_value>a:4:{s:36:"62feaf98-7efc-428f-a716-2413862b4a5a";a:3:{s:2:"id";s:36:"62feaf98-7efc-428f-a716-2413862b4a5a";s:4:"name";s:18:"Monitor Stand Left";s:4:"file";s:91:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/stand-norack-left.stl";}s:36:"a99d20ea-a097-4f9b-9cd4-6b1c63c94072";a:3:{s:2:"id";s:36:"a99d20ea-a097-4f9b-9cd4-6b1c63c94072";s:4:"name";s:19:"Monitor Stand Right";s:4:"file";s:92:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/stand-norack-right.stl";}s:36:"27dc6dfc-ef8e-40cd-b7fb-c4c64b81161c";a:3:{s:2:"id";s:36:"27dc6dfc-ef8e-40cd-b7fb-c4c64b81161c";s:4:"name";s:38:"Monitor Stand With 1U Rack System Left";s:4:"file";s:89:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/stand-rack-left.stl";}s:36:"28b75524-a0bf-4a47-9bf5-53431730f8e8";a:3:{s:2:"id";s:36:"28b75524-a0bf-4a47-9bf5-53431730f8e8";s:4:"name";s:39:"Monitor Stand With 1U Rack System Right";s:4:"file";s:90:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/10/stand-rack-right.stl";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>Monitor Stand (With or Without 1U Rack System). This 3D Model combine 3D Printing with wood making a beautiful Monitor Stand for the Home or the Office.</meta_value>
 		</postmeta>
 		<postmeta>
 			<meta_key>downloads</meta_key>
 			<meta_value>181</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>Monitor Stand (With or Without 1U Rack System). Combining 3D Printing with bricolage making a beautiful Monitor Stand for the Home or the Office. Free STL</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Monitor Stand</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>monitor-stand-free-stl-to-download</meta_value>
-		</postmeta>	</item>
+			<meta_key>permalink</meta_key>
+			<meta_value>monitor-stand</meta_value>
+		</postmeta>
+	</item>
 	<item>
 		<title>Just Another Modular Shelving System</title>
 		<link>https://churuata3d.com/product/just-another-modular-shelving-system-stl/</link>
@@ -1790,7 +1739,7 @@
 		<category domain="product_tag">system</category>
 		<category domain="product_tag">wohnung</category>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>just-another-modular-shelving-system-stl</meta_value>
 		</postmeta>
 		<postmeta>
@@ -1826,7 +1775,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>576,577</meta_value>
 		</postmeta>
 		<postmeta>
@@ -1838,7 +1787,7 @@
 			<meta_value>a:3:{s:36:"7644311e-dc93-449c-a30b-f1e67ce11c46";a:3:{s:2:"id";s:36:"7644311e-dc93-449c-a30b-f1e67ce11c46";s:4:"name";s:4:"20mm";s:4:"file";s:58:"https://churuata3d.com/wp-content/uploads/2018/11/20mm.zip";}s:36:"5e2e3402-2e64-458c-b93f-fceec6e35738";a:3:{s:2:"id";s:36:"5e2e3402-2e64-458c-b93f-fceec6e35738";s:4:"name";s:4:"25mm";s:4:"file";s:58:"https://churuata3d.com/wp-content/uploads/2018/11/25mm.zip";}s:36:"90170b76-a530-453e-a80f-bd4d31a50227";a:3:{s:2:"id";s:36:"90170b76-a530-453e-a80f-bd4d31a50227";s:4:"name";s:4:"28mm";s:4:"file";s:58:"https://churuata3d.com/wp-content/uploads/2018/11/28mm.zip";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
@@ -1846,24 +1795,20 @@
 			<meta_value>%%title%% %%page%% %%sep%% %%sitename%% Free Download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>Another Modular Shelving System free to Download. Make you own furniture with this 3D Printable Model! Ready to download and print!</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>downloads</meta_key>
 			<meta_value>181</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>Just Another Modular Shelving System free to Download. Make you own furniture with this 3D Printable Model! Ready to download and print! Free 3D Model, Free STL</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Just Another Modular Shelving System</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>just-another-modular-shelving-system-stl</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>just-another-modular-shelving-system</meta_value>
 		</postmeta>
 	</item>
 	<item>
@@ -1908,7 +1853,7 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wohnung</category>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>free-downloadable-pencil-holder-free-stl</meta_value>
 		</postmeta>
 		<postmeta>
@@ -1944,7 +1889,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>607</meta_value>
 		</postmeta>
 		<postmeta>
@@ -1956,7 +1901,7 @@
 			<meta_value>a:1:{s:36:"d1e86dc4-bbcd-4034-9a00-798ad4062ab5";a:3:{s:2:"id";s:36:"d1e86dc4-bbcd-4034-9a00-798ad4062ab5";s:4:"name";s:13:"Pencil Holder";s:4:"file";s:86:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2018/11/pencilholder.stl";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
@@ -1964,24 +1909,20 @@
 			<meta_value>Free Downloadable %%title%% %%page%% for 3D Printing %%sep%% %%sitename%%</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>Free Downloadable Pencil Holder for 3D Printing. Put in Order your Desktop with this 3D Printable Pencil holder! Enjoy it!</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>downloads</meta_key>
 			<meta_value>213</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>Free Downloadable Pencil Holder for 3D Printing. Put in Order your Desktop with this 3D Printable Pencil holder! More free 3D Models STL format in our web site.</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Free Downloadable Pencil Holder</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>free-downloadable-pencil-holder-free-stl</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>free-downloadable-pencil-holder</meta_value>
 		</postmeta>
 	</item>
 	<item>
@@ -2024,7 +1965,7 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wohnung</category>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>3d-printable-keys-holder-free-stl</meta_value>
 		</postmeta>
 		<postmeta>
@@ -2064,7 +2005,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>617</meta_value>
 		</postmeta>
 		<postmeta>
@@ -2072,7 +2013,7 @@
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
@@ -2082,10 +2023,6 @@
 		<postmeta>
 			<meta_key>seo_title</meta_key>
 			<meta_value>3D Printable %%title%% %%page%% %%sep%% %%sitename%% %%sep%% Free Download</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>A simple Keys Holder for 3D Printing. Put in Order your Home with this 3D Printable Keys Holder! Free to Download! Enjoy it!</meta_value>
 		</postmeta>
 		<postmeta>
 			<meta_key>downloads</meta_key>
@@ -2105,16 +2042,16 @@
 			<meta_value>1568904304</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>A simple Keys Holder for 3D Printing. Put in Order your Home with this 3D Printable Keys Holder! Free to Download! Enjoy it! Free STL Download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>3D Printable Keys Holder</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>3d-printable-keys-holder-free-stl</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>3d-printable-keys-holder</meta_value>
 		</postmeta>
 	</item>
 	<item>
@@ -2166,7 +2103,7 @@
 		<category domain="product_type">simple</category>
 		<category domain="product_tag">wohnung</category>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>3d-printable-shelf-free-stl-download</meta_value>
 		</postmeta>
 		<postmeta>
@@ -2202,7 +2139,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>628,629</meta_value>
 		</postmeta>
 		<postmeta>
@@ -2214,16 +2151,12 @@
 			<meta_value>a:3:{s:36:"de796277-3326-4cbb-a7e1-7ff23fcd5a83";a:3:{s:2:"id";s:36:"de796277-3326-4cbb-a7e1-7ff23fcd5a83";s:4:"name";s:17:"simpleshelfV2.stl";s:4:"file";s:94:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/03/simpleshelfV4-53h1k6.stl";}s:36:"984acd57-429a-4635-adb9-87bdfd940320";a:3:{s:2:"id";s:36:"984acd57-429a-4635-adb9-87bdfd940320";s:4:"name";s:17:"simpleshelfV3.stl";s:4:"file";s:94:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/03/simpleshelfV3-7e3ifw.stl";}s:36:"78bce4dd-127d-485e-85f8-313f49b4ae2a";a:3:{s:2:"id";s:36:"78bce4dd-127d-485e-85f8-313f49b4ae2a";s:4:"name";s:17:"simpleshelfV4.stl";s:4:"file";s:94:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/03/simpleshelfV4-53h1k6.stl";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
 			<meta_key>seo_title</meta_key>
 			<meta_value>%%title%% %%page%% %%sep%% %%sitename%% %%sep%% 3D Printable Solutions</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>A simple 3D printable Shelf! Add more space to your house with this functional design! Another Weekend project!</meta_value>
 		</postmeta>
 		<postmeta>
 			<meta_key>downloads</meta_key>
@@ -2243,16 +2176,16 @@
 			<meta_value>1568901622</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>A simple 3D printable Shelf! Add more space to your house with this functional design! Another Weekend project! Free STL to download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>3D printable Shelf</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>3d-printable-shelf-free-stl-download</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>3d-printable-shelf</meta_value>
 		</postmeta>
 	</item>
 	<item>
@@ -2330,11 +2263,11 @@
 			<meta_value>a:8:{s:36:"cb4c2baf-16b2-42f1-a3a3-ad1ed5a7bd7d";a:3:{s:2:"id";s:36:"cb4c2baf-16b2-42f1-a3a3-ad1ed5a7bd7d";s:4:"name";s:1:"a";s:4:"file";s:71:"https://churuata3d.com/wp-content/uploads/2019/07/pc-a-28mm-support.stl";}s:36:"dab3ef17-abfd-47db-b82c-22b97a4390c9";a:3:{s:2:"id";s:36:"dab3ef17-abfd-47db-b82c-22b97a4390c9";s:4:"name";s:2:"a1";s:4:"file";s:59:"https://churuata3d.com/wp-content/uploads/2019/07/pc-a1.stl";}s:36:"966ad135-9f3d-4500-9a07-1ca79741577b";a:3:{s:2:"id";s:36:"966ad135-9f3d-4500-9a07-1ca79741577b";s:4:"name";s:1:"b";s:4:"file";s:72:"https://churuata3d.com/wp-content/uploads/2019/07/pc-b-28mm-supoport.stl";}s:36:"f21089f5-1582-4f74-8d43-39400e2dfc2a";a:3:{s:2:"id";s:36:"f21089f5-1582-4f74-8d43-39400e2dfc2a";s:4:"name";s:2:"b1";s:4:"file";s:59:"https://churuata3d.com/wp-content/uploads/2019/07/pc-b1.stl";}s:36:"51046c50-9212-4c8c-bdb0-a2dd657b1470";a:3:{s:2:"id";s:36:"51046c50-9212-4c8c-bdb0-a2dd657b1470";s:4:"name";s:1:"c";s:4:"file";s:63:"https://churuata3d.com/wp-content/uploads/2019/07/pc-c-28mm.stl";}s:36:"c50a9945-bd8c-484a-9660-8b7aac64eadf";a:3:{s:2:"id";s:36:"c50a9945-bd8c-484a-9660-8b7aac64eadf";s:4:"name";s:1:"d";s:4:"file";s:63:"https://churuata3d.com/wp-content/uploads/2019/07/pc-d-28mm.stl";}s:36:"48b74d7b-e659-4461-985c-4eeb496ea940";a:3:{s:2:"id";s:36:"48b74d7b-e659-4461-985c-4eeb496ea940";s:4:"name";s:4:"hack";s:4:"file";s:61:"https://churuata3d.com/wp-content/uploads/2019/07/pc-hack.stl";}s:36:"53bf6415-d6ae-4cd1-9e8d-8a213c9fd894";a:3:{s:2:"id";s:36:"53bf6415-d6ae-4cd1-9e8d-8a213c9fd894";s:4:"name";s:3:"cnc";s:4:"file";s:57:"https://churuata3d.com/wp-content/uploads/2019/07/cnc.svg";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>668,669,671,673</meta_value>
 		</postmeta>
 		<postmeta>
@@ -2342,31 +2275,27 @@
 			<meta_value>3D Printable Children's Chair! Parts to make a beautiful 3D printer chair</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>3D Printable Children's Chair! Parts to make a beautiful 3D printer chair. This is a mix project between a CNC Router and a 3D Printer, Happy Making!</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>downloads</meta_key>
 			<meta_value>289</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>3D Printable Children's Chair! Parts to make a beautiful 3D printer chair. This is a mix project between a CNC Router and a 3D Printer, Happy Making! Free STL</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>3D Printable Children's Chair</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>3d-printable-childrens-chair-free-stl</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>3d-printable-childrens-chair</meta_value>
 		</postmeta>
 		<postmeta>
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>3d-printable-childrens-chair-free-stl</meta_value>
 		</postmeta>
 	</item>
@@ -2443,7 +2372,7 @@
 			<meta_value>6.9.3</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
@@ -2451,11 +2380,7 @@
 			<meta_value>%%title%% %%page%% %%sep%% %%sitename%% %%sep%% Free Download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>Furniture Connectors Kit - A simple Furniture 3d printable Connectors System Kit. Make your own furniture with your 3d printer.</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>759,760,761,762,757</meta_value>
 		</postmeta>
 		<postmeta>
@@ -2463,23 +2388,23 @@
 			<meta_value>254</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>Furniture Connectors Kit - A simple Furniture 3d printable Connectors System Kit. Make your own furniture with your 3d printer. Free STL Download.</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Furniture Connectors Kit</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>furniture-connectors-kit-free-stl</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>furniture-connectors-kit</meta_value>
 		</postmeta>
 		<postmeta>
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>furniture-connectors-kit-free-stl</meta_value>
 		</postmeta>
 	</item>
@@ -2556,15 +2481,11 @@
 			<meta_value>%%title%% %%page%% %%sep%% %%sitename%% %%sep%% Free Download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>These Modular Connectors with Hardware are 3D Printable. Now you can build simple furniture for your home or office. Just download it and start to print!</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:2:{s:36:"103fc42d-566b-4fcc-a2f1-5e39b53aab23";a:3:{s:2:"id";s:36:"103fc42d-566b-4fcc-a2f1-5e39b53aab23";s:4:"name";s:1:"a";s:4:"file";s:59:"https://churuata3d.com/wp-content/uploads/2019/09/MCH-a.stl";}s:36:"e3eec685-3a33-4bab-9402-24aa80a3839c";a:3:{s:2:"id";s:36:"e3eec685-3a33-4bab-9402-24aa80a3839c";s:4:"name";s:1:"b";s:4:"file";s:59:"https://churuata3d.com/wp-content/uploads/2019/09/MCH-b.stl";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
@@ -2572,16 +2493,16 @@
 			<meta_value>122</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>These Modular Connectors with Hardware are 3D Printable. Now you can build simple furniture for your home or office. Just download the stl files and print it!</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>modular connectors with hardware</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>modular-connectors-with-hardware-free-stl</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>modular-connectors-with-hardware</meta_value>
 		</postmeta>
 		<postmeta>
 			<meta_key>rank_math_pillar_content</meta_key>
@@ -2592,7 +2513,7 @@
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>modular-connectors-with-hardware-free-stl</meta_value>
 		</postmeta>
 	</item>
@@ -2664,7 +2585,7 @@
 			<meta_value>a:5:{s:36:"a36d89bb-ba66-4372-80cb-3ecc1d90283c";a:3:{s:2:"id";s:36:"a36d89bb-ba66-4372-80cb-3ecc1d90283c";s:4:"name";s:5:"right";s:4:"file";s:72:"https://churuata3d.com/wp-content/uploads/2019/09/Towel-Holder-right.stl";}s:36:"cf3411c2-c406-479b-9a1e-1f2a85443921";a:3:{s:2:"id";s:36:"cf3411c2-c406-479b-9a1e-1f2a85443921";s:4:"name";s:4:"left";s:4:"file";s:71:"https://churuata3d.com/wp-content/uploads/2019/09/Towel-Holder-left.stl";}s:36:"fc1f5e92-4075-4ae1-932e-2d07fb3dfd37";a:3:{s:2:"id";s:36:"fc1f5e92-4075-4ae1-932e-2d07fb3dfd37";s:4:"name";s:12:"right- screw";s:4:"file";s:79:"https://churuata3d.com/wp-content/uploads/2019/09/Towel-Holder-right-screws.stl";}s:36:"80e4564a-2794-4848-ae2d-ebbc8070087d";a:3:{s:2:"id";s:36:"80e4564a-2794-4848-ae2d-ebbc8070087d";s:4:"name";s:12:"left - screw";s:4:"file";s:78:"https://churuata3d.com/wp-content/uploads/2019/09/Towel-Holder-left-screws.stl";}s:36:"7f42bddf-ef13-4e7f-a0d0-6d397dd64bf2";a:3:{s:2:"id";s:36:"7f42bddf-ef13-4e7f-a0d0-6d397dd64bf2";s:4:"name";s:3:"cap";s:4:"file";s:75:"https://churuata3d.com/wp-content/uploads/2019/09/Towel-Holder-cap-logo.stl";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
@@ -2673,14 +2594,10 @@
 		</postmeta>
 		<postmeta>
 			<meta_key>meta_description</meta_key>
-			<meta_value>3D Printable Towel Holder. Your 3D printer can make beautiful functional things too! And with our designs you can print what you really need.</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>rank_math_description</meta_key>
 			<meta_value>3D Printable Towel Holder. Your 3D printer can make beautiful functional things too! With our designs you can print what you really need. Free STL to Download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>3D Printable Towel Holder</meta_value>
 		</postmeta>
 		<postmeta>
@@ -2688,11 +2605,11 @@
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>3d-printable-towel-holder-free-stl</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>3d-printable-towel-holder</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>795</meta_value>
 		</postmeta>
 		<postmeta>
@@ -2700,7 +2617,7 @@
 			<meta_value>56</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>3d-printable-towel-holder-free-stl</meta_value>
 		</postmeta>
 	</item>
@@ -2773,10 +2690,6 @@
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>yes</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
@@ -2789,26 +2702,27 @@
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value>8</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>832,833</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>voronoi-pencil-holder-free-stl-to-download</meta_value>
-		</postmeta>		<postmeta>
+			<meta_key>permalink</meta_key>
+			<meta_value>voronoi-pencil-holder</meta_value>
+		</postmeta>
+		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:1:{s:36:"11c7059f-3736-4f1d-b4e8-8721b4394167";a:3:{s:2:"id";s:36:"11c7059f-3736-4f1d-b4e8-8721b4394167";s:4:"name";s:25:"voronoi-pencil-holder.zip";s:4:"file";s:75:"https://churuata3d.com/wp-content/uploads/2019/11/voronoi-pencil-holder.zip";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>Voronoi Pencil Holder. 3D printable pencil holder to download. Model available as STL File. You can check our web site for more free 3D Models in STL format.</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Voronoi Pencil Holder</meta_value>
 		</postmeta>
 		<postmeta>
@@ -2816,7 +2730,7 @@
 			<meta_value>2019-12-28</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>voronoi-pencil-holder-free-stl-to-download</meta_value>
 		</postmeta>
 	</item>
@@ -2875,22 +2789,23 @@
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>self-watering-planter-free-stl-download</meta_value>
-		</postmeta>		<postmeta>
+			<meta_key>permalink</meta_key>
+			<meta_value>self-watering-planter</meta_value>
+		</postmeta>
+		<postmeta>
 			<meta_key>downloadable_files</meta_key>
 			<meta_value>a:3:{s:36:"7ad7d920-a717-45c3-8f5e-8265bf13b6e9";a:3:{s:2:"id";s:36:"7ad7d920-a717-45c3-8f5e-8265bf13b6e9";s:4:"name";s:9:"reservoir";s:4:"file";s:91:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/12/reservoir-freecad.stl";}s:36:"18229674-e59a-4ea8-a80e-a970e961cec0";a:3:{s:2:"id";s:36:"18229674-e59a-4ea8-a80e-a970e961cec0";s:4:"name";s:12:"pot original";s:4:"file";s:85:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/12/pot-freecad.stl";}s:36:"a5bfa3d8-4abb-4752-9a45-20d4e5d476b2";a:3:{s:2:"id";s:36:"a5bfa3d8-4abb-4752-9a45-20d4e5d476b2";s:4:"name";s:15:"pot alternative";s:4:"file";s:77:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2019/12/pot.stl";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>872</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>A simple and versatile Self Watering Planter for 3D printing. Free STL available to download. You can check our web site for more free 3D Models in STL format.</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Self Watering Planter</meta_value>
 		</postmeta>
 		<postmeta>
@@ -2898,7 +2813,7 @@
 			<meta_value>59</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>self-watering-planter-free-stl-download</meta_value>
 		</postmeta>
 	</item>
@@ -2956,10 +2871,6 @@
 			<meta_value>1</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>yes</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
@@ -2968,7 +2879,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>758,847,759,760,761,762,757</meta_value>
 		</postmeta>
 		<postmeta>
@@ -2984,23 +2895,19 @@
 			<meta_value>%%title%% %%page%% %%sep%% %%sitename%% %%sep%% Free Download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>Furniture Connectors Kit - A simple Furniture 3d printable Connectors System Kit. Make your own furniture with your 3d printer.</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>downloads</meta_key>
 			<meta_value>72</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>Customizable Furniture Connectors - A simple Furniture 3d printable Connectors System Kit. Make your own furniture with your 3d printer. Free STL Download.</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Customizable Furniture Connectors</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
+			<meta_key>permalink</meta_key>
 			<meta_value>customizable-furniture-connectors</meta_value>
 		</postmeta>
 		<postmeta>
@@ -3012,11 +2919,11 @@
 			<meta_value>7</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value>7</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>customizable-furniture-connectors</meta_value>
 		</postmeta>
 	</item>
@@ -3034,7 +2941,7 @@
 		<content>
 			A German friend asked me to make a 3d model in the form of a dice. This is because his last name is "Würfel" which means "dice" in German. Because we are inclined to make functional models, that dice must fulfill a function. That's how our first pencil holder design came to light, the Dice Pencil Holder. A simple design of a dice but functional. The Dice Pencil Holder have 2 versions, a 8cm height version and a 10cm height version. In addition, a no-support version is available too.
 
-			These no-support version just add a 0.2mm top bridge in each hole. The support is quite easy to remove. In conclusion, these model is really easy to print, despite of the upper holes, with this little trick. Here you can find another <a href="https://churuata3d.com/products/pencil-holder/">Free Downloadable Pencil Holder</a>. Which you can also download. 
+			This no-support version just add a 0.2mm top bridge in each hole. The support is quite easy to remove. In conclusion, these model is really easy to print, despite of the upper holes, with this little trick. Here you can find another <a href="https://churuata3d.com/products/pencil-holder/">Free Downloadable Pencil Holder</a>. Which you can also download. 
 		</content>
 		<excerpt>Customizable Dice Pencil Holder, have fun printing!</excerpt>
 		<is_parametric>true</is_parametric>
@@ -3065,10 +2972,6 @@
 			<meta_value>0</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>yes</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
@@ -3077,7 +2980,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>293,294</meta_value>
 		</postmeta>
 		<postmeta>
@@ -3098,18 +3001,15 @@
 		</postmeta>
 		<postmeta>
 			<meta_key>meta_description</meta_key>
-			<meta_value>Dice Pencil Holder for 3D Printer. Download for free this model and make some space on your desktop.</meta_value>
-		</postmeta>		<postmeta>
-			<meta_key>rank_math_description</meta_key>
 			<meta_value>Customizable Dice Pencil Holderfor 3D Printer. Download for free this model and make some space on your desktop. Free 3D Model. Free STL to download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Customizable Dice Pencil Holder</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>customizable-dice-pencil-holder-3d-model</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>customizable-dice-pencil-holder</meta_value>
 		</postmeta>
 		<postmeta>
 			<meta_key>regular_price</meta_key>
@@ -3120,11 +3020,11 @@
 			<meta_value>3</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value>3</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>customizable-dice-pencil-holder-3d-model</meta_value>
 		</postmeta>
 	</item>
@@ -3173,10 +3073,6 @@
 			<meta_value>0</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>yes</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
@@ -3185,7 +3081,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>435,851,850,848,846,843,840</meta_value>
 		</postmeta>
 		<postmeta>
@@ -3200,24 +3096,21 @@
 			<meta_key>seo_title</meta_key>
 			<meta_value>3D Printable %%title%% %%page%% %%sep%% %%sitename%% %%sep%% Free Download</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>3D Printable Coat Rack for the Home or Office, one of our DIY weekend projects! Just download the files for free.</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloads</meta_key>
 			<meta_value>50</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>Customizable Coat Rack System for the Home or Office, one of our DIY weekend projects! Just download the files for free. Free STL to Download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Customizable Coat Rack System</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
+			<meta_key>permalink</meta_key>
 			<meta_value>customizable-coat-rack-system</meta_value>
 		</postmeta>
 		<postmeta>
@@ -3229,11 +3122,11 @@
 			<meta_value>5</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value>5</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>customizable-coat-rack-system</meta_value>
 		</postmeta>
 	</item>
@@ -3291,10 +3184,6 @@
 			<meta_value>0</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>yes</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
@@ -3303,7 +3192,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>576,577,578,857</meta_value>
 		</postmeta>
 		<postmeta>
@@ -3318,24 +3207,21 @@
 			<meta_key>seo_title</meta_key>
 			<meta_value>%%title%% %%page%% %%sep%% %%sitename%% Free Download</meta_value>
 		</postmeta>
-		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>Another Modular Shelving System free to Download. Make you own furniture with this 3D Printable Model! Ready to download and print!</meta_value>
-		</postmeta>
+
 		<postmeta>
 			<meta_key>downloads</meta_key>
 			<meta_value>73</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>Customizable Modular Shelving System. Make you own furniture with this 3D Printable Model! Ready to download and print! Free 3D Model, Free STL</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Customizable Modular Shelving System</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
+			<meta_key>permalink</meta_key>
 			<meta_value>customizable-modular-shelving-system</meta_value>
 		</postmeta>
 		<postmeta>
@@ -3347,11 +3233,11 @@
 			<meta_value>7</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value>7</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>customizable-modular-shelving-system</meta_value>
 		</postmeta>
 	</item>
@@ -3413,10 +3299,6 @@
 			<meta_value>3</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>yes</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
@@ -3437,27 +3319,23 @@
 			<meta_value>%%title%% %%page%% %%sep%% %%sitename%% %%sep%% Free Download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>These Modular Connectors with Hardware are 3D Printable. Now you can build simple furniture for your home or office. Just download it and start to print!</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>downloads</meta_key>
 			<meta_value>36</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>These Parametric Modular Connectors are 3D Printable. Now you can build simple furniture for your home or office. Just download the stl files and print it!</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Parametric Modular Connectors</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
+			<meta_key>permalink</meta_key>
 			<meta_value>parametric-modular-connectors</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>903,764</meta_value>
 		</postmeta>
 		<postmeta>
@@ -3469,11 +3347,11 @@
 			<meta_value>5</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value>5</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>parametric-modular-connectors</meta_value>
 		</postmeta>
 	</item>
@@ -3526,10 +3404,6 @@
 			<meta_value>0</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>yes</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
@@ -3538,7 +3412,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>607,619,608</meta_value>
 		</postmeta>
 		<postmeta>
@@ -3554,24 +3428,20 @@
 			<meta_value>Free Downloadable %%title%% %%page%% for 3D Printing %%sep%% %%sitename%%</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>Free Downloadable Pencil Holder for 3D Printing. Put in Order your Desktop with this 3D Printable Pencil holder! Enjoy it!</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>downloads</meta_key>
 			<meta_value>96</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>Parametric Pencil Holder for 3D Printing. Put in Order your Desktop with this 3D Printable Pencil holder! More free 3D Models STL format in our web site.</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Parametric Pencil Holder</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>downloadable-parametric-pencil-holder</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>minimalist-parametric-pencil-holder</meta_value>
 		</postmeta>
 		<postmeta>
 			<meta_key>regular_price</meta_key>
@@ -3582,7 +3452,7 @@
 			<meta_value>3</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value>3</meta_value>
 		</postmeta>
 		<postmeta>
@@ -3590,11 +3460,7 @@
 			<meta_value>619</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_facebook_image</meta_key>
-			<meta_value>https://churuata3d.com/wp-content/uploads/2018/11/01.png</meta_value>
-		</postmeta>
-		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>downloadable-parametric-pencil-holder</meta_value>
 		</postmeta>
 	</item>
@@ -3616,7 +3482,7 @@
 		<licence>by-nc-sa</licence>
 		<post_date>2020-05-13 13:25:51</post_date>
 		<post_modified>2020-09-23 12:28:17</post_modified>
-		<post_name>downloadable-modular-box</post_name>
+		<post_name>simple-modular-box</post_name>
 		<status>PUBLISHED</status>
 		<post_type>product</post_type>
 		<category domain="product_cat">3D Models</category>
@@ -3653,10 +3519,6 @@
 			<meta_value>1</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sold_individually</meta_key>
-			<meta_value>yes</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>virtual</meta_key>
 			<meta_value>yes</meta_value>
 		</postmeta>
@@ -3665,7 +3527,7 @@
 			<meta_value>yes</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>913,914,915,916</meta_value>
 		</postmeta>
 		<postmeta>
@@ -3677,7 +3539,7 @@
 			<meta_value>a:1:{s:36:"b5166ca8-55a3-4f5f-aeac-7a6b79716643";a:3:{s:2:"id";s:36:"b5166ca8-55a3-4f5f-aeac-7a6b79716643";s:4:"name";s:11:"Modular box";s:4:"file";s:101:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2020/05/openscad-modular_box-0lavxu.zip";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value>3</meta_value>
 		</postmeta>
 		<postmeta>
@@ -3685,27 +3547,23 @@
 			<meta_value>Free Downloadable %%title%% %%page%% for 3D Printing %%sep%% %%sitename%%</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>meta_description</meta_key>
-			<meta_value>Free Downloadable Pencil Holder for 3D Printing. Put in Order your Desktop with this 3D Printable Pencil holder! Enjoy it!</meta_value>
-		</postmeta>
-		<postmeta>
 			<meta_key>downloads</meta_key>
 			<meta_value>96</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>Modular Box for 3D Printing. Put in Order your Desktop with this 3D Printable Modular Box! More free 3D Models STL format in our web site.</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Modular Box</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
-			<meta_value>downloadable-modular-box</meta_value>
+			<meta_key>permalink</meta_key>
+			<meta_value>simple-modular-box</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>downloadable-modular-box</meta_value>
 		</postmeta>
 	</item>
@@ -3758,26 +3616,27 @@
 			<meta_value>a:3:{s:36:"29f8cb0e-7f35-4366-92ac-2e4fa440883e";a:3:{s:2:"id";s:36:"29f8cb0e-7f35-4366-92ac-2e4fa440883e";s:4:"name";s:1:"a";s:4:"file";s:87:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2020/05/a-logo-z8zzyf.stl";}s:36:"87d301bd-2d7b-4024-a6a8-8ba76f5c1440";a:3:{s:2:"id";s:36:"87d301bd-2d7b-4024-a6a8-8ba76f5c1440";s:4:"name";s:1:"b";s:4:"file";s:87:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2020/05/b-logo-gv58sq.stl";}s:36:"5546cb9d-99b6-46e7-a425-e8b4a8a07096";a:3:{s:2:"id";s:36:"5546cb9d-99b6-46e7-a425-e8b4a8a07096";s:4:"name";s:1:"c";s:4:"file";s:87:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2020/05/c-logo-bdk8eq.stl";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>928,927,933,932,931,930,929</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
+			<meta_key>permalink</meta_key>
 			<meta_value>just-another-3d-printable-shelf</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>Just Another 3D Printable Shelf. Add more space to your house with this functional design! Another Weekend project! Free STL to download</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Just Another 3D Printable Shel</meta_value>
-		</postmeta>		<postmeta>
+		</postmeta>
+		<postmeta>
 			<meta_key>downloads</meta_key>
 			<meta_value>88</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>just-another-3d-printable-shelf</meta_value>
 		</postmeta>
 	</item>
@@ -3850,30 +3709,31 @@
 			<meta_value>a:1:{s:36:"09371086-d3b4-487e-99c6-6ddca3f0c50e";a:3:{s:2:"id";s:36:"09371086-d3b4-487e-99c6-6ddca3f0c50e";s:4:"name";s:23:"Parametric-Vase-Example";s:4:"file";s:104:"https://churuata3d.com/wp-content/uploads/woocommerce_uploads/2020/08/Parametric-Vase-Example-yjk70d.zip";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>949,948,947,946,945</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_permalink</meta_key>
+			<meta_key>permalink</meta_key>
 			<meta_value>parametric-vase-holder</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>A Parametric Vase/Holder for 3D Printing. Put in Order your Desktop with this Free Downloadable Vase/Holder! Enjoy it!</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Parametric Vase/Holder</meta_value>
-		</postmeta>		<postmeta>
+		</postmeta>
+		<postmeta>
 			<meta_key>sale_price</meta_key>
 			<meta_value></meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>parametric-vase-holder</meta_value>
 		</postmeta>
 		<postmeta>
@@ -3922,7 +3782,7 @@
 		<category domain="product_tag">wall hanger</category>
 		<category domain="product_tag">wohnung</category>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Shurikane Wall Mount Hanger</meta_value>
 		</postmeta>
 		<postmeta>
@@ -3950,20 +3810,24 @@
 			<meta_value>6.0.0</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>972,971,968,967</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sku</meta_key>
-			<meta_value>shurikane-wall-mount-hanger-free-file</meta_value>
+			<meta_key>sku</meta_key>
+			<meta_value>shurikane-wall-mount-hanger</meta_value>
 		</postmeta>
 		<postmeta>
 			<meta_key>downloads</meta_key>
 			<meta_value>10</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
+			<meta_key>meta_description</meta_key>
 			<meta_value>A Shurikane Wall Mount Hanger easy to print for the kids. Add more space to your house with this functional design! Free STL.</meta_value>
+		</postmeta>
+		<postmeta>
+			<meta_key>permalink</meta_key>
+			<meta_value>shurikane-wall-mount-hanger</meta_value>
 		</postmeta>
 	</item>
 	<item>
@@ -4003,8 +3867,8 @@
 		<category domain="product_tag">openbuilds</category>
 		<category domain="product_type">simple</category>
 		<postmeta>
-			<meta_key>rank_math_description</meta_key>
-			<meta_value>An Openbuilds Lead CNC Simple Wheels Dust Cover to protect the rubber wheels from Aluminium chips or even hard wood is always a good idea. </meta_value>
+			<meta_key>meta_description</meta_key>
+			<meta_value>An Openbuilds Lead CNC Simple Wheels Dust Cover to protect the rubber wheels from Aluminium chips or even hard wood is always a good idea.</meta_value>
 		</postmeta>
 		<postmeta>
 			<meta_key>total_sales</meta_key>
@@ -4027,7 +3891,7 @@
 			<meta_value>6.1.0</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_product_image_gallery</meta_key>
+			<meta_key>product_image_gallery</meta_key>
 			<meta_value>982,981,980,979,977,976</meta_value>
 		</postmeta>
 		<postmeta>
@@ -4043,15 +3907,20 @@
 			<meta_value>a:1:{s:36:"f2c8b160-9d04-434f-b6e9-e6c60bfcd41c";a:3:{s:2:"id";s:36:"f2c8b160-9d04-434f-b6e9-e6c60bfcd41c";s:4:"name";s:44:"Openbuilds Lead CNC Simple Wheels Dust Cover";s:4:"file";s:70:"https://churuata3d.com/wp-content/uploads/2022/01/dust-cover-final.stl";}}</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_price</meta_key>
+			<meta_key>price</meta_key>
 			<meta_value>3</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>rank_math_focus_keyword</meta_key>
+			<meta_key>focus_keyword</meta_key>
 			<meta_value>Openbuilds Lead CNC Simple Wheels Dust Cover</meta_value>
 		</postmeta>
 		<postmeta>
-			<meta_key>_sku</meta_key>
+			<meta_key>sku</meta_key>
 			<meta_value>openbuilds-lead-cnc-simple-wheels-dust-cover</meta_value>
-		</postmeta>    </item>
+		</postmeta>
+		<postmeta>
+			<meta_key>permalink</meta_key>
+			<meta_value>openbuilds-lead-cnc-simple-wheels-dust-cover</meta_value>
+		</postmeta>
+	</item>
 </rss>

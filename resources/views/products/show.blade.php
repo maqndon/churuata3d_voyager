@@ -45,10 +45,10 @@
     {{ $product->printable }}
     {{ $product->related_parametric }}
 
-    <div class="product">
+    {{-- <div class="product">
         <img src="{{ asset('images/products/' . $product->image_path) }}" alt="{{ $product->name }}" />
         <a href="{{ route('products.index') }}">Back to Products</a>
-    </div>
+    </div> --}}
     
 
     <div class="bg-white">
@@ -105,7 +105,7 @@
                 </div>
             </div> --}}
 
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col-md-6 offset-md-3">
                     <div class="card">
                         <div id="product-images-carousel" class="carousel slide" data-ride="carousel">
@@ -132,7 +132,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             <!-- Product info -->
             <div
