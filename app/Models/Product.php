@@ -64,7 +64,7 @@ class Product extends Model
 
     public function licence()
     {
-        return $this->belongsToMany(Licence::class, 'product_licence');
+        return $this->belongsTo(Licence::class);
     }
 
     public function bill_of_materials()

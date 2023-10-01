@@ -16,6 +16,7 @@ return new class extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id()->index();
             $table->unsignedBigInteger('created_by');
+            $table->unsignedBigInteger('licence_id');
             $table->string('title');
             $table->string('slug')->unique();;
             $table->string('sku')->unique();;
@@ -34,6 +35,7 @@ return new class extends Migration
             $table->timestamps();
 
             $table->foreign('created_by')->references('id')->on('users')->onDelete('cascade');
+            $table->foreign('licence_id')->references('id')->on('licences')->onDelete('cascade');
         });
     }
 

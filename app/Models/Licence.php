@@ -13,6 +13,6 @@ class Licence extends Model
 
     public function products()
     {
-        return $this->belongsToMany(Product::class, 'product_licence');
+        return $this->hasMany(Product::class);
     }
 }

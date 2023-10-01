@@ -253,7 +253,6 @@ class ProductsBreadSeeder extends Seeder
                     "column"        => "seoable_id",
                     "key"           => "id",
                     "label"         => "meta_description",
-                    "pivot"         => "0",
                     "taggable"      => null
                 ],
                 'order'        => 11,
@@ -278,7 +277,6 @@ class ProductsBreadSeeder extends Seeder
                     "column"        => "seoable_id",
                     "key"           => "id",
                     "label"         => "title",
-                    "pivot"         => "0",
                     "taggable"      => null
                 ],
                 'order'        => 12,
@@ -343,7 +341,7 @@ class ProductsBreadSeeder extends Seeder
                 'delete'       => 1,
                 'details'      => [
                     'options' => [
-                        'DRAFT'  => 'DRAFT', 
+                        'DRAFT'  => 'DRAFT',
                         'PUBLISHED'    => 'PUBLISHED'
                     ],
                 ],
@@ -366,7 +364,7 @@ class ProductsBreadSeeder extends Seeder
                     "on"    => "On",
                     "off"   => "Off",
                     // "checked"    => "true",
-                    "class" =>"toggleswitch"
+                    "class" => "toggleswitch"
                 ],
                 'order'        => 17,
             ])->save();
@@ -387,6 +385,30 @@ class ProductsBreadSeeder extends Seeder
             ])->save();
         }
 
+        $dataRow = $this->dataRow($productDataType, 'product_belongsto_licence_relationship');
+        if (!$dataRow->exists) {
+            $dataRow->fill([
+                'type'         => 'relationship',
+                'display_name' => __('voyager::seeders.data_rows.licence'),
+                'required'     => 1,
+                'browse'       => 1,
+                'read'         => 1,
+                'edit'         => 1,
+                'add'          => 1,
+                'delete'       => 1,
+                'details'      => [
+                    "model"         => "App\\Models\\Licence",
+                    "table"         => "licences",
+                    "type"          => "belongsTo",
+                    "column"        => "licence_id",
+                    "key"           => "id",
+                    "label"         => "description",
+                    "taggable"      => null
+                ],
+                'order'        => 19,
+            ])->save();
+        }
+
         $dataRow = $this->dataRow($productDataType, 'created_at');
         if (!$dataRow->exists) {
             $dataRow->fill([
@@ -398,7 +420,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 0,
                 'add'          => 0,
                 'delete'       => 0,
-                'order'        => 19,
+                'order'        => 20,
             ])->save();
         }
 
@@ -413,7 +435,7 @@ class ProductsBreadSeeder extends Seeder
                 'edit'         => 0,
                 'add'          => 0,
                 'delete'       => 0,
-                'order'        => 20,
+                'order'        => 21,
             ])->save();
         }
 

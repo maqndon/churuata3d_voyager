@@ -15,7 +15,9 @@ class ProductController extends VoyagerBaseController
         $product = Product::where('slug', $slug)->first();
 
         //products downloads
-        $downloads = $product->product_downloads->count();
+        $downloads = DB::table('product_downloads')
+            ->where('product_id', '=', $product->id)
+            ->value('total');
 
         //products printing material(s)
         $printing_materials = $product->printing_materials()->pluck('name')->toArray();

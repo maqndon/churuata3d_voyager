@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use App\Models\Seo;
 use App\Models\Tag;
+use App\Models\Licence;
 use App\Models\Product;
 use App\Models\Category;
 use App\Models\ProductSale;
@@ -95,6 +96,7 @@ class ImportWoocommerceProducts extends Command
 
             // Product licence
             $licence = $productData->licence;
+            $licence_id = Licence::where('name', $licence)->value('id');
 
             // Extract Data inside the postmeta tags
 
@@ -167,6 +169,7 @@ class ImportWoocommerceProducts extends Command
             $newProduct = new Product();
             $newProduct->title = $title;
             $newProduct->created_by = $creator_id;
+            $newProduct->licence_id = $licence_id;
             $newProduct->slug = $slug;
             $newProduct->sku = $sku;
             $newProduct->price = $price;
@@ -211,9 +214,6 @@ class ImportWoocommerceProducts extends Command
 
             // Product printing settings
             $this->storePivot($newProduct->id, 'print_setting_id', 'print_strength', $settings, 'product_print_settings', 'print_settings');
-
-            // Product Licence
-            $this->storePivot($newProduct->id, 'licence_id', 'name', $licence, 'product_licence', 'licences');
 
             // Attach the product total downloads
             DB::table('product_downloads')->insert([
