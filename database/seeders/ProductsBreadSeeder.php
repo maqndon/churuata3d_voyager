@@ -235,7 +235,7 @@ class ProductsBreadSeeder extends Seeder
             ])->save();
         }
 
-        $dataRow = $this->dataRow($productDataType, 'product_hasone_seo_meta_description_relationship');
+        $dataRow = $this->dataRow($productDataType, 'product_hasone_product_seo_meta_description_relationship');
         if (!$dataRow->exists) {
             $dataRow->fill([
                 'type'         => 'relationship',
@@ -247,10 +247,10 @@ class ProductsBreadSeeder extends Seeder
                 'add'          => 1,
                 'delete'       => 1,
                 'details'      => [
-                    "model"         => "App\\Models\\Seo",
-                    "table"         => "seos",
+                    "model"         => "App\\Models\\ProductSeo",
+                    "table"         => "product_seos",
                     "type"          => "hasOne",
-                    "column"        => "seoable_id",
+                    "column"        => "product_id",
                     "key"           => "id",
                     "label"         => "meta_description",
                     "taggable"      => null
@@ -271,10 +271,10 @@ class ProductsBreadSeeder extends Seeder
                 'add'          => 1,
                 'delete'       => 1,
                 'details'      => [
-                    "model"         => "App\\Models\\Seo",
-                    "table"         => "seos",
+                    "model"         => "App\\Models\\ProductSeo",
+                    "table"         => "product_seos",
                     "type"          => "hasOne",
-                    "column"        => "seoable_id",
+                    "column"        => "product_id",
                     "key"           => "id",
                     "label"         => "title",
                     "taggable"      => null

@@ -2,21 +2,16 @@
 
 namespace App\Console\Commands;
 
-use App\Models\Seo;
 use App\Models\Tag;
 use App\Models\Licence;
 use App\Models\Product;
-use App\Models\Category;
+use App\Models\ProductSeo;
 use App\Models\ProductSale;
 use Illuminate\Support\Str;
-use App\Models\PrintSetting;
 use TCG\Voyager\Models\User;
 use Illuminate\Console\Command;
-use App\Models\PrintingMaterial;
 use App\Models\PrintSupportsRaft;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\HtmlString;
-use Illuminate\Support\Facades\Storage;
 
 class ImportWoocommerceProducts extends Command
 {
@@ -48,7 +43,7 @@ class ImportWoocommerceProducts extends Command
     {
 
         // Path to your XML file
-        $xmlFilePath = 'public\products.xml';
+        $xmlFilePath = 'public\dummyProducts.xml';
 
         // Load the XML file
         $xml = simplexml_load_file($xmlFilePath);
@@ -283,9 +278,8 @@ class ImportWoocommerceProducts extends Command
             $sale->save();
 
             // Create SEO entry for the product
-            $seo = new Seo();
-            $seo->seoable_type = 'App\Models\Product';
-            $seo->seoable_id = $newProduct->id;
+            $seo = new ProductSeo();
+            $seo->product_id = $newProduct->id;
             $seo->title = $seoTitle != null ? $seoTitle : '';
             $seo->meta_description = $metaDescription != null ? $metaDescription : '';
             $seo->save();

@@ -33,23 +33,11 @@
 </head>
 
 <body>
-    {{ $product->sku }}
-    {{ $product->slug }}
-    {{ $product->stock }}
-    {{ $product->price }}
-    {{ $product->sale_price }}
-    {{ $product->status }}
-    {{ $product->featured }}
-    {{ $product->virtual }}
-    {{ $product->downloadable }}
-    {{ $product->printable }}
-    {{ $product->related_parametric }}
 
     {{-- <div class="product">
         <img src="{{ asset('images/products/' . $product->image_path) }}" alt="{{ $product->name }}" />
         <a href="{{ route('products.index') }}">Back to Products</a>
     </div> --}}
-    
 
     <div class="bg-white">
         <div class="pt-6">

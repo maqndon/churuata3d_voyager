@@ -77,9 +77,9 @@ class Product extends Model
         return $this->belongsTo(User::class, 'created_by');
     }
 
-    public function seo()
+    public function product_seo()
     {
-        return $this->hasOne(Seo::class, 'seoable_id');
+        return $this->hasOne(ProductSeo::class);
     }
 
 }

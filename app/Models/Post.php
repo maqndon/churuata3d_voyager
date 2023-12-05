@@ -21,4 +21,9 @@ class Post extends \TCG\Voyager\Models\Post
     {
         return $this->image ?? 'no_image.svg';
     }
+
+    public function product_seo()
+    {
+        return $this->hasOne(PostSeo::class);
+    }
 }
